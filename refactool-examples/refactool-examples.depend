@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1385316878 source:c:\users\antonio\documents\github\refactool\refactool-examples\main.c
+	<stdio.h>
+	<stdlib.h>
+
