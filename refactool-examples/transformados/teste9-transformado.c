@@ -56,13 +56,13 @@ main()
 		x++;
 	}
 
-	return x
-	#ifdef SIZE ==1
-		&& y
-	#else
-		&& z
+	if (x==4
+	#ifdef SIZE==5
+		&& y==6
 	#endif
-	;
+	){
+		y = y + 1;
+	}
 }
 
 

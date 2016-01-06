@@ -34,6 +34,33 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="teste1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste6.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste8.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste9.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />
