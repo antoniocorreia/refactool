@@ -6,17 +6,11 @@ main()
 	int x = 1;
 	int y = 2;
 	
-	#ifdef  SIZE == 1
-		#define ELEMS , 3
-	#else
-		#define ELEMS ""
-	#endif
-	int id[] = {
-		1,
-		2
-		ELEMS
 	
-	};
+	
+	if (x){
+		//lines of code
+	}
 	
 	#ifdef SIZE == 1
 		if (x == 1)
@@ -33,6 +27,19 @@ main()
 		x++; 
 	}
 	
+	
+	#ifdef  SIZE == 1
+		#define ELEMS , 3
+	#else
+		#define ELEMS ""
+	#endif
+	int  id1[] = {
+		1,
+		2
+		ELEMS
+	
+	};
+	
 	return x
 	#ifdef SIZE ==1
 		&& y
@@ -40,6 +47,19 @@ main()
 		&& z
 	#endif
 	;
+	
+	
+	#ifdef  SIZE == 1
+		#define ELEMS , 3
+	#else
+		#define ELEMS ""
+	#endif
+	int  id[] = {
+		1,
+		2
+		ELEMS
+	
+	};
 }
 
 

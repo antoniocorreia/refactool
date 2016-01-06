@@ -6,12 +6,11 @@ main()
 	int x = 1;
 	int y = 2;
 	
-	int id[] = {1,
-		2
-	#ifdef SIZE == 1
-		,3
-	#endif
-	};
+	
+	
+	if (x){
+		//lines of code
+	}
 	
 	#ifdef SIZE == 1
 		if (x == 1)
@@ -28,6 +27,13 @@ main()
 		x++; 
 	}
 	
+	int id1[] = {1,
+		2
+	#ifdef SIZE == 1
+		,3
+	#endif
+	};
+	
 	return x
 	#ifdef SIZE ==1
 		&& y
@@ -35,6 +41,13 @@ main()
 		&& z
 	#endif
 	;
+	
+	int id[] = {1,
+		2
+	#ifdef SIZE == 1
+		,3
+	#endif
+	};
 }
 
 
