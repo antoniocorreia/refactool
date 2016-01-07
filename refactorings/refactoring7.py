@@ -15,14 +15,3 @@ def refactoring_7(codigo):
         return codigo
         
 
-fo = open("teste7.c", "r")
-codigo = fo.read()
-fo.close()
-
-codigo_transformado = refactoring_7(codigo)
-print (codigo_transformado)
-
-ft = open("teste7-transformado.c","w")
-ft.write(codigo_transformado)
-ft.close()
-

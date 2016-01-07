@@ -1,4 +1,5 @@
 import re
+import time
 
 padrao_tipos_c = "(int|void|char|unsigned char|signed char|unsigned int|signed int|short int|unsigned short int|signed short int|long int|signed ling int|unsigned long int|float|double|long double)"
 
@@ -13,23 +14,16 @@ def refactoring_9(codigo):
         loc_func = padrao9.group(10)
         expression_1 = padrao9.group(5)
 
+        var_timestamp = "PARAM" + str(int(time.time()))
+
         codigo_anterior = padrao9.group(1)
         codigo_restante = padrao9.group(11)
         
-        codigo_transformado = "#ifdef " + expression_1 + "\n\t#define PARAM " + param_type + " " + param_id + "\n#else\n\t#define PARAM \"\"\n#endif\n" + func_type + " " + func_name + "(PARAM){\n\t" + loc_func + "\n}\n" + codigo_restante
+        codigo_transformado = "#ifdef " + expression_1 + "\n\t#define " + var_timestamp + " " + param_type + " " + param_id + "\n#else\n\t#define " + var_timestamp + " \"\"\n#endif\n" + func_type + " " + func_name + "(" + var_timestamp + "){\n\t" + loc_func + "\n}\n" + codigo_restante
 
         return refactoring_9(codigo_anterior) + codigo_transformado
     else:        
         return codigo
         
 
-fo = open("teste9.c", "r")
-codigo = fo.read()
-fo.close()
 
-codigo_transformado = refactoring_9(codigo)
-print (codigo_transformado)
-
-ft = open("teste9-transformado.c","w")
-ft.write(codigo_transformado)
-ft.close()

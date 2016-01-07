@@ -8,18 +8,23 @@ main()
 	
 	
 	
-	if (x==1){
+	int var1452136544 =  (x==1);
+	if (var1452136544){
+
 
 
 		//lines of code 1
 	
 	
+	
 	}
-	#ifdef SIZE == 1				
-		 else if(x == 2){
+	#ifdef SIZE == 1						 
+		 if(!(var1452136544) && (x == 2)){
+
 
 
 			//lines of code 2
+		
 		
 		
 		}

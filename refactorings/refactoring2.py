@@ -1,4 +1,5 @@
 import re
+import time
 
 def refactoring_2(codigo):
     padrao2 = re.search('(.*)#ifdef (.*?)if(.*?)#endif(.*?){(.*?)}(.*)',codigo,re.DOTALL)
@@ -8,21 +9,13 @@ def refactoring_2(codigo):
         condition_1 = padrao2.group(3).replace('\n','').replace('\t','')
         loc_if = padrao2.group(5)
         loc = padrao2.group(6)        
+
+        var_timestamp = "var" + str(int(time.time()))
         
-        codigo_transformado = 'int test = 1;\n\t#ifdef '  + expression_1 + "\n\t\ttest = " + condition_1 + ";\n\t#endif\n\tif (test) {" + loc_if + "\n\t}\n" + loc
+        codigo_transformado = "int " + var_timestamp + " = 1;\n\t#ifdef "  + expression_1 + "\n\t\t" + var_timestamp + " = " + condition_1 + ";\n\t#endif\n\tif (" + var_timestamp + ") {" + loc_if + "\n\t}\n" + loc
 
         return refactoring_2(padrao2.group(1)) + codigo_transformado
     else:        
         return codigo
         
 
-fo = open("teste2.c", "r")
-codigo = fo.read()
-fo.close()
-
-codigo_transformado = refactoring_2(codigo)
-print (codigo_transformado)
-
-ft = open("teste2-transformado.c","w")
-ft.write(codigo_transformado)
-ft.close()
