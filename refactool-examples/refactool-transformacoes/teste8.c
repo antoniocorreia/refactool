@@ -12,12 +12,15 @@ main()
 		//lines of code
 	}
 	
+	int var1452322738 = 1;
 	#ifdef SIZE == 1
-		if (x == 1)
+		var1452322738 =  (x == 1);
 	#endif
-	{
+	if (var1452322738) {
 		x++; 
+	
 	}
+
 	
 	#ifdef SIZE == 1
 		if (x == 1){
@@ -48,6 +51,8 @@ main()
 		,3
 	#endif
 	};
+	
+	
 }
 
 

@@ -29,12 +29,15 @@ main()
 	#endif
 	};
 
+	int var1452322739 = 1;
 	#ifdef SIZE == 1
-		if (x == 1)
+		var1452322739 =  (x == 1);
 	#endif
-	{
+	if (var1452322739) {
 		x++;
-	};
+	
+	}
+;
 
 	#ifdef SIZE == 64
 		if (x == 1){

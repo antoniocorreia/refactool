@@ -1,18 +1,12 @@
 import re
 import time
 
-ocorrencias = 0
-
 def est_ref_1(codigo):
     padrao1 = re.search('(.*)if(.*?){(.*?)}(.*?)#ifdef (.*?)else if(.*?){(.*?)}(.*?)#endif(.*)',codigo,re.DOTALL)
-
-    if padrao1:
-        global ocorrencias
-        ocorrencias += 1
-        
-        return refactoring_1(padrao1.group(1))
+    if padrao1:        
+        return 1 + est_ref_1(padrao1.group(1))
     else:        
-        return codigo
+        return 0
 
 def refactoring_1(codigo):
     padrao1 = re.search('(.*)if(.*?){(.*?)}(.*?)#ifdef (.*?)else if(.*?){(.*?)}(.*?)#endif(.*)',codigo,re.DOTALL)

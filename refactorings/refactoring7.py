@@ -1,5 +1,12 @@
 import re
 
+def est_ref_7(codigo):
+    padrao7 = re.match('(.*)return (.*?)#ifdef (.*?)&&(.*?)#else(.*?)&&(.*?)#endif(.*?);(.*)',codigo,re.DOTALL)
+    if padrao7:        
+        return 1 + est_ref_7(padrao7.group(1))
+    else:        
+        return 0
+    
 def refactoring_7(codigo):
     padrao7 = re.match('(.*)return (.*?)#ifdef (.*?)&&(.*?)#else(.*?)&&(.*?)#endif(.*?);(.*)',codigo,re.DOTALL)
     if padrao7:

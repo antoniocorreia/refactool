@@ -1,6 +1,13 @@
 import re
 import time
 
+def est_ref_8(codigo):
+    padrao8 = re.search('(.*)' + padrao_tipos_c + '(.*?)\[\](.*?)=(.*?){(.*?),(.*?)#ifdef(.*?),(.*?)#endif(.*)',codigo,re.DOTALL)
+    if padrao8:        
+        return 1 + est_ref_8(padrao8.group(1))
+    else:        
+        return 0
+    
 padrao_tipos_c = "(int|void|char|unsigned char|signed char|unsigned int|signed int|short int|unsigned short int|signed short int|long int|signed ling int|unsigned long int|float|double|long double)"
 
 def refactoring_8(codigo):

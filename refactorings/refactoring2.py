@@ -1,8 +1,15 @@
 import re
 import time
 
+def est_ref_2(codigo):
+    padrao2 = re.search('(.*)#ifdef ([^#endif]*?)if([^{]*?)#endif(.*?){(.*?)}(.*)',codigo,re.DOTALL)
+    if padrao2:        
+        return 1 + est_ref_2(padrao2.group(1))
+    else:        
+        return 0
+
 def refactoring_2(codigo):
-    padrao2 = re.search('(.*)#ifdef (.*?)if(.*?)#endif(.*?){(.*?)}(.*)',codigo,re.DOTALL)
+    padrao2 = re.search('(.*)#ifdef ([^#endif]*?)if([^{]*?)#endif(.*?){(.*?)}(.*)',codigo,re.DOTALL)
 
     if padrao2:
         expression_1 = padrao2.group(2).replace('\n','').replace('\t','')

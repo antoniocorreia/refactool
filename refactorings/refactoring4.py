@@ -1,6 +1,13 @@
 import re
 import time
 
+def est_ref_4(codigo):
+    padrao4 = re.match('(.*)#ifdef (.*?)if (.*?){(.*?)#else(.*?)if (.*?){(.*?)#endif(.*)',codigo,re.DOTALL)
+    if padrao4:        
+        return 1 + est_ref_4(padrao4.group(1))
+    else:        
+        return 0
+    
 def refactoring_4(codigo):
     padrao4 = re.match('(.*)#ifdef (.*?)if (.*?){(.*?)#else(.*?)if (.*?){(.*?)#endif(.*)',codigo,re.DOTALL)
     if padrao4:

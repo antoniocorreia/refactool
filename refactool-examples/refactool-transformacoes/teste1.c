@@ -8,8 +8,8 @@ main()
 	
 	
 	
-	int var1452136544 =  (x==1);
-	if (var1452136544){
+	int var1452322738 =  (x==1);
+	if (var1452322738){
 
 
 
@@ -19,7 +19,29 @@ main()
 	
 	}
 	#ifdef SIZE == 1						 
-		 if(!(var1452136544) && (x == 2)){
+		 if(!(var1452322738) && (x == 2)){
+
+
+
+			//lines of code 2
+		
+		
+		
+		}
+	#endif
+	
+	int var1452322738 =  (x==1);
+	if (var1452322738){
+
+
+
+		//lines of code 1
+	
+	
+	
+	}
+	#ifdef SIZE == 1						 
+		 if(!(var1452322738) && (x == 2)){
 
 
 
@@ -31,12 +53,15 @@ main()
 	#endif
 	
 	
+	int var1452322738 = 1;
 	#ifdef SIZE == 1
-		if (x==1)
+		var1452322738 =  (x==1);
 	#endif
-	{
+	if (var1452322738) {
 		//lines of code
+	
 	}
+
 	
 	
 }

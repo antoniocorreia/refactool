@@ -14,17 +14,17 @@ main()
 	}
 	
 	#ifdef SIZE == 1
-		if (x == 1){
-	#else
 		if (x == 2){
+	#else
+		if (x == 3){
 	#endif
 		x++; 
 	}
 	
 	#ifdef SIZE == 1
-		if (z == 1){
+		if (z == 4){
 	#else
-		if (z == 2){
+		if (z == 5){
 	#endif
 		z++; 
 	}

@@ -25,6 +25,23 @@ main()
 		}
 	#endif
 	
+	if (x==1){
+
+
+		//lines of code 1
+	
+	
+	}
+	#ifdef SIZE == 1				
+		 else if(x == 2){
+
+
+			//lines of code 2
+		
+		
+		}
+	#endif
+	
 	
 	#ifdef SIZE == 1
 		if (x==1)
