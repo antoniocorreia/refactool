@@ -12,34 +12,35 @@ main()
 		//lines of code
 	}
 	
+	int var2312552 = 1;
 	#ifdef SIZE == 1
-		
-	#define PARAM1452398597 int var1452398597 = (x == 1);
-	#else
-		int var1452398597 = (x == 2);
-	
-#else
-	#define PARAM1452398597 ""
-#endif
-int  var1452398597 = 1;
-	#ifdef SIZE == 1
-		var1452398597 =  (PARAM1452398597){
-	
+		var2312552 =  (x == 1);
+	#endif
+	if (var2312552) {
 		x++; 
 	
-}
+	}
 
+	
+	#ifdef SIZE == 1
+		int var2312552 = (x == 1);
+	#else
+		int var2312552 = (x == 2);
+	#endif
+	if(var2312552){
+		x++; 
+	}
 	
 	
 	#ifdef  SIZE == 1
-		#define ELEMS1452398597 , 3
+		#define ELEMS2312552 , 3
 	#else
-		#define ELEMS1452398597 ""
+		#define ELEMS2312552 ""
 	#endif
 	int  id1[] = {
 		1,
 		2
-		ELEMS1452398597
+		ELEMS2312552
 	
 	};
 	
@@ -51,18 +52,16 @@ int  var1452398597 = 1;
 	
 	
 	#ifdef  SIZE == 1
-		#define ELEMS1452398597 , 3
+		#define ELEMS2312552 , 3
 	#else
-		#define ELEMS1452398597 ""
+		#define ELEMS2312552 ""
 	#endif
 	int  id[] = {
 		1,
 		2
-		ELEMS1452398597
+		ELEMS2312552
 	
 	};
-	
-	
 }
 
 

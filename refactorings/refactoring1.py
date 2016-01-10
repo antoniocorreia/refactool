@@ -19,7 +19,7 @@ def refactoring_1(codigo):
         loc_2 = padrao1.group(7)
         codigo_restante = padrao1.group(9)
     
-        var_timestamp = "var" + str(int(time.time()))
+        var_timestamp = "var" + str(time.time()).replace('.','')[-7:]
 
         codigo_transformado = "int "+ var_timestamp +" = " + condition_1 + ";\n\tif ("+ var_timestamp +"){\n" + loc_1 + "\n\t}\n\t#ifdef " + expression_1 + "\n\t\t if(!("+var_timestamp+") && " + condition_2 + "){\n" + loc_2 + "\n\t\t}\n\t#endif" + codigo_restante
 

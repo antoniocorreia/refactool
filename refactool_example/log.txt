@@ -1,0 +1,440 @@
+Teste1.c
+Refactoring 1 - 1
+Refactoring 2 - 1
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste2.c
+Refactoring 1 - 0
+Refactoring 2 - 1
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste3.c
+Refactoring 1 - 0
+Refactoring 2 - 0
+Refactoring 3 - 1
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste4.c
+Refactoring 1 - 0
+Refactoring 2 - 1
+Refactoring 3 - 0
+Refactoring 4 - 2
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste5.c
+Refactoring 1 - 0
+Refactoring 2 - 0
+Refactoring 3 - 0
+Refactoring 4 - 2
+Refactoring 5 - 1
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste6.c
+Refactoring 1 - 0
+Refactoring 2 - 0
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 2
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste7.c
+Refactoring 1 - 0
+Refactoring 2 - 1
+Refactoring 3 - 0
+Refactoring 4 - 1
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 1
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste8.c
+Refactoring 1 - 0 
+Refactoring 2 - 1
+Refactoring 3 - 0
+Refactoring 4 - 1
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 1
+Refactoring 8 - 2
+Refactoring 9 - 0
+
+Teste9.c
+Refactoring 1 - 0
+Refactoring 2 - 1
+Refactoring 3 - 0
+Refactoring 4 - 1
+Refactoring 5 - 0
+Refactoring 6 - 1
+Refactoring 7 - 0
+Refactoring 8 - 1
+Refactoring 9 - 2
+
+Teste10.c
+Refactoring 1 - 0
+Refactoring 2 - 1
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 1
+Refactoring 6 - 1
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste11.c
+Refactoring 1 - 0
+Refactoring 2 - 1
+Refactoring 3 - 0
+Refactoring 4 - 1
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste12.c
+Refactoring 1 - 0
+Refactoring 2 - 0
+Refactoring 3 - 1
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 1
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste13.c
+Refactoring 1 - 1
+Refactoring 2 - 1
+Refactoring 3 - 1
+Refactoring 4 - 1
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 1
+
+Teste14.c
+Refactoring 1 - 0
+Refactoring 2 - 1
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste15.c
+Refactoring 1 - 0
+Refactoring 2 - 0
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 1
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste16.c
+Refactoring 1 - 1
+Refactoring 2 - 1
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 1
+Refactoring 6 - 0
+Refactoring 7 - 1
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste17.c
+Refactoring 1 - 0
+Refactoring 2 - 0
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 1
+Refactoring 9 - 2
+
+Teste18.c
+Refactoring 1 - 0
+Refactoring 2 - 1
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 1
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste19.c
+Refactoring 1 - 0
+Refactoring 2 - 2
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste20.c
+Refactoring 1 - 1
+Refactoring 2 - 0
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste21.c - A CONFIRMAR
+Refactoring 1 - 0
+Refactoring 2 - 3
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste22.c
+Refactoring 1 - 0
+Refactoring 2 - 1
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 1
+
+Teste23.c
+Refactoring 1 - 0
+Refactoring 2 - 1
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 3
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 1 - A VERIFICAR
+
+Teste24.c
+Refactoring 1 - 0
+Refactoring 2 - 1
+Refactoring 3 - 1
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 1
+
+Teste25.c
+Refactoring 1 - 0
+Refactoring 2 - 0
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 1
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste26.c
+Refactoring 1 - 0
+Refactoring 2 - 0
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 3
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 3
+
+Teste27.c
+Refactoring 1 - 0
+Refactoring 2 - 0
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 2
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste28.c
+Refactoring 1 - 1
+Refactoring 2 - 0
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste29.c
+Refactoring 1 - 0
+Refactoring 2 - 0
+Refactoring 3 - 1
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste30.c
+Refactoring 1 - 1
+Refactoring 2 - 0
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste31.c
+Refactoring 1 - 0
+Refactoring 2 - 0
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 1
+
+Teste32.c
+Refactoring 1 - 0
+Refactoring 2 - 1
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 1
+
+Teste33.c
+Refactoring 1 - 0
+Refactoring 2 - 1
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 1
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 1
+
+Teste34.c
+Refactoring 1 - 0
+Refactoring 2 - 0
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste35.c
+Refactoring 1 - 0
+Refactoring 2 - 0
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste36.c
+Refactoring 1 - 0
+Refactoring 2 - 0
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste37.c
+Refactoring 1 - 0
+Refactoring 2 - 0
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste38.c
+Refactoring 1 - 0
+Refactoring 2 - 0
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+Teste39.c
+Refactoring 1 - 0
+Refactoring 2 - 0
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0
+
+
+Teste40.c
+Refactoring 1 - 0
+Refactoring 2 - 0
+Refactoring 3 - 0
+Refactoring 4 - 0
+Refactoring 5 - 0
+Refactoring 6 - 0
+Refactoring 7 - 0
+Refactoring 8 - 0
+Refactoring 9 - 0

@@ -30,8 +30,7 @@ def refactool_core(diretorio,refactorings,transforma):
     #reseta arquivo de log
     fo = open(formata_diretorio(diretorio)+"/refactool_log.txt","w")
     fo.close
-    
-    log("==================================================================",dir_formatado)
+        
     
     #ref1 = ref2 = ref3 = ref4 = ref5 = ref6 = ref7 = ref8 = ref9 = 0
     lista_refac = [0,0,0,0,0,0,0,0,0]
@@ -74,34 +73,33 @@ def refactool_core(diretorio,refactorings,transforma):
         fo.close()
 
         #estatisticas dos refactorings (log)
+        lista_qtd_ocorrencias = [0,0,0,0,0,0,0,0,0]
         count = 1
         while (count <= 9):
             if lista_refac[count-1]:
+                lista_qtd_ocorrencias[count-1] = est_ref(codigo,count)
                 log ("Refactoring "+str(count)+" - " + str(est_ref(codigo,count)) + " ocorrência(s)",dir_formatado)
             count = count + 1
             
         #aplica transformações
         if transforma:
-            if lista_refac[0]:
-                #todo: considerar situações em que não existem
-                #refactorings desse tipo, não salvar arquivo em
-                #diretório de transformações
-                codigo = refactoring1.refactoring_1(codigo)
-            if lista_refac[1]:
+            if lista_refac[0] & (lista_qtd_ocorrencias[0] > 0):
+               codigo = refactoring1.refactoring_1(codigo)
+            if lista_refac[1] & (lista_qtd_ocorrencias[1] > 0):
                 codigo = refactoring2.refactoring_2(codigo)
-            if lista_refac[2]:
+            if lista_refac[2] & (lista_qtd_ocorrencias[2] > 0):
                 codigo = refactoring3.refactoring_3(codigo)
-            if lista_refac[3]:
+            if lista_refac[3] & (lista_qtd_ocorrencias[3] > 0):
                 codigo = refactoring4.refactoring_4(codigo)
-            if lista_refac[4]:
+            if lista_refac[4] & (lista_qtd_ocorrencias[4] > 0):
                 codigo = refactoring5.refactoring_5(codigo)
-            if lista_refac[5]:
+            if lista_refac[5] & (lista_qtd_ocorrencias[5] > 0):
                 codigo = refactoring6.refactoring_6(codigo)
-            if lista_refac[6]:
+            if lista_refac[6] & (lista_qtd_ocorrencias[6] > 0):
                 codigo = refactoring7.refactoring_7(codigo)
-            if lista_refac[7]:
+            if lista_refac[7] & (lista_qtd_ocorrencias[7] > 0):
                 codigo = refactoring8.refactoring_8(codigo)
-            if lista_refac[8]:
+            if lista_refac[8] & (lista_qtd_ocorrencias[8] > 0):
                 codigo = refactoring9.refactoring_9(codigo)
 
             

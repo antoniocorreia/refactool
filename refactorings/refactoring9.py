@@ -1,6 +1,8 @@
 import re
 import time
 
+padrao_tipos_c = "(int|void|char|unsigned char|signed char|unsigned int|signed int|short int|unsigned short int|signed short int|long int|signed ling int|unsigned long int|float|double|long double)"
+
 def est_ref_9(codigo):
     padrao9 = re.search('(.*)' + padrao_tipos_c + '(.*?)\((.*?)#ifdef (.*?)' + padrao_tipos_c +' (.*?)#endif(.*?)\)(.*?){(.*?)}(.*)',codigo,re.DOTALL)
     if padrao9:        
@@ -8,7 +10,7 @@ def est_ref_9(codigo):
     else:        
         return 0
     
-padrao_tipos_c = "(int|void|char|unsigned char|signed char|unsigned int|signed int|short int|unsigned short int|signed short int|long int|signed ling int|unsigned long int|float|double|long double)"
+
 
 def refactoring_9(codigo):
     padrao9 = re.search('(.*)' + padrao_tipos_c + '(.*?)\((.*?)#ifdef (.*?)' + padrao_tipos_c +' (.*?)#endif(.*?)\)(.*?){(.*?)}(.*)',codigo,re.DOTALL)
@@ -21,7 +23,7 @@ def refactoring_9(codigo):
         loc_func = padrao9.group(10)
         expression_1 = padrao9.group(5)
 
-        var_timestamp = "PARAM" + str(int(time.time()))
+        var_timestamp = "PARAM" + str(time.time()).replace('.','')[-7:]
 
         codigo_anterior = padrao9.group(1)
         codigo_restante = padrao9.group(11)

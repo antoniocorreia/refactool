@@ -5,11 +5,11 @@ main()
 {
 	int x = 1;
 	int y = 2;
-	int var1452398596 = 1;
+	int var6191293 = 1;
 	#ifdef x == 1
-		var1452398596 =  (x == 1);
+		var6191293 =  (x == 1);
 	#endif
-	if (var1452398596) {
+	if (var6191293) {
 		x++; 
 	
 	}

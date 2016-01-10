@@ -5,42 +5,41 @@ main()
 {
 	int x = 1;
 	int y = 2;
-	
-	int var1452398597 =  (x == 1);
+
+	int var1736805 =  (x == 1);
 	#ifdef  SIZE == 1
-		if(var1452398597){
+		if(var1736805){
 
 			//lines of code 1
 		
 		}
-		var1452398597 = !(var1452398597);
+		var1736805 = !(var1736805);
 	#else
-		var1452398597 = 1;
+		var1736805 = 1;
 	#endif
-	if(var1452398597){
+	if(var1736805){
 
 		//lines of code 2
 	
 	}
 
-	
-	#ifdef SIZE == 1
-		int var1452398597 = (x == 1);
-	#else
-		#ifdef SIZE == 1
-		
-	#define PARAM1452398597 int var1452398597 = (z == 1);
-	#else
-		int var1452398597 = (z == 2);
-	
-#else
-	#define PARAM1452398597 ""
-#endif
-int  var1452398597 = (PARAM1452398597){
-	
-		z++; 
-	
-}
 
+	#ifdef SIZE == 1
+		int var1736805 = (x == 1);
+	#else
+		int var1736805 = (x == 2);
+	#endif
+	if(var1736805){
+		x++;
+	}
+	int z= 1;
+	#ifdef SIZE == 1
+		int var1736805 = (z == 1);
+	#else
+		int var1736805 = (z == 2);
+	#endif
+	if(var1736805){
+		z++;
+	}
 }
 

@@ -3,12 +3,12 @@
 
 #ifdef SIZE == 64
 	
-	#define PARAM1452398597 int x
+	#define PARAM2647774 int x
 
 #else
-	#define PARAM1452398597 ""
+	#define PARAM2647774 ""
 #endif
-void  function(PARAM1452398597){
+void  function(PARAM2647774){
 	
 	//lines of code
 
@@ -17,12 +17,12 @@ void  function(PARAM1452398597){
 
 #ifdef SIZE == 642
 	
-	#define PARAM1452398597 int y
+	#define PARAM2647774 int y
 
 #else
-	#define PARAM1452398597 ""
+	#define PARAM2647774 ""
 #endif
-void  function2(PARAM1452398597){
+void  function2(PARAM2647774){
 	
 	//lines of code 2
 
@@ -36,40 +36,40 @@ main()
 
 	
 	#ifdef  SIZE == 1
-		#define ELEMS1452398597 , 3
+		#define ELEMS2643771 , 3
 	#else
-		#define ELEMS1452398597 ""
+		#define ELEMS2643771 ""
 	#endif
 	int  id[] = {
 		1,
 		2
-		ELEMS1452398597
+		ELEMS2643771
 	
 	};
 
 	#ifdef SIZE == 64
 		
-	#define PARAM1452398597 int var1452398597 = (x == 1);
+	#define PARAM2647774 int var2643771 = (x == 1);
 	#else
-		int var1452398597 = (x == 2);
+		int var2643771 = (x == 2);
 	
 #else
-	#define PARAM1452398597 ""
+	#define PARAM2647774 ""
 #endif
-int  var1452398597 = 1;
+int  var6264277 = 1;
 	#ifdef SIZE == 1
-		var1452398597 =  (PARAM1452398597){
+		var6264277 =  (PARAM2647774){
 	
 		x++;
 	
 }
 
 
-	int var1452398597 = (x==4);
+	int var2643771 = (x==4);
 	#ifdef SIZE==5
-		var1452398597 = var1452398597 && y==6;
+		var2643771 = var2643771 && y==6;
 	#endif
-	if(var1452398597){
+	if(var2643771){
 		y = y + 1;
 	}
 }

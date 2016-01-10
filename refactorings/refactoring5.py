@@ -18,7 +18,7 @@ def refactoring_5(codigo):
         loc_2 = padrao5.group(8)
         loc = padrao5.group(9)
 
-        var_timestamp = "var" + str(int(time.time()))
+        var_timestamp = "var" + str(time.time()).replace('.','')[-7:]
         
         codigo_transformado = "int " + var_timestamp + " = " + condition_1 + ";\n\t#ifdef " + expression_1 + "\n\t\tif(" + var_timestamp + "){\n" + loc_1 + "\n\t\t}\n\t\t" + var_timestamp + " = !(" + var_timestamp + ");\n\t#else\n\t\t" + var_timestamp + " = 1;\n\t#endif\n\tif(" + var_timestamp + "){\n" + loc_2 + "\n\t}\n" + loc
 

@@ -1,0 +1,36 @@
+#include <stdio.h>
+#define SIZE 64
+
+main()
+{
+	int x = 1;
+	int y = 2;
+	
+	
+	#ifdef SIZE == 1						 
+		 if(!(var2366753) && (x == 2)){
+
+
+
+			//lines of code 2
+		
+		
+		
+		}
+	#endif
+	
+	
+	
+	#define PARAM2382375 int var2366753 = 1;
+	#ifdef SIZE == 1
+		var2366753 =  (x==1);
+	
+#else
+	#define PARAM2382375 ""
+#endif
+int  var2366753 =  (PARAM2382375){
+	
+		//lines of code
+	
+	
+}

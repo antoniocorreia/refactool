@@ -18,7 +18,7 @@ def refactoring_6(codigo):
         condition_2 = padrao6.group(5).replace('\n','').replace('\t','')
 
         codigo_restante = padrao6.group(7)
-        var_timestamp = "var" + str(int(time.time()))
+        var_timestamp = "var" + str(time.time()).replace('.','')[-7:]
         
         codigo_transformado = "int " + var_timestamp + " = (" + condition_1 + ");\n\t#ifdef " + expression_1 + "\n\t\t" + var_timestamp + " = " + var_timestamp + " && " + condition_2 + ";\n\t#endif\n\tif(" + var_timestamp + "){" + codigo_restante
 
