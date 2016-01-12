@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+
+#define X 1
  
 int main()
 {
@@ -9,7 +11,7 @@ int main()
  
 	printf("Do you want to shutdown your computer now (y/n)\n");
 	scanf("%c", &ch);
-	#ifdef x == 1
+	#ifdef X == 1
 		if (ch == 'y' || ch == 'Y')
 	#endif
 	{
