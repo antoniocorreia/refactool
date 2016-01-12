@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define SIZE 64
+#define VAR 64
 
 #Refactoring 5 - caso sem a chave
 
@@ -12,7 +12,7 @@ int main()
     while(num1!=num2)
     {
 	
-	#ifdef SIZE == 2
+	#ifdef VAR == 2
         if(num1>num2)
             num1-=num2;
         else
@@ -31,14 +31,14 @@ int main()
 		//lines of code
 	}
 	
-	#ifdef SIZE == 1
+	#ifdef VAR == 1
 		if (x == 1)
 	#endif
 	{
 		x++; 
 	}
 	
-	#ifdef SIZE == 1
+	#ifdef VAR == 1
 		if (x == 1){
 	#else
 		if (x == 2){
