@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define SIZE 64
+#define VAR 64
  
  // C program to sort a string in alphabetic order using pointers
  
@@ -21,7 +21,7 @@ int main()
 }
  
 void sort_string(
-#ifdef SIZE == 1
+#ifdef VAR == 1
 	char *s
 #endif
 ){
@@ -38,7 +38,7 @@ void sort_string(
 	{
 		for ( c = 0 ; c < length ; c++ )
 		{
-		#ifdef SIZE == 1
+		#ifdef VAR == 1
 			if ( *pointer == ch )
 		#endif
 			{
