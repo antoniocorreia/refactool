@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define SIZE 64
+#define VAR 64
 
 //C programming code to merge two sorted arrays
  
@@ -52,7 +52,7 @@ void merge(int a[], int m, int b[], int n, int sorted[]) {
 		}
 		i++;
     }
-	#ifdef SIZE == 1	
+	#ifdef VAR == 1	
 		else if (j == m) {
 			for (; i < m + n;) {
 				sorted[i] = b[k];
