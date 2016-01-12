@@ -1,0 +1,82 @@
+#include<stdio.h>
+#define SIZE 64
+ 
+main()
+{
+	int status;
+	char file_name[25];
+ 
+			printf("Enter the name of file you wish to delete\n");
+			gets(file_name);
+ 
+			status = remove(file_name);
+ 
+	int var3047471 = ( status == 0 );
+	#ifdef  SIZE == 2
+		if(var3047471){
+
+			printf("%s file deleted successfully.\n",file_name);
+		
+		}
+		var3047471 = !(var3047471);
+	#else
+		var3047471 = 1;
+	#endif
+	if(var3047471){
+
+			printf("Unable to delete the file\n");
+			perror("Error");
+		
+	}
+
+ 
+	return 0;
+	
+	
+	int numb1, numb2;
+	
+		printf("Enter two integers to check\n");
+		scanf("%d %d",&numb1,&numb2); 
+	 
+		int var3301622 = (numb1==numb2);
+	if (var3301622){
+ //checking whether two integers are equal.
+			pr#ifdef SIZE == 1				 			
+		 if(!(var3301622) && (numb1>numb2)){
+ //checking whether numb1 is greater than numb2. 
+				printf("Result: %d > %d",numb1,numb2); 
+			
+		}
+	#endif
+			else 
+					printf("Result: %d > %d",numb2,numb1); 
+			
+		
+	return 0; 
+	
+	
+	#define PARAM3047471 int x = 1;
+	int y = 2;
+	
+	int var3031846 = 1;
+	#ifdef SIZE == 1
+		var3031846 =  (x == 1);
+	
+#else
+	#define PARAM3047471 ""
+#endif
+int f(PARAM3047471){
+	
+		x++; 
+	
+	
+}
+
+
+	
+	#ifdef SIZE ==1
+		return x &&  y;
+	#else
+		return x &&  z;
+	#endif
+}

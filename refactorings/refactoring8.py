@@ -21,7 +21,7 @@ def refactoring_8(codigo):
         array_type = padrao8.group(2)
         array_id = padrao8.group(3)
         codigo_anterior = padrao8.group(1)
-        codigo_restante = padrao9.group(10)
+        codigo_restante = padrao8.group(10)
 
         var_timestamp = "ELEMS" + str(time.time()).replace('.','')[-7:]
         

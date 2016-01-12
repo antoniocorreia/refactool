@@ -1,0 +1,2 @@
+O projeto tem 0 arquivo(s) .c
+Arquivos refatorados e salvos no diretório C:/Users/Antonio/Documents/GitHub/refactool/gnuchess-5.06/refactool-transformacoes

@@ -1,0 +1,2 @@
+O projeto tem 31 arquivo(s) .c
+atak.c

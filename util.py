@@ -9,9 +9,11 @@ import re
 padrao_tipos_c = "(int|void|char|unsigned char|signed char|unsigned int|signed int|short int|unsigned short int|signed short int|long int|signed long int|unsigned long int|float|double|long double)"
 
 def est_ref(codigo,ref):
-
+    print("util")
     if ref == 1:
+        print("ref1_entrada")
         padrao = re.search('(.*)if(.*?){(.*?)}(.*?)#ifdef (.*?)else if(.*?){(.*?)}(.*?)#endif(.*)',codigo,re.DOTALL)
+        print("ref1_saida")
     elif ref == 2:
         padrao = re.search('(.*)#ifdef ([^#endif]*?)if([^{]*?)#endif(.*?){(.*?)}(.*)',codigo,re.DOTALL)
     elif ref == 3:

@@ -1,138 +1,288 @@
-O projeto tem 34 arquivo(s) .c
-teste1.c
+O projeto tem 26 arquivo(s) .c
+teste_a.c
 Refactoring 1 - 1 ocorrência(s)
 Refactoring 2 - 1 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 0 ocorrência(s)
+Refactoring 5 - 0 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 0 ocorrência(s)
 
-teste10.c
+teste_b.c
 Refactoring 1 - 0 ocorrência(s)
 Refactoring 2 - 1 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 0 ocorrência(s)
+Refactoring 5 - 0 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 0 ocorrência(s)
 
-teste11.c
+teste_c.c
+Refactoring 1 - 0 ocorrência(s)
+Refactoring 2 - 0 ocorrência(s)
+Refactoring 3 - 1 ocorrência(s)
+Refactoring 4 - 0 ocorrência(s)
+Refactoring 5 - 0 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 0 ocorrência(s)
+
+teste_d.c
+Refactoring 1 - 0 ocorrência(s)
+Refactoring 2 - 1 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 2 ocorrência(s)
+Refactoring 5 - 0 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 0 ocorrência(s)
+
+teste_e.c
+Refactoring 1 - 0 ocorrência(s)
+Refactoring 2 - 0 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 2 ocorrência(s)
+Refactoring 5 - 1 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 0 ocorrência(s)
+
+teste_f.c
+Refactoring 1 - 0 ocorrência(s)
+Refactoring 2 - 0 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 0 ocorrência(s)
+Refactoring 5 - 0 ocorrência(s)
+Refactoring 6 - 2 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 0 ocorrência(s)
+
+teste_g.c
+Refactoring 1 - 0 ocorrência(s)
+Refactoring 2 - 1 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 1 ocorrência(s)
+Refactoring 5 - 0 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 1 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 0 ocorrência(s)
+
+teste_h.c
+Refactoring 1 - 0 ocorrência(s)
+Refactoring 2 - 1 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 1 ocorrência(s)
+Refactoring 5 - 0 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 1 ocorrência(s)
+Refactoring 8 - 2 ocorrência(s)
+Refactoring 9 - 0 ocorrência(s)
+
+teste_i.c
+Refactoring 1 - 0 ocorrência(s)
+Refactoring 2 - 1 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 1 ocorrência(s)
+Refactoring 5 - 0 ocorrência(s)
+Refactoring 6 - 1 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 1 ocorrência(s)
+Refactoring 9 - 2 ocorrência(s)
+
+teste_j.c
+Refactoring 1 - 0 ocorrência(s)
+Refactoring 2 - 1 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 0 ocorrência(s)
+Refactoring 5 - 1 ocorrência(s)
+Refactoring 6 - 1 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 1 ocorrência(s)
+
+teste_k.c
 Refactoring 1 - 0 ocorrência(s)
 Refactoring 2 - 2 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 1 ocorrência(s)
+Refactoring 5 - 0 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 1 ocorrência(s)
 
-teste12.c
+teste_l.c
 Refactoring 1 - 0 ocorrência(s)
 Refactoring 2 - 0 ocorrência(s)
+Refactoring 3 - 1 ocorrência(s)
+Refactoring 4 - 0 ocorrência(s)
+Refactoring 5 - 0 ocorrência(s)
+Refactoring 6 - 1 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 0 ocorrência(s)
 
-teste13.c
+teste_m.c
 Refactoring 1 - 1 ocorrência(s)
 Refactoring 2 - 1 ocorrência(s)
+Refactoring 3 - 1 ocorrência(s)
+Refactoring 4 - 1 ocorrência(s)
+Refactoring 5 - 0 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 2 ocorrência(s)
 
-teste14.c
+teste_n.c
 Refactoring 1 - 0 ocorrência(s)
 Refactoring 2 - 1 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 0 ocorrência(s)
+Refactoring 5 - 0 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 0 ocorrência(s)
 
-teste15.c
+teste_o.c
 Refactoring 1 - 0 ocorrência(s)
 Refactoring 2 - 0 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 0 ocorrência(s)
+Refactoring 5 - 1 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 0 ocorrência(s)
 
-teste16.c
+teste_p.c
 Refactoring 1 - 1 ocorrência(s)
 Refactoring 2 - 1 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 0 ocorrência(s)
+Refactoring 5 - 1 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 1 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 1 ocorrência(s)
 
-teste17.c
+teste_q.c
 Refactoring 1 - 0 ocorrência(s)
 Refactoring 2 - 0 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 0 ocorrência(s)
+Refactoring 5 - 0 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 1 ocorrência(s)
+Refactoring 9 - 2 ocorrência(s)
 
-teste18.c
-Refactoring 1 - 0 ocorrência(s)
-Refactoring 2 - 0 ocorrência(s)
-
-teste19.c
-Refactoring 1 - 0 ocorrência(s)
-Refactoring 2 - 1 ocorrência(s)
-
-teste2.c
-Refactoring 1 - 0 ocorrência(s)
-Refactoring 2 - 1 ocorrência(s)
-
-teste20.c
+teste_r.c
 Refactoring 1 - 1 ocorrência(s)
 Refactoring 2 - 0 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 0 ocorrência(s)
+Refactoring 5 - 0 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 0 ocorrência(s)
 
-teste21.c
+teste_s.c
 Refactoring 1 - 0 ocorrência(s)
 Refactoring 2 - 1 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 0 ocorrência(s)
+Refactoring 5 - 0 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 1 ocorrência(s)
 
-teste22.c
+teste_t.c
 Refactoring 1 - 0 ocorrência(s)
 Refactoring 2 - 1 ocorrência(s)
+Refactoring 3 - 1 ocorrência(s)
+Refactoring 4 - 0 ocorrência(s)
+Refactoring 5 - 0 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 1 ocorrência(s)
 
-teste23.c
-Refactoring 1 - 0 ocorrência(s)
-Refactoring 2 - 1 ocorrência(s)
-
-teste24.c
-Refactoring 1 - 0 ocorrência(s)
-Refactoring 2 - 1 ocorrência(s)
-
-teste25.c
+teste_u.c
 Refactoring 1 - 0 ocorrência(s)
 Refactoring 2 - 0 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 0 ocorrência(s)
+Refactoring 5 - 1 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 0 ocorrência(s)
 
-teste26.c
+teste_v.c
 Refactoring 1 - 0 ocorrência(s)
 Refactoring 2 - 0 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 0 ocorrência(s)
+Refactoring 5 - 2 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 0 ocorrência(s)
 
-teste27.c
-Refactoring 1 - 0 ocorrência(s)
-Refactoring 2 - 0 ocorrência(s)
-
-teste28.c
+teste_w.c
 Refactoring 1 - 1 ocorrência(s)
 Refactoring 2 - 0 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 0 ocorrência(s)
+Refactoring 5 - 0 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 0 ocorrência(s)
 
-teste29.c
+teste_x.c
 Refactoring 1 - 0 ocorrência(s)
 Refactoring 2 - 0 ocorrência(s)
+Refactoring 3 - 1 ocorrência(s)
+Refactoring 4 - 0 ocorrência(s)
+Refactoring 5 - 0 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 0 ocorrência(s)
 
-teste3.c
-Refactoring 1 - 0 ocorrência(s)
-Refactoring 2 - 0 ocorrência(s)
-
-teste30.c
+teste_y.c
 Refactoring 1 - 1 ocorrência(s)
 Refactoring 2 - 0 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 0 ocorrência(s)
+Refactoring 5 - 0 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 0 ocorrência(s)
 
-teste31.c
+teste_z.c
 Refactoring 1 - 0 ocorrência(s)
 Refactoring 2 - 0 ocorrência(s)
-
-teste32.c
-Refactoring 1 - 0 ocorrência(s)
-Refactoring 2 - 1 ocorrência(s)
-
-teste33.c
-Refactoring 1 - 0 ocorrência(s)
-Refactoring 2 - 1 ocorrência(s)
-
-teste34.c
-Refactoring 1 - 0 ocorrência(s)
-Refactoring 2 - 0 ocorrência(s)
-
-teste4.c
-Refactoring 1 - 0 ocorrência(s)
-Refactoring 2 - 1 ocorrência(s)
-
-teste5.c
-Refactoring 1 - 0 ocorrência(s)
-Refactoring 2 - 0 ocorrência(s)
-
-teste6.c
-Refactoring 1 - 0 ocorrência(s)
-Refactoring 2 - 0 ocorrência(s)
-
-teste7.c
-Refactoring 1 - 0 ocorrência(s)
-Refactoring 2 - 1 ocorrência(s)
-
-teste8.c
-Refactoring 1 - 0 ocorrência(s)
-Refactoring 2 - 1 ocorrência(s)
-
-teste9.c
-Refactoring 1 - 0 ocorrência(s)
-Refactoring 2 - 1 ocorrência(s)
+Refactoring 3 - 0 ocorrência(s)
+Refactoring 4 - 0 ocorrência(s)
+Refactoring 5 - 0 ocorrência(s)
+Refactoring 6 - 0 ocorrência(s)
+Refactoring 7 - 0 ocorrência(s)
+Refactoring 8 - 0 ocorrência(s)
+Refactoring 9 - 1 ocorrência(s)
 
 Arquivos refatorados e salvos no diretório C:/Users/Antonio/Documents/GitHub/refactool/refactool_example/refactool-transformacoes

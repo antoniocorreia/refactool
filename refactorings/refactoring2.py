@@ -15,7 +15,7 @@ def refactoring_2(codigo):
         expression_1 = padrao2.group(2).replace('\n','').replace('\t','')
         condition_1 = padrao2.group(3).replace('\n','').replace('\t','')
         loc_if = padrao2.group(5)
-	codigo_anterior = padrao2.group(1)
+        codigo_anterior = padrao2.group(1)
         codigo_restante = padrao2.group(6)        
 
         var_timestamp = "var" + str(time.time()).replace('.','')[-7:]
