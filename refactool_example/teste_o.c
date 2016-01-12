@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define SIZE 64
+#define VAR 64
  
 struct complex
 {
@@ -24,7 +24,7 @@ int main()
    c.real = a.real + b.real;
    c.img = a.img + b.img;
    
- #ifdef SIZE == 6
+ #ifdef VAR == 6
 	if ( c.img >= 0 ){
 		printf("Sum of two complex numbers = %d + %di\n", c.real, c.img);
 	}else
