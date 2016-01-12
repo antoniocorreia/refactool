@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#define SIZE 64
+#define VAR 64
 
 int main(){
 	
@@ -14,7 +14,7 @@ scanf("%d",&var2);
 	if (var1 !=var2){
 		printf("var1 is not equal to var2");
 	}
-#ifdef SIZE == 1
+#ifdef VAR == 1
 	else if (var1 >var2){
 		printf("var1 is greater than var2");
 	}
