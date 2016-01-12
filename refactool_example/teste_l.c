@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define SIZE 64
+#define VAR 64
 
 int main()
 {
@@ -11,7 +11,7 @@ int main()
     scanf("%f%f",&num1,&num2);
     switch(o) {
         
-	#ifdef SIZE == 64
+	#ifdef VAR == 64
 		case '+':
             printf("%.1f + %.1f = %.1f",num1, num2, num1+num2);
             break;
@@ -22,7 +22,7 @@ int main()
         case '*':
             printf("%.1f * %.1f = %.1f",num1, num2, num1*num2);
             break;
-	#ifdef SIZE == 64
+	#ifdef VAR == 64
         case '/':
             printf("%.1f / %.1f = %.1f",num1, num2, num1/num2);
             break;
@@ -35,7 +35,7 @@ int main()
     return 0;
 	
 	if (num1==4
-	#ifdef SIZE==5
+	#ifdef VAR==5
 		&& num2==6
 	#endif
 	){
