@@ -1,0 +1,5 @@
+package "mptris"
+version "1.9"
+purpose "mptris is a tic-tac-toe game."
+option "level" l "The difficulty level" int no
+option "autodisplay" d "Displays the game board automatically" flag on

@@ -13,8 +13,8 @@ def formata_diretorio(diretorio):
 
 def log(msg,diretorio):
     fo = open(formata_diretorio(diretorio)+"/refactool_log.txt","a")
-    #fo.write(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " " + msg + "\n")
-    fo.write(msg + "\n")
+    fo.write(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " " + msg + "\n")
+    #fo.write(msg + "\n")
     fo.close()
 
 def refactool_core(diretorio,refactorings,transforma):

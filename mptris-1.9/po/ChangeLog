@@ -1,0 +1,8 @@
+2002-12-25  Marco Parrone  <marc0@autistici.org>
+
+	* it.po: Added italian localization.
+
+2002-12-25  gettextize  <bug-gnu-utils@gnu.org>
+
+	* Makefile.in.in: Upgrade to gettext-0.10.40.
+

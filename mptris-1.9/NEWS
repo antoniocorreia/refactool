@@ -1,0 +1,67 @@
+-*-text-*-
+NEWS  ---  History of user-visible changes.
+Copyright (C)  2002  Marco Parrone.
+See the end for copying conditions.
+
+* Changes in mptris 1.9
+
+** Added difficulty level selection.
+
+Now it is possible to select among 10 different level of hardness, so
+it is possible to win sometimes.
+
+** Added support for command line options.
+
+Command line options are not ignored now, and, among the others, the
+options "--help" ("-h") and "--version" ("-V") are supported.
+
+** Added better error checking, handling and reporting.
+
+Now error messages are compliant with the GNU Coding Standards.
+
+** Added Gnits compliant build system.
+
+Now the distribution is Gnits compliant and uses GNU autoconf, GNU
+automake, GNU autoheader, GNU aclocal, ecc...
+
+** Added online NON-warranty and distributing conditions detail.
+
+Now it is possible to read the relative parts of the GNU GPL from
+mptris.
+
+** mptris now is internazionalized.
+
+mptris was internazionalized using GNU gettext.
+
+** Added Italian localization.
+
+An Italian localization was added.
+
+** Added documentation.
+
+Now the online documentation is better.  A manpage (made with
+help2man) was added too.
+
+** Removed the GUI.
+
+I've not enought time to update it to the recent changes, it will
+likely be re-added in a future version.
+
+** Bug fixes.
+
+The code now is cleaner, more tested and so there are less bugs.
+
+----------------------------------------------------------------------
+Copyright information:
+
+Copyright (C)  2002  Marco Parrone.
+
+   Permission is granted to anyone to make or distribute verbatim copies
+   of this document as received, in any medium, provided that the
+   copyright notice and this permission notice are preserved,
+   thus giving the recipient permission to redistribute in turn.
+
+   Permission is granted to distribute modified versions
+   of this document, or of portions of it,
+   under the above conditions, provided also that they
+   carry prominent notices stating who last changed them.

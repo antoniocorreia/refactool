@@ -1,0 +1,12 @@
+-*-text-*-
+TODO  ---  Wishlist for mptris.
+
+* To add scores support.
+
+* To add saving support?
+
+* To add keymap support.
+
+* To rewrite tris.c in a cleaner way.
+
+* To add a GUI.

@@ -1,0 +1,46 @@
+2016-01-12 13:51:00 O projeto tem 4 arquivo(s) .c
+2016-01-12 13:51:00 add.c
+2016-01-12 13:51:02 Refactoring 1 - 0 ocorrência(s)
+2016-01-12 13:51:02 Refactoring 2 - 0 ocorrência(s)
+2016-01-12 13:51:02 Refactoring 3 - 0 ocorrência(s)
+2016-01-12 13:51:02 Refactoring 4 - 0 ocorrência(s)
+2016-01-12 13:51:02 Refactoring 5 - 0 ocorrência(s)
+2016-01-12 13:51:02 Refactoring 6 - 0 ocorrência(s)
+2016-01-12 13:51:02 Refactoring 7 - 0 ocorrência(s)
+2016-01-12 13:51:02 Refactoring 8 - 0 ocorrência(s)
+2016-01-12 13:51:05 Refactoring 9 - 0 ocorrência(s)
+2016-01-12 13:51:05 
+2016-01-12 13:51:05 makecrc.c
+2016-01-12 13:51:07 Refactoring 1 - 0 ocorrência(s)
+2016-01-12 13:51:07 Refactoring 2 - 0 ocorrência(s)
+2016-01-12 13:51:07 Refactoring 3 - 0 ocorrência(s)
+2016-01-12 13:51:07 Refactoring 4 - 0 ocorrência(s)
+2016-01-12 13:51:07 Refactoring 5 - 0 ocorrência(s)
+2016-01-12 13:51:07 Refactoring 6 - 0 ocorrência(s)
+2016-01-12 13:51:07 Refactoring 7 - 0 ocorrência(s)
+2016-01-12 13:51:13 Refactoring 8 - 0 ocorrência(s)
+2016-01-12 13:51:16 Refactoring 9 - 0 ocorrência(s)
+2016-01-12 13:51:16 
+2016-01-12 13:51:16 sub.c
+2016-01-12 13:51:20 Refactoring 1 - 0 ocorrência(s)
+2016-01-12 13:51:20 Refactoring 2 - 0 ocorrência(s)
+2016-01-12 13:51:20 Refactoring 3 - 0 ocorrência(s)
+2016-01-12 13:51:20 Refactoring 4 - 0 ocorrência(s)
+2016-01-12 13:51:20 Refactoring 5 - 0 ocorrência(s)
+2016-01-12 13:51:20 Refactoring 6 - 0 ocorrência(s)
+2016-01-12 13:51:20 Refactoring 7 - 0 ocorrência(s)
+2016-01-12 13:51:22 Refactoring 8 - 0 ocorrência(s)
+2016-01-12 13:51:40 Refactoring 9 - 0 ocorrência(s)
+2016-01-12 13:51:40 
+2016-01-12 13:51:40 zread.c
+2016-01-12 13:51:41 Refactoring 1 - 0 ocorrência(s)
+2016-01-12 13:51:41 Refactoring 2 - 0 ocorrência(s)
+2016-01-12 13:51:41 Refactoring 3 - 0 ocorrência(s)
+2016-01-12 13:51:41 Refactoring 4 - 0 ocorrência(s)
+2016-01-12 13:51:41 Refactoring 5 - 0 ocorrência(s)
+2016-01-12 13:51:41 Refactoring 6 - 0 ocorrência(s)
+2016-01-12 13:51:41 Refactoring 7 - 0 ocorrência(s)
+2016-01-12 13:51:41 Refactoring 8 - 0 ocorrência(s)
+2016-01-12 13:51:44 Refactoring 9 - 0 ocorrência(s)
+2016-01-12 13:51:44 
+2016-01-12 13:51:44 Arquivos refatorados e salvos no diretório C:/Users/Antonio/Documents/GitHub/refactool/gzip-1.2.4/sample/refactool-transformacoes

@@ -1,0 +1,175 @@
+# Italian localization for mptris.
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# Marco Parrone <marc0@autistici.org>, 2002.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mptris 1.9\n"
+"POT-Creation-Date: 2002-12-25 18:55+0100\n"
+"PO-Revision-Date: 2002-12-25 18:43+0100\n"
+"Last-Translator: Marco Parrone <marc0@autistici.org>\n"
+"Language-Team: Marco Parrone <marc0@autistici.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/cmdline.c:44
+#, c-format
+msgid ""
+"\n"
+"Purpose:\n"
+"  mptris is a tic-tac-toe game.\n"
+"\n"
+"Usage: %s [OPTIONS]...\n"
+"   -h      --help          Print help and exit\n"
+"   -V      --version       Print version and exit\n"
+"   -lINT   --level=INT     The difficulty level\n"
+"   -d      --autodisplay   Displays the game board automatically "
+"(default=on)\n"
+msgstr ""
+"\n"
+"Descrizione:\n"
+"  mptris è un gioco di tic-tac-toe.\n"
+"\n"
+"Uso: %s [OPZIONI]...\n"
+"   -h      --help        Mostra l'aiuto ed esce\n"
+"   -V      --version     Mostra la versione ed esce\n"
+"   -lINT   --level=INT   Il livello di difficoltà\n"
+"   -d      --autodisplay Mostra la griglia di gioco\n"
+"                         automaticamente (predefinito=abilitato)\n"
+
+#: src/cmdline.c:107
+#, c-format
+msgid "%s: `--level' (`-l') option given more than once\n"
+msgstr ""
+"%s: l'opzione \"--level\" (\"-l\") è stata specificata più di una volta\n"
+
+#: src/cmdline.c:118
+#, c-format
+msgid "%s: `--autodisplay' (`-d') option given more than once\n"
+msgstr ""
+"\"%s: l'opzione \"--autodisplay\" (\"-d\\\") è stata specificata più di una "
+"volta\"\n"
+
+#. bug: option not considered.
+#: src/cmdline.c:133
+#, c-format
+msgid "%s: option unknown: %c\n"
+msgstr "%s: opzione sconosciuta: %c\n"
+
+#: src/ui-textmode.c:40
+#, c-format
+msgid ""
+"mptris version %s, Copyright (C) 2000,2002 Marco Parrone.\n"
+"mptris comes with ABSOLUTELY NO WARRANTY; for details type \"w [RETURN]\".\n"
+"This is free software, and you are welcome to redistribute it\n"
+"under certain conditions; type \"c [RETURN]\" for details.\n"
+msgstr ""
+"mptris versione %s, Copyright (C) 2000,2002 Marco Parrone.\n"
+"mptris viene offerto ASSOLUTAMENTE SENZA ALCUNA GARANZIA;\n"
+"si prema \"w [INVIO]\" per i dettagli.\n"
+"Questo è software libero e la ridistribuzione è permessa ed incoraggiata\n"
+"secondo certe condizioni; premere \"c [INVIO]\" per i dettagli.\n"
+
+#: src/ui-textmode.c:66
+msgid "Insert level (0-9): "
+msgstr "Inserire il livello (0-9):"
+
+#: src/ui-textmode.c:75
+#, c-format
+msgid "invalid level \"%c\"."
+msgstr "livello «%c» non valido."
+
+#: src/ui-textmode.c:89
+msgid "Do you want autodisplay active? "
+msgstr "Si vuole che la visualizzazione automatica sia attiva? "
+
+#: src/ui-textmode.c:123
+msgid ""
+"Commands:\n"
+"w\tShows details about the NON-warranty\n"
+"c\tShows copying conditions details\n"
+"h\tShows this help.\n"
+"1-9\tInserts the X in the respective entry\n"
+"\t(numpad-like mapping).\n"
+"p\tShows the game board.\n"
+"k\tShows the key-mapping of the game-board\n"
+"l\tShows the current difficulty level.\n"
+"L\tChanges the difficulty level.\n"
+"d\tShows if autodisplaying is enabled.\n"
+"D\tChanges the autodisplay status.\n"
+"r\tResets.\n"
+"q\tQuits.\n"
+msgstr ""
+"w       Mostra dettagli a proposito della mancanza di garanzia.\n"
+"c       Mostra i dettagli delle condizioni di copia.\n"
+"h       Mostra questa guida.\n"
+"1-9     Inserisce la X nel rispettivo campo\n"
+"        (mappatura simile a quella del tastierino numerico).\n"
+"p       Mostra la griglia di gioco.\n"
+"k       Mostra la mappatura dei tasti della griglia di gioco.\n"
+"l       Mostra l'attuale livello di difficoltà.\n"
+"L       Cambia il livello di difficoltà.\n"
+"d       Mostra se la visualizzazione automatica è abilitata.\n"
+"D       Cambia lo stato della visualizzazione automatica.\n"
+"r       Resetta.\n"
+"q       Esce.\n"
+
+#: src/ui-textmode.c:233
+#, c-format
+msgid "Difficulty level: %u/10\n"
+msgstr "Livello di difficoltà: %u/10\n"
+
+#: src/ui-textmode.c:239
+#, c-format
+msgid "Autodisplay is %s.\n"
+msgstr "La visualizzazione automatica è %s.\n"
+
+#: src/ui-textmode.c:240
+msgid "on"
+msgstr "abilitata"
+
+#: src/ui-textmode.c:240
+msgid "off"
+msgstr "disabilitata"
+
+#: src/ui-textmode.c:252
+#, c-format
+msgid "invalid command \"%c\""
+msgstr "comando «%c» non valido"
+
+#: src/ui-textmode.c:265
+msgid "game over."
+msgstr "gioco finito."
+
+#: src/ui-textmode.c:284
+msgid "invalid command: entry not empty"
+msgstr "comando non valido: campo non vuoto"
+
+#: src/ui-textmode.c:315
+msgid "You won.\n"
+msgstr "Hai vinto.\n"
+
+#: src/ui-textmode.c:319
+msgid "You losed.\n"
+msgstr "Hai perso.\n"
+
+#: src/ui-textmode.c:323
+msgid "Game drawn.\n"
+msgstr "Pareggio.\n"
+
+#: src/ui-textmode.c:350 src/ui-textmode.c:354
+msgid "wrong argument to \"--level\" (\"-l\")"
+msgstr "argomento non valido a «--level» («-l»)"
+
+#: src/ui-textmode.c:359
+msgid "cannot alloc memory for board"
+msgstr "Non è possibile allocare memoria per la scacchiera"
+
+#: src/ui-textmode.c:363
+msgid ""
+"\n"
+"Type \"h [RETURN]\" for help.\n"
+msgstr ""
+"\n"
+"Premere \"h [INVIO]\" per una guida.\n"

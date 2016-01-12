@@ -1,0 +1,13 @@
+2016-01-12 13:54:10 O projeto tem 1 arquivo(s) .c
+2016-01-12 13:54:10 tailor.c
+2016-01-12 13:54:11 Refactoring 1 - 0 ocorrência(s)
+2016-01-12 13:54:11 Refactoring 2 - 0 ocorrência(s)
+2016-01-12 13:54:11 Refactoring 3 - 0 ocorrência(s)
+2016-01-12 13:54:11 Refactoring 4 - 0 ocorrência(s)
+2016-01-12 13:54:11 Refactoring 5 - 0 ocorrência(s)
+2016-01-12 13:54:11 Refactoring 6 - 0 ocorrência(s)
+2016-01-12 13:54:11 Refactoring 7 - 0 ocorrência(s)
+2016-01-12 13:54:12 Refactoring 8 - 0 ocorrência(s)
+2016-01-12 13:54:15 Refactoring 9 - 0 ocorrência(s)
+2016-01-12 13:54:15 
+2016-01-12 13:54:15 Arquivos refatorados e salvos no diretório C:/Users/Antonio/Documents/GitHub/refactool/gzip-1.2.4/msdos/refactool-transformacoes

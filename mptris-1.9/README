@@ -1,0 +1,16 @@
+-*-text-*-
+README  ---  README for mptris version 1.9.
+
+mptris is a tic-tac-toe game.
+
+Read the file NEWS to see what's different from the previous version.
+
+Read the file TODO to see what future versions may do.
+
+For installation informations, read the file INSTALL.
+
+You can find the documentation online (with the "h" command).
+
+Please send bug-reports and suggestions or comments to:
+
+  marc0@autistici.org

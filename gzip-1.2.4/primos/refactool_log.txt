@@ -1,0 +1,13 @@
+2016-01-12 13:53:39 O projeto tem 1 arquivo(s) .c
+2016-01-12 13:53:39 primos.c
+2016-01-12 13:53:39 Refactoring 1 - 0 ocorrência(s)
+2016-01-12 13:53:39 Refactoring 2 - 0 ocorrência(s)
+2016-01-12 13:53:40 Refactoring 3 - 0 ocorrência(s)
+2016-01-12 13:53:40 Refactoring 4 - 0 ocorrência(s)
+2016-01-12 13:53:40 Refactoring 5 - 0 ocorrência(s)
+2016-01-12 13:53:40 Refactoring 6 - 0 ocorrência(s)
+2016-01-12 13:53:40 Refactoring 7 - 0 ocorrência(s)
+2016-01-12 13:53:40 Refactoring 8 - 0 ocorrência(s)
+2016-01-12 13:53:45 Refactoring 9 - 0 ocorrência(s)
+2016-01-12 13:53:45 
+2016-01-12 13:53:45 Arquivos refatorados e salvos no diretório C:/Users/Antonio/Documents/GitHub/refactool/gzip-1.2.4/primos/refactool-transformacoes

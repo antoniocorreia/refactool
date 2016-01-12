@@ -1,0 +1,5 @@
+src/cmdline.c
+src/strdup_test.c
+src/tris.c
+src/ui-gnome.c
+src/ui-textmode.c
