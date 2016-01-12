@@ -1,8 +1,8 @@
 #include <stdio.h>
-#define SIZE 64
+#define VAR 64
 
 void function(
-#ifdef SIZE == 64
+#ifdef VAR == 64
 	int x
 #endif
 ){
@@ -10,7 +10,7 @@ void function(
 };
 
 void function2(
-#ifdef SIZE == 642
+#ifdef VAR == 642
 	int y
 #endif
 ){
@@ -24,19 +24,19 @@ main()
 
 	int id[] = {1,
 		2
-	#ifdef SIZE == 1
+	#ifdef VAR == 1
 		,3
 	#endif
 	};
 
-	#ifdef SIZE == 1
+	#ifdef VAR == 1
 		if (x == 1)
 	#endif
 	{
 		x++;
 	};
 
-	#ifdef SIZE == 64
+	#ifdef VAR == 64
 		if (x == 1){
 	#else
 		if (x == 2){
@@ -45,7 +45,7 @@ main()
 	}
 
 	if (x==4
-	#ifdef SIZE==5
+	#ifdef VAR==5
 		&& y==6
 	#endif
 	){
