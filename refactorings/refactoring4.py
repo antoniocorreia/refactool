@@ -14,12 +14,14 @@ def refactoring_4(codigo):
         expression_1 = padrao4.group(2).replace('\n','').replace('\t','')
         condition_1 = padrao4.group(3).replace('\n','').replace('\t','')
         condition_2 = padrao4.group(6).replace('\n','').replace('\t','')
+        codigo_anterior = padrao4.group(1)
+        codigo_restante = padrao4.group(8)
         
         var_timestamp = "var" + str(time.time()).replace('.','')[-7:]
         
-        codigo_transformado = "#ifdef " + expression_1 + "\n\t\t" + "int " + var_timestamp + " = " + condition_1 + ";\n\t#else\n\t\tint " + var_timestamp + " = " + condition_2 + ";\n\t#endif\n\tif(" + var_timestamp + "){" + padrao4.group(8)
+        codigo_transformado = "#ifdef " + expression_1 + "\n\t\t" + "int " + var_timestamp + " = " + condition_1 + ";\n\t#else\n\t\tint " + var_timestamp + " = " + condition_2 + ";\n\t#endif\n\tif(" + var_timestamp + "){" + codigo_restante
 
-        return refactoring_4(padrao4.group(1)) + codigo_transformado
+        return refactoring_4(codigo_anterior) + codigo_transformado
     else:        
         return codigo
         
