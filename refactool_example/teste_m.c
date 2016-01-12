@@ -1,8 +1,8 @@
 #include <stdio.h>
-#define SIZE 64
+#define VAR 64
 
 void function(
-#ifdef SIZE == 64
+#ifdef VAR == 64
 	int x
 #endif
 ){
@@ -19,7 +19,7 @@ int main()
     scanf("%f%f",&num1,&num2);
     switch(o) {
         
-	#ifdef SIZE == 64
+	#ifdef VAR == 64
 		case '+':
             printf("%.1f + %.1f = %.1f",num1, num2, num1+num2);
             break;
@@ -49,7 +49,7 @@ int main()
 		//lines of code 1
 	
 	}
-	#ifdef SIZE == 1				
+	#ifdef VAR == 1				
 		 else if(x == 2){
 
 			//lines of code 2
@@ -66,7 +66,7 @@ int main()
 		z++; 
 	}
 	
-	#ifdef SIZE == 2
+	#ifdef VAR == 2
 		if (z == 2){
 	#else
 		if (z == 4){
