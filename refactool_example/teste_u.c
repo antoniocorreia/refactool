@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#define SIZE 64
+#define VAR 64
  
  
 // C palindrome program, c program for palindrome
@@ -15,7 +15,7 @@ int main()
 	strcpy(b,a);
 	strrev(b);
 	
- #ifdef SIZE ==1
+ #ifdef VAR ==1
 	if (strcmp(a,b) == 0){
 		printf("Entered string is a palindrome.\n");
 	} else
