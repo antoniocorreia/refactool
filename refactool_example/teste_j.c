@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define SIZE 64
+#define VAR 64
 
 
 int main()
@@ -7,7 +7,7 @@ int main()
 	int x = 1;
 	int y = 2;
 
-	#ifdef SIZE == 1
+	#ifdef VAR == 1
 		if (x == 1)
 	#endif
 	{
@@ -20,7 +20,7 @@ int main()
     printf("HCF of %d and %d is ",num1 , num2);
     while(num1!=num2)
     {
-	#ifdef SIZE == 2
+	#ifdef VAR == 2
         if(num1>num2){
 		num1-=num2;
         } else
@@ -35,7 +35,7 @@ int main()
 	
 	
 	if (x==4
-	#ifdef SIZE==5
+	#ifdef VAR==5
 		&& y==6
 	#endif
 	){
