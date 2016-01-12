@@ -21,7 +21,7 @@ main()
 			perror("Error");
 		}
  
-	return 0;
+	
 	
 	
 	int numb1, numb2;
@@ -42,10 +42,10 @@ main()
 					printf("Result: %d > %d",numb2,numb1); 
 			
 		
-	return 0; 
 	
-	int x = 1;
-	int y = 2;
+	
+	int x = 0;
+	int y = 0;
 	
 	#ifdef VAR == 1
 		if (x == 1)
@@ -55,10 +55,12 @@ main()
 	}
 	
 	return x
-	#ifdef VAR ==1
+	#ifdef VAR == 1
 		&& y
 	#else
 		&& z
 	#endif
 	;
+	
+	
 }
