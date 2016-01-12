@@ -67,26 +67,26 @@ def refactool_core(diretorio,refactorings,transforma):
     for file in glob.glob("*.c"):
 
         #abre arquivo
-        print ("Abre arquivo")
+        
         log(file,dir_formatado) 
         fo = open(dir_formatado + "/" + file, "r")
         codigo = fo.read()
         fo.close()
 
         #estatisticas dos refactorings (log)
-        print("estatisticas")
+        
         lista_qtd_ocorrencias = [0,0,0,0,0,0,0,0,0]
         count = 1
         while (count <= 9):
             print(count)
             if lista_refac[count-1]:
-                print("buscar ocorrencias")
+        
                 lista_qtd_ocorrencias[count-1] = est_ref(codigo,count)
-                print(lista_qtd_ocorrencias[count-1])
+        
                 log ("Refactoring "+str(count)+" - " + str(est_ref(codigo,count)) + " ocorrência(s)",dir_formatado)
             count = count + 1
 
-        print("aplica transformacoes")
+        
         #aplica transformações
         if transforma:
             if lista_refac[0] & (lista_qtd_ocorrencias[0] > 0):
@@ -117,7 +117,7 @@ def refactool_core(diretorio,refactorings,transforma):
             ft.close()
 
             log("",dir_formatado)
-    print("final")    
+    
     if transforma:
         log("Arquivos refatorados e salvos no diretório " + dir_transformacoes,dir_formatado)
     
