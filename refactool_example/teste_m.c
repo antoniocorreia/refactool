@@ -38,7 +38,7 @@ int main()
             printf("Error! operator is not correct");
             break;
     }
-    return 0;
+    
 	
 	int x = 1;
 	int y = 2;
@@ -73,4 +73,6 @@ int main()
 	#endif
 		z++;
 	}
+	
+	return 0;
 }
