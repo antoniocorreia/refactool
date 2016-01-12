@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define SIZE 64
+#define VAR 64
 
 //C program to change case from upper to lower and lower to upper
  
@@ -16,7 +16,7 @@ int main ()
 		if (ch >= 'A' && ch <= 'Z'){
 			s[c] = s[c] + 32;
 		}
-		#ifdef SIZE == 1
+		#ifdef VAR == 1
 		else if (ch >= 'a' && ch <= 'z'){
 			s[c] = s[c] - 32;   
 		c++;   
