@@ -1,20 +1,21 @@
 #include <stdio.h>
-#define VAR 64
+#define VAR 1
 
 main()
 {
 	int x = 1;
-	int y = 2;
+	int y = 0;
+	int z = 1;
 	
 	#ifdef VAR == 1
-		if (x == 1)
+		if (x == 0)
 	#endif
 	{
 		x++; 
 	}
 	
 	#ifdef VAR == 1
-		if (x == 1){
+		if (x == 0){
 	#else
 		if (x == 2){
 	#endif
@@ -22,7 +23,7 @@ main()
 	}
 	
 	return x
-	#ifdef VAR ==1
+	#ifdef VAR == 1
 		&& y
 	#else
 		&& z
