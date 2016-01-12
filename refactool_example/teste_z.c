@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define SIZE 64
+#define VAR 64
 
 //Pascal triangle in c
  
@@ -27,7 +27,7 @@ int main()
 }
  
 long factorial(
-#ifdef SIZE == 64
+#ifdef VAR == 64
 	int n
 #endif
 ){
