@@ -11,11 +11,11 @@ int main()
     printf("Factorial of %d = %ld", n, factorial(n));
     return 0;
 }
-	int factorial(
+int factorial(
 	#ifdef VAR == 64
 	int n
 	#endif
-	)
+)
 {
     if(n!=1)
      return n*factorial(n-1);
@@ -47,18 +47,17 @@ int main()
 )      /* Function to check prime number */
 {
     int i, flag=1;
-    for(i=2; i<=n/2; ++i)
-       if(n%i==0)
-          flag=0;
-    return flag;
-	
-	int id1[] = {1,
+    int id1[] = {1,
 		2
 	#ifdef VAR == 1
 		,3
 	#endif
 	};
 	
+    for(i=2; i<=n/2; ++i)
+       if(n%i==0)
+          flag=0;
+    return flag;
 
  
 }
