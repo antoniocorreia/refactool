@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define SIZE 64
+#define VAR 64
 
 int factorial(int n);
 int prime(int n);
@@ -12,7 +12,7 @@ int main()
     return 0;
 }
 	int factorial(
-	#ifdef SIZE == 64
+	#ifdef VAR == 64
 	int n
 	#endif
 	)
@@ -41,7 +41,7 @@ int main()
     return 0;
 }
 	int prime(
-	#ifdef SIZE == 62
+	#ifdef VAR == 62
 	int n
 	#endif 	
 )      /* Function to check prime number */
@@ -54,7 +54,7 @@ int main()
 	
 	int id1[] = {1,
 		2
-	#ifdef SIZE == 1
+	#ifdef VAR == 1
 		,3
 	#endif
 	};
