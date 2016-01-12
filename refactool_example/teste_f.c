@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define SIZE 64
+#define VAR 64
 
 main()
 {
@@ -7,7 +7,7 @@ main()
 	int y = 2;
 	
 	if (x==4
-	#ifdef SIZE==5
+	#ifdef VAR==5
 		&& y==6
 	#endif
 	){
@@ -17,7 +17,7 @@ main()
 	
 	
 	if (x==1
-	#ifdef SIZE==2
+	#ifdef VAR==2
 		&& y==3
 	#endif
 	){
