@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define SIZE 64
+#define VAR 64
  
 main()
 {
@@ -11,7 +11,7 @@ main()
  
 			status = remove(file_name);
  
-	#ifdef SIZE == 2
+	#ifdef VAR == 2
 		if( status == 0 ){
 			printf("%s file deleted successfully.\n",file_name);
 		}else
@@ -33,7 +33,7 @@ main()
 			printf("Result: %d = %d",numb1,numb2); 
 	
 		}
-		#ifdef SIZE == 1				 
+		#ifdef VAR == 1				 
 			else if(numb1>numb2){ //checking whether numb1 is greater than numb2. 
 				printf("Result: %d > %d",numb1,numb2); 
 			}
@@ -47,7 +47,7 @@ main()
 	int x = 1;
 	int y = 2;
 	
-	#ifdef SIZE == 1
+	#ifdef VAR == 1
 		if (x == 1)
 	#endif
 	{
@@ -55,7 +55,7 @@ main()
 	}
 	
 	return x
-	#ifdef SIZE ==1
+	#ifdef VAR ==1
 		&& y
 	#else
 		&& z
