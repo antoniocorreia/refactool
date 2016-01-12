@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#define SIZE 64
+#define VAR 64
 
 //C program to compare two strings without using strcmp
  
@@ -19,7 +19,7 @@ int main()
  
 	flag = compare_strings(a, b);
 	
-#ifdef SIZE ==1 
+#ifdef VAR ==1 
 	if (flag == 0){
 		printf("Entered strings are equal.\n");
 	} else
@@ -40,7 +40,7 @@ int compare_strings(char a[], char b[])
 		c++;
 	}
  
- #ifdef SIZE ==1
+ #ifdef VAR ==1
 	if (a[c] == '\0' && b[c] == '\0'){
 		return 0;
 	} else
