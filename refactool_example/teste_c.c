@@ -1,12 +1,12 @@
 #include <stdio.h>
-#define SIZE 64
+#define VAR 64
 
 main()
 {	
 	int  Grade = 'B';
 	switch( Grade )
 	{
-	#ifdef SIZE == 64
+	#ifdef VAR == 64
 		case 'A' : 
 			printf( "Excellent\n" );
 			break;

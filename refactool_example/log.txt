@@ -1,4 +1,4 @@
-Teste1.c
+﻿teste_a.c
 Refactoring 1 - 1
 Refactoring 2 - 1
 Refactoring 3 - 0
@@ -9,7 +9,8 @@ Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 0
 
-Teste2.c
+
+teste_b.c
 Refactoring 1 - 0
 Refactoring 2 - 1
 Refactoring 3 - 0
@@ -20,7 +21,8 @@ Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 0
 
-Teste3.c
+
+teste_c.c
 Refactoring 1 - 0
 Refactoring 2 - 0
 Refactoring 3 - 1
@@ -31,7 +33,8 @@ Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 0
 
-Teste4.c
+
+teste_d.c
 Refactoring 1 - 0
 Refactoring 2 - 1
 Refactoring 3 - 0
@@ -42,7 +45,8 @@ Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 0
 
-Teste5.c
+
+teste_e.c
 Refactoring 1 - 0
 Refactoring 2 - 0
 Refactoring 3 - 0
@@ -53,7 +57,8 @@ Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 0
 
-Teste6.c
+
+teste_f.c
 Refactoring 1 - 0
 Refactoring 2 - 0
 Refactoring 3 - 0
@@ -64,7 +69,8 @@ Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 0
 
-Teste7.c
+
+Teste_g.c
 Refactoring 1 - 0
 Refactoring 2 - 1
 Refactoring 3 - 0
@@ -75,7 +81,8 @@ Refactoring 7 - 1
 Refactoring 8 - 0
 Refactoring 9 - 0
 
-Teste8.c
+
+Teste_h.c
 Refactoring 1 - 0 
 Refactoring 2 - 1
 Refactoring 3 - 0
@@ -86,7 +93,8 @@ Refactoring 7 - 1
 Refactoring 8 - 2
 Refactoring 9 - 0
 
-Teste9.c
+
+Teste_i.c
 Refactoring 1 - 0
 Refactoring 2 - 1
 Refactoring 3 - 0
@@ -97,7 +105,8 @@ Refactoring 7 - 0
 Refactoring 8 - 1
 Refactoring 9 - 2
 
-Teste10.c
+
+Teste_j.c
 Refactoring 1 - 0
 Refactoring 2 - 1
 Refactoring 3 - 0
@@ -108,7 +117,8 @@ Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 0
 
-Teste11.c
+
+Teste_k.c
 Refactoring 1 - 0
 Refactoring 2 - 1
 Refactoring 3 - 0
@@ -119,7 +129,8 @@ Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 0
 
-Teste12.c
+
+Teste_l.c
 Refactoring 1 - 0
 Refactoring 2 - 0
 Refactoring 3 - 1
@@ -130,7 +141,8 @@ Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 0
 
-Teste13.c
+
+Teste_m.c
 Refactoring 1 - 1
 Refactoring 2 - 1
 Refactoring 3 - 1
@@ -141,7 +153,8 @@ Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 1
 
-Teste14.c
+
+Teste_n.c
 Refactoring 1 - 0
 Refactoring 2 - 1
 Refactoring 3 - 0
@@ -152,7 +165,8 @@ Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 0
 
-Teste15.c
+
+Teste_o.c
 Refactoring 1 - 0
 Refactoring 2 - 0
 Refactoring 3 - 0
@@ -163,7 +177,8 @@ Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 0
 
-Teste16.c
+
+Teste_p.c
 Refactoring 1 - 1
 Refactoring 2 - 1
 Refactoring 3 - 0
@@ -174,7 +189,8 @@ Refactoring 7 - 1
 Refactoring 8 - 0
 Refactoring 9 - 0
 
-Teste17.c
+
+Teste_q.c
 Refactoring 1 - 0
 Refactoring 2 - 0
 Refactoring 3 - 0
@@ -185,29 +201,8 @@ Refactoring 7 - 0
 Refactoring 8 - 1
 Refactoring 9 - 2
 
-Teste18.c
-Refactoring 1 - 0
-Refactoring 2 - 1
-Refactoring 3 - 0
-Refactoring 4 - 0
-Refactoring 5 - 1
-Refactoring 6 - 0
-Refactoring 7 - 0
-Refactoring 8 - 0
-Refactoring 9 - 0
 
-Teste19.c
-Refactoring 1 - 0
-Refactoring 2 - 2
-Refactoring 3 - 0
-Refactoring 4 - 0
-Refactoring 5 - 0
-Refactoring 6 - 0
-Refactoring 7 - 0
-Refactoring 8 - 0
-Refactoring 9 - 0
-
-Teste20.c
+Teste_r.c
 Refactoring 1 - 1
 Refactoring 2 - 0
 Refactoring 3 - 0
@@ -218,18 +213,10 @@ Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 0
 
-Teste21.c - A CONFIRMAR
-Refactoring 1 - 0
-Refactoring 2 - 3
-Refactoring 3 - 0
-Refactoring 4 - 0
-Refactoring 5 - 0
-Refactoring 6 - 0
-Refactoring 7 - 0
-Refactoring 8 - 0
-Refactoring 9 - 0
 
-Teste22.c
+
+
+Teste_s.c
 Refactoring 1 - 0
 Refactoring 2 - 1
 Refactoring 3 - 0
@@ -240,18 +227,8 @@ Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 1
 
-Teste23.c
-Refactoring 1 - 0
-Refactoring 2 - 1
-Refactoring 3 - 0
-Refactoring 4 - 0
-Refactoring 5 - 3
-Refactoring 6 - 0
-Refactoring 7 - 0
-Refactoring 8 - 0
-Refactoring 9 - 1 - A VERIFICAR
 
-Teste24.c
+Teste_t.c
 Refactoring 1 - 0
 Refactoring 2 - 1
 Refactoring 3 - 1
@@ -262,7 +239,8 @@ Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 1
 
-Teste25.c
+
+Teste_u.c
 Refactoring 1 - 0
 Refactoring 2 - 0
 Refactoring 3 - 0
@@ -273,18 +251,8 @@ Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 0
 
-Teste26.c
-Refactoring 1 - 0
-Refactoring 2 - 0
-Refactoring 3 - 0
-Refactoring 4 - 0
-Refactoring 5 - 3
-Refactoring 6 - 0
-Refactoring 7 - 0
-Refactoring 8 - 0
-Refactoring 9 - 3
 
-Teste27.c
+Teste_v.c
 Refactoring 1 - 0
 Refactoring 2 - 0
 Refactoring 3 - 0
@@ -295,7 +263,8 @@ Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 0
 
-Teste28.c
+
+Teste_w.c
 Refactoring 1 - 1
 Refactoring 2 - 0
 Refactoring 3 - 0
@@ -306,7 +275,8 @@ Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 0
 
-Teste29.c
+
+Teste_x.c
 Refactoring 1 - 0
 Refactoring 2 - 0
 Refactoring 3 - 1
@@ -317,7 +287,8 @@ Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 0
 
-Teste30.c
+
+Teste_y.c
 Refactoring 1 - 1
 Refactoring 2 - 0
 Refactoring 3 - 0
@@ -328,7 +299,8 @@ Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 0
 
-Teste31.c
+
+Teste_z.c
 Refactoring 1 - 0
 Refactoring 2 - 0
 Refactoring 3 - 0
@@ -338,103 +310,3 @@ Refactoring 6 - 0
 Refactoring 7 - 0
 Refactoring 8 - 0
 Refactoring 9 - 1
-
-Teste32.c
-Refactoring 1 - 0
-Refactoring 2 - 1
-Refactoring 3 - 0
-Refactoring 4 - 0
-Refactoring 5 - 0
-Refactoring 6 - 0
-Refactoring 7 - 0
-Refactoring 8 - 0
-Refactoring 9 - 1
-
-Teste33.c
-Refactoring 1 - 0
-Refactoring 2 - 1
-Refactoring 3 - 0
-Refactoring 4 - 0
-Refactoring 5 - 1
-Refactoring 6 - 0
-Refactoring 7 - 0
-Refactoring 8 - 0
-Refactoring 9 - 1
-
-Teste34.c
-Refactoring 1 - 0
-Refactoring 2 - 0
-Refactoring 3 - 0
-Refactoring 4 - 0
-Refactoring 5 - 0
-Refactoring 6 - 0
-Refactoring 7 - 0
-Refactoring 8 - 0
-Refactoring 9 - 0
-
-Teste35.c
-Refactoring 1 - 0
-Refactoring 2 - 0
-Refactoring 3 - 0
-Refactoring 4 - 0
-Refactoring 5 - 0
-Refactoring 6 - 0
-Refactoring 7 - 0
-Refactoring 8 - 0
-Refactoring 9 - 0
-
-Teste36.c
-Refactoring 1 - 0
-Refactoring 2 - 0
-Refactoring 3 - 0
-Refactoring 4 - 0
-Refactoring 5 - 0
-Refactoring 6 - 0
-Refactoring 7 - 0
-Refactoring 8 - 0
-Refactoring 9 - 0
-
-Teste37.c
-Refactoring 1 - 0
-Refactoring 2 - 0
-Refactoring 3 - 0
-Refactoring 4 - 0
-Refactoring 5 - 0
-Refactoring 6 - 0
-Refactoring 7 - 0
-Refactoring 8 - 0
-Refactoring 9 - 0
-
-Teste38.c
-Refactoring 1 - 0
-Refactoring 2 - 0
-Refactoring 3 - 0
-Refactoring 4 - 0
-Refactoring 5 - 0
-Refactoring 6 - 0
-Refactoring 7 - 0
-Refactoring 8 - 0
-Refactoring 9 - 0
-
-Teste39.c
-Refactoring 1 - 0
-Refactoring 2 - 0
-Refactoring 3 - 0
-Refactoring 4 - 0
-Refactoring 5 - 0
-Refactoring 6 - 0
-Refactoring 7 - 0
-Refactoring 8 - 0
-Refactoring 9 - 0
-
-
-Teste40.c
-Refactoring 1 - 0
-Refactoring 2 - 0
-Refactoring 3 - 0
-Refactoring 4 - 0
-Refactoring 5 - 0
-Refactoring 6 - 0
-Refactoring 7 - 0
-Refactoring 8 - 0
-Refactoring 9 - 0

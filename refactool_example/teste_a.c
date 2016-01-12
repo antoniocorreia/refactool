@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define SIZE 64
+#define VAR 2
 
 main()
 {
@@ -14,7 +14,7 @@ main()
 	
 	
 	}
-	#ifdef SIZE == 1				
+	#ifdef VAR == 1				
 		 else if(x == 2){
 
 
@@ -25,7 +25,7 @@ main()
 	#endif
 	
 	
-	#ifdef SIZE == 1
+	#ifdef VAR == 1
 		if (x==1)
 	#endif
 	{
