@@ -9,17 +9,13 @@ int main()
     scanf("%c",&o);
     printf("Enter two operands: ");
     scanf("%f%f",&num1,&num2);
-    #ifdef SIZE == 64
-		#define VAR9691924 case '+':
+    switch(o) {
+        
+	#ifdef SIZE == 64
+		case '+':
             printf("%.1f + %.1f = %.1f",num1, num2, num1+num2);
             break;
-	
-	#else
-		#define VAR9691924 ""
 	#endif
-	switch (o){
-		VAR9691924
-
         case '-':
             printf("%.1f - %.1f = %.1f",num1, num2, num1-num2);
             break;
@@ -38,11 +34,11 @@ int main()
     }
     return 0;
 	
-	int var9691924 = (num1==4);
+	if (num1==4
 	#ifdef SIZE==5
-		var9691924 = var9691924 && num2==6;
+		&& num2==6
 	#endif
-	if(var9691924){
+	){
 		num2 = num2 + 1;
 	}
 }

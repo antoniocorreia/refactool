@@ -11,15 +11,12 @@ int main()
     printf("Factorial of %d = %ld", n, factorial(n));
     return 0;
 }
+	int factorial(
 	#ifdef SIZE == 64
-	
-	#define PARAM2473308 int n
-	
-#else
-	#define PARAM2473308 ""
-#endif
-int  factorial(PARAM2473308){
-	
+	int n
+	#endif
+	)
+{
     if(n!=1)
      return n*factorial(n-1);
  
@@ -35,9 +32,7 @@ int  factorial(PARAM2473308){
             {
                 printf("%d = %d + %d\n", n, i, n-i);
                 flag=1;
-            
-}
-
+            }
 
         }
     }
@@ -45,35 +40,24 @@ int  factorial(PARAM2473308){
       printf("%d can't be expressed as sum of two prime numbers.",n);
     return 0;
 }
+	int prime(
 	#ifdef SIZE == 62
-	
-	#define PARAM2473308 int n
-	
-#else
-	#define PARAM2473308 ""
-#endif
-int  prime(PARAM2473308){
-	
+	int n
+	#endif 	
+)      /* Function to check prime number */
+{
     int i, flag=1;
     for(i=2; i<=n/2; ++i)
        if(n%i==0)
           flag=0;
     return flag;
 	
-	
-	#ifdef  SIZE == 1
-		#define ELEMS0239518 , 3
-	#else
-		#define ELEMS0239518 ""
-	#endif
-	int  id1[] = {
-		1,
+	int id1[] = {1,
 		2
-		ELEMS0239518
-	
-	
-}
-;
+	#ifdef SIZE == 1
+		,3
+	#endif
+	};
 	
 
  

@@ -19,23 +19,14 @@ int main()
  
 	flag = compare_strings(a, b);
 	
-int var5933731 =  (flag == 0);
-	#ifdef  SIZE ==1 
-		if(var5933731){
-
+#ifdef SIZE ==1 
+	if (flag == 0){
 		printf("Entered strings are equal.\n");
-	
-		}
-		var5933731 = !(var5933731);
-	#else
-		var5933731 = 1;
-	#endif
-	if(var5933731){
-
+	} else
+#endif
+	{
 		printf("Entered strings are not equal.\n");
-	
 	}
-
 	return 0;
 }
  
@@ -49,21 +40,12 @@ int compare_strings(char a[], char b[])
 		c++;
 	}
  
- int var5933731 =  (a[c] == '\0' && b[c] == '\0');
-	#ifdef  SIZE ==1
-		if(var5933731){
-
+ #ifdef SIZE ==1
+	if (a[c] == '\0' && b[c] == '\0'){
 		return 0;
-	
-		}
-		var5933731 = !(var5933731);
-	#else
-		var5933731 = 1;
-	#endif
-	if(var5933731){
-
+	} else
+#endif
+	{
 		return -1;
-	
 	}
-
 }

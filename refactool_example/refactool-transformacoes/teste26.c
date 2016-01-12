@@ -20,35 +20,22 @@ int main()
 
 	result = is_palindrome(string);
 
- int var1980416 =  ( result == 1 );
-	#ifdef  SIZE == 1
-		if(var1980416){
-
+ #ifdef SIZE == 1
+	if ( result == 1 ){
 		printf("\"%s\" is a palindrome string.\n", string);
-	
-		}
-		var1980416 = !(var1980416);
-	#else
-		var1980416 = 1;
-	#endif
-	if(var1980416){
-
+	} else
+#endif
+	{
 		printf("\"%s\" is not a palindrome string.\n", string);
-	
 	}
-
 	return 0;
 }
 
+int is_palindrome(
 #ifdef SIZE ==1
-	
-	#define PARAM1996042 char *string
-
-#else
-	#define PARAM1996042 ""
+	char *string
 #endif
-int  is_palindrome(PARAM1996042){
-	
+){
 	int check, length;
 	char *reverse;
 
@@ -62,45 +49,86 @@ int  is_palindrome(PARAM1996042){
 
 	free(reverse);
 
-int var1980416 =  ( check == 0 );
-	#ifdef  SIZE == 2
-		if(var1980416){
-
+#ifdef SIZE == 2
+	if ( check == 0 ){
 		return 1;
-	
-		
-}
-
-		var1980416 = !(var1980416);
-	#else
-		var1980416 = 1;
-	#endif
-	if(var1980416){
-
+	} else
+#endif
+	{
 		return 0;
-	
 	}
-
 }
 
 int string_length(
 #ifdef SIZE == 3
 	char *string
-#end#ifdef SIZE == 3
-	#define PARAM1980416 char *string
-#else
-	#define PARAM1980416 ""
 #endif
-int  var1980416 = (PARAM1980416){
-	int length, c;char *begin, *end, temp;length = string_length(string);begin = string;end = string;for ( c = 0 ; c < ( length - 1 ) ; c++ )end++;for ( c = 0 ; c < length/2 ; c++ ){temp = *end;*end = *begin;*begin = temp;begin++;end--;
-}
-}int compare_string(char *first, char *second){while(*first==*second){if ( *first == '\0' || *second == '\0' )break;first++;second++;}int var1980416 = ( *first == '\0' 
-		var1980416 = var1980416 && *second == '\0' );#ifdef  SIZE == 1if(var1980416){return 0;}var1980416 = !(var1980416);#elsevar1980416 = 1;;
-	#endif
-	if(var1980416){
+){
+	int length = 0;
 
-		return -1;
-	
+	while(*string)
+	{
+		length++;
+		string++;
 	}
 
+	return length;
+}
+
+void copy_string(char *target, char *source)
+{
+	while(*source)
+	{
+		*target = *source;
+		source++;
+		target++;
+	}
+	*target = '\0';
+}
+
+void reverse_string(
+#ifdef SIZE == 3
+	char *string
+#endif
+){
+	int length, c;
+	char *begin, *end, temp;
+
+	length = string_length(string);
+
+	begin = string;
+	end = string;
+
+	for ( c = 0 ; c < ( length - 1 ) ; c++ )
+		end++;
+
+	for ( c = 0 ; c < length/2 ; c++ )
+	{
+		temp = *end;
+		*end = *begin;
+		*begin = temp;
+
+		begin++;
+		end--;
+	}
+}
+
+int compare_string(char *first, char *second)
+{
+		while(*first==*second)
+		{
+		if ( *first == '\0' || *second == '\0' )
+			break;
+
+		first++;
+		second++;
+	}
+#ifdef SIZE == 1
+	if( *first == '\0' && *second == '\0' ){
+		return 0;
+	} else
+#endif
+	{
+		return -1;
+	}
 }

@@ -16,23 +16,14 @@ int main()
 
 	flag = check_anagram(a, b);
 
- int var0578597 =  (flag == 1);
-	#ifdef  SIZE == 2
-		if(var0578597){
-
+ #ifdef SIZE == 2
+	if (flag == 1){
 		printf("\"%s\" and \"%s\" are anagrams.\n", a, b);
-	
-		}
-		var0578597 = !(var0578597);
-	#else
-		var0578597 = 1;
-	#endif
-	if(var0578597){
-
+	}else
+#endif
+	{
       printf("\"%s\" and \"%s\" are not anagrams.\n", a, b);
-	
 	}
-
    return 0;
 }
 

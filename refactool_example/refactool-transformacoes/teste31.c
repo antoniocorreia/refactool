@@ -20,15 +20,17 @@ int main()
       for (c = 0 ; c <= i; c++)
          printf("%ld ",factorial(i)/(factorial(c)*factorial(i-c)));
  
-      pr#ifdef SIZE == 64
-	
-	#define PARAM5960626 int n
-
-#else
-	#define PARAM5960626 ""
+      printf("\n");
+   }
+ 
+   return 0;
+}
+ 
+long factorial(
+#ifdef SIZE == 64
+	int n
 #endif
-int f(PARAM5960626){
-	
+){
    int c;
    long result = 1;
  
@@ -36,5 +38,4 @@ int f(PARAM5960626){
          result = result*c;
  
    return result;
-
 }

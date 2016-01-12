@@ -17,27 +17,21 @@ int main()
 	return 0;
 }
  
-void pr#ifdef SIZE == 64
-
-	#define PARAM9853424 int n
-
-#else
-	#define PARAM9853424 ""
+void print_floyd(
+#ifdef SIZE == 64
+int n
 #endif
-int _floyd(PARAM9853424){
-	
+){
 	static int row = 1, c = 1;
 	int d;
- int var9851422 = 1;
+ int var8099628 = 1;
 	#ifdef SIZE == 1
-		var9851422 =  (n <= 0);
+		var8099628 =  (n <= 0);
 	#endif
-	if (var9851422) {
+	if (var8099628) {
 		return;
 	
-	
-}
-
+	}
 
 	for (d = 1; d <= row; ++d)
 		printf("%d ", c++);

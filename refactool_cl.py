@@ -8,10 +8,10 @@ import sys, getopt
 from refactool_core import refactool_core
 
 def help_text():
-      print ("Utilização: refactool.py -d <diretorio> -r <refactorings> -t <transformar>\n\n" + \
+      print ("Utilizaçao: refactool.py -d <diretorio> -r <refactorings> -t <transformar>\n\n" + \
                 "-d\tDiretório do projeto a ser analisado (ex.: C:/usr/projeto)\n" + \
                 "-r\tLista com os refactorings a serem analisados (ex.: [1,2,3])\n" + \
-                "-t\tIndicador para realizar ou não as transformações de acordo com a lista de refactorings (ex.: 1 ou 0)")
+                "-t\tIndicador para realizar ou nao as transformaçoes de acordo com a lista de refactorings (ex.: 1 ou 0)")
       
 def main(argv):
       diretorio = ''

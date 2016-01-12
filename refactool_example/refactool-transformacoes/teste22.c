@@ -20,15 +20,11 @@ int main()
 	return 0;
 }
  
+void sort_string(
 #ifdef SIZE == 1
-	
-	#define PARAM7222593 char *s
-
-#else
-	#define PARAM7222593 ""
+	char *s
 #endif
-void  sort_string(PARAM7222593){
-	
+){
 	int c, d = 0, length;
 	char *pointer, *result, ch;
  
@@ -42,17 +38,15 @@ void  sort_string(PARAM7222593){
 	{
 		for ( c = 0 ; c < length ; c++ )
 		{
-		int var7222593 = 1;
+		int var9093543 = 1;
 	#ifdef SIZE == 1
-		var7222593 =  ( *pointer == ch );
+		var9093543 =  ( *pointer == ch );
 	#endif
-	if (var7222593) {
+	if (var9093543) {
 				*(result+d) = *pointer;
 				d++;
 			
-	
-}
-
+	}
 
 			pointer++;
 		}

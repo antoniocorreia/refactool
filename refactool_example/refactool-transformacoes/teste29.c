@@ -21,17 +21,12 @@ scanf("%d", &num1);
 printf("\nEnter num2=");
 scanf("%d", &num2);
 
-#ifdef SIZE == 64    
-		#define VAR0414342 case 'a':
+switch (ch) {
+#ifdef SIZE == 64
+    case 'a':
         printf("\nAddition of num1 and num2=%d", (num1+num2));
         break;
-
-	#else
-		#define VAR0414342 ""
-	#endif
-	switch (ch){
-		VAR0414342
-
+#endif
 
     case 's':
         printf("\nSubtraction of num1 and num2=%d", (num1-num2));

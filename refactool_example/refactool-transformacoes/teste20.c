@@ -13,14 +13,14 @@ int main ()
  
 	while (s[c] != '\0') {
 		ch = s[c];
-		int var0634755 =  (ch >= 'A' && ch <= 'Z');
-	if (var0634755){
+		int var9214509 =  (ch >= 'A' && ch <= 'Z');
+	if (var9214509){
 
 			s[c] = s[c] + 32;
 		
 	}
 	#ifdef SIZE == 1		
-		 if(!(var0634755) &&  (ch >= 'a' && ch <= 'z')){
+		 if(!(var9214509) &&  (ch >= 'a' && ch <= 'z')){
 
 			s[c] = s[c] - 32;   
 		c++;   

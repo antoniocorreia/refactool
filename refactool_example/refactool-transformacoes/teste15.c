@@ -24,22 +24,13 @@ int main()
    c.real = a.real + b.real;
    c.img = a.img + b.img;
    
- int var1066991 =  ( c.img >= 0 );
-	#ifdef  SIZE == 6
-		if(var1066991){
-
+ #ifdef SIZE == 6
+	if ( c.img >= 0 ){
 		printf("Sum of two complex numbers = %d + %di\n", c.real, c.img);
-	
-		}
-		var1066991 = !(var1066991);
-	#else
-		var1066991 = 1;
-	#endif
-	if(var1066991){
-
+	}else
+#endif
+	{
 		printf("Sum of two complex numbers = %d %di\n", c.real, c.img);
-	
 	}
-
 	return 0;
 }

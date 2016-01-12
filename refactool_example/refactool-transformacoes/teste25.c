@@ -15,22 +15,13 @@ int main()
 	strcpy(b,a);
 	strrev(b);
 	
- int var3135117 =  (strcmp(a,b) == 0);
-	#ifdef  SIZE ==1
-		if(var3135117){
-
+ #ifdef SIZE ==1
+	if (strcmp(a,b) == 0){
 		printf("Entered string is a palindrome.\n");
-	
-		}
-		var3135117 = !(var3135117);
-	#else
-		var3135117 = 1;
-	#endif
-	if(var3135117){
-
+	} else
+#endif
+	{
 		printf("Entered string is not a palindrome.\n");
-	
 	}
-
 	return 0;
 }

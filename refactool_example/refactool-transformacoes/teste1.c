@@ -7,8 +7,8 @@ main()
 	int y = 2;
 	
 	
-	int var9786371 =  (x==1);
-	if (var9786371){
+	int var2730846 =  (x==1);
+	if (var2730846){
 
 
 
@@ -18,7 +18,7 @@ main()
 	
 	}
 	#ifdef SIZE == 1						 
-		 if(!(var9786371) && (x == 2)){
+		 if(!(var2730846) && (x == 2)){
 
 
 
@@ -30,11 +30,11 @@ main()
 	#endif
 	
 	
-	int var9786371 = 1;
+	int var2730846 = 1;
 	#ifdef SIZE == 1
-		var9786371 =  (x==1);
+		var2730846 =  (x==1);
 	#endif
-	if (var9786371) {
+	if (var2730846) {
 		//lines of code
 	
 	}

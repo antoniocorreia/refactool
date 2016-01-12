@@ -6,29 +6,30 @@ main()
 	int x = 1;
 	int y = 2;
 	
-	int var1918922 = 1;
+	int var1278358 = 1;
 	#ifdef SIZE == 1
-		var1918922 =  (x == 1);
+		var1278358 =  (x == 1);
 	#endif
-	if (var1918922) {
+	if (var1278358) {
 		x++; 
 	
 	}
 
 	
 	#ifdef SIZE == 1
-		int var1918922 = (x == 1);
+		if (x == 1){
 	#else
-		int var1918922 = (x == 2);
+		if (x == 2){
 	#endif
-	if(var1918922){
 		x++; 
 	}
 	
+	return x
 	#ifdef SIZE ==1
-		return x &&  y;
+		&& y
 	#else
-		return x &&  z;
+		&& z
 	#endif
+	;
 }
 

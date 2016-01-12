@@ -12,55 +12,44 @@ main()
 		//lines of code
 	}
 	
-	int var2312552 = 1;
+	int var1946311 = 1;
 	#ifdef SIZE == 1
-		var2312552 =  (x == 1);
+		var1946311 =  (x == 1);
 	#endif
-	if (var2312552) {
+	if (var1946311) {
 		x++; 
 	
 	}
 
 	
 	#ifdef SIZE == 1
-		int var2312552 = (x == 1);
+		if (x == 1){
 	#else
-		int var2312552 = (x == 2);
+		if (x == 2){
 	#endif
-	if(var2312552){
 		x++; 
 	}
 	
-	
-	#ifdef  SIZE == 1
-		#define ELEMS2312552 , 3
-	#else
-		#define ELEMS2312552 ""
-	#endif
-	int  id1[] = {
-		1,
+	int id1[] = {1,
 		2
-		ELEMS2312552
-	
+	#ifdef SIZE == 1
+		,3
+	#endif
 	};
 	
+	return x
 	#ifdef SIZE ==1
-		return x &&  y;
+		&& y
 	#else
-		return x &&  z;
+		&& z
 	#endif
+	;
 	
-	
-	#ifdef  SIZE == 1
-		#define ELEMS2312552 , 3
-	#else
-		#define ELEMS2312552 ""
-	#endif
-	int  id[] = {
-		1,
+	int id[] = {1,
 		2
-		ELEMS2312552
-	
+	#ifdef SIZE == 1
+		,3
+	#endif
 	};
 }
 

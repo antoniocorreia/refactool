@@ -15,13 +15,20 @@ def refactoring_2(codigo):
         expression_1 = padrao2.group(2).replace('\n','').replace('\t','')
         condition_1 = padrao2.group(3).replace('\n','').replace('\t','')
         loc_if = padrao2.group(5)
-        loc = padrao2.group(6)        
+	codigo_anterior = padrao2.group(1)
+        codigo_restante = padrao2.group(6)        
 
         var_timestamp = "var" + str(time.time()).replace('.','')[-7:]
         
-        codigo_transformado = "int " + var_timestamp + " = 1;\n\t#ifdef "  + expression_1 + "\n\t\t" + var_timestamp + " = " + condition_1 + ";\n\t#endif\n\tif (" + var_timestamp + ") {" + loc_if + "\n\t}\n" + loc
+        codigo_transformado = "int " + var_timestamp + " = 1;"+\
+								"\n\t#ifdef "  + expression_1 + \
+								"\n\t\t" + var_timestamp + " = " + condition_1 + \
+								";\n\t#endif\n\t"+\
+								"if (" + var_timestamp + ") {" + \
+								loc_if + "\n\t}\n" + \
+								codigo_restante
 
-        return refactoring_2(padrao2.group(1)) + codigo_transformado
+        return refactoring_2(codigo_anterior) + codigo_transformado
     else:        
         return codigo
         

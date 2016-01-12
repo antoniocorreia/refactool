@@ -8,30 +8,28 @@ int main()
 	char text[1000], blank[1000];
 	int c = 0, d = 0;
  
-	pr#ifdef SIZE == 3
+	printf("Enter some text\n");
+	gets(text);
+ 
+	while (text[c] != '\0') {
+	#ifdef SIZE == 3
 		if (text[c] == ' ') 
 	#endif
 		{
-			
-	#define PARAM3068632 int temp = c + 1;
+			int temp = c + 1;
 			#ifdef SIZE == 1
 				if (text[temp] != '\0')
-			
-#else
-	#define PARAM3068632 ""
-#endif
-int f(PARAM3068632){
-	
-				int var3068632 = 1;
+			#endif
+				{
+					while (text[temp] == ' ' && text[temp] != '\0') {
+				int var0419778 = 1;
 	#ifdef SIZE == 2
-		var3068632 =  (text[temp] == ' ') ;
+		var0419778 =  (text[temp] == ' ') ;
 	#endif
-	if (var3068632) {
+	if (var0419778) {
 						c++;
 					
-	
-}
-
+	}
   
 					temp++;
 					}

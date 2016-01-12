@@ -13,11 +13,11 @@ int main () {
 	scanf("%d%d", &a, &b);
  
 	for (c = a; c <= b; c++) {
-int var6121746 = 1;
+int var0539692 = 1;
 	#ifdef SIZE == 1
-		var6121746 =  (check_armstrong(c) == 1);
+		var0539692 =  (check_armstrong(c) == 1);
 	#endif
-	if (var6121746) {
+	if (var0539692) {
 			printf("%d\n", c);
 		
 	}
@@ -27,15 +27,11 @@ int var6121746 = 1;
 	return 0;
 }
  
+int check_armstrong(
 #ifdef SIZE == 1
-
-	#define PARAM1225461 int n
-
-#else
-	#define PARAM1225461 ""
+int n
 #endif
-int  check_armstrong(PARAM1225461){
-	
+){
 	long long sum = 0, temp;
 	int remainder, digits = 0;
  
@@ -44,9 +40,7 @@ int  check_armstrong(PARAM1225461){
 	while (temp != 0) {
 		digits++;
 		temp = temp/10;
-	
-}
-
+	}
  
 	temp = n;
  
@@ -56,23 +50,14 @@ int  check_armstrong(PARAM1225461){
 		temp = temp/10;
 	}
  
- int var1218461 =  (n == sum);
-	#ifdef  SIZE == 1
-		if(var1218461){
-
+ #ifdef SIZE == 1
+	if (n == sum){
 		return 1;
-	
-		}
-		var1218461 = !(var1218461);
-	#else
-		var1218461 = 1;
-	#endif
-	if(var1218461){
-
+	} else
+#endif
+	{
 		return 0;
-	
 	}
-
 }
  
 int  power(int n, int r) {

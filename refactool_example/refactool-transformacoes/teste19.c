@@ -14,11 +14,11 @@ int main()
 	{
       /** Considering characters from 'a' to 'z' only
           and ignoring others */
-	int var6160037 = 1;
+	int var9089487 = 1;
 	#ifdef SIZE == 1
-		var6160037 =  (string[c] >= 'a' && string[c] <= 'z') ;
+		var9089487 =  (string[c] >= 'a' && string[c] <= 'z') ;
 	#endif
-	if (var6160037) {
+	if (var9089487) {
       /** Printing only those characters 
           whose count is at least 1 */
 	#ifdef SIZE == 1
