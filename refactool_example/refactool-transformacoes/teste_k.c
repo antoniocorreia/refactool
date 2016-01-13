@@ -1,7 +1,7 @@
 #include<stdio.h>
-#define SIZE 64
+#define VAR 64
 
-#Refactoring 5 - caso sem a chave
+//#Refactoring 5 - caso sem a chave
 
 int main()
 {
@@ -11,31 +11,31 @@ int main()
     printf("HCF of %d and %d is ",num1 , num2);
     while(num1!=num2)
     {
-	
-	int var9974966 = 1;
-	#ifdef SIZE == 2        
-		var9974966 = (num1>num2)            num1-=num2;        else;
+
+	int var5381738 = 1;
+	#ifdef VAR == 2        
+		var5381738 = (num1>num2)            num1-=num2;        else;
 	#endif
-	if (var9974966) {
+	if (var5381738) {
 		//lines of code
 	
 	}
 
-	
-	#ifdef SIZE == 1
+
+	#ifdef VAR == 1
 		
-	#define PARAM9974966 int var9974966 = (x == 1);
+	#define PARAM5382735 int var5382735 = (x == 1);
 	#else
-		int var9974966 = (x == 2);
+		int var5382735 = (x == 2);
 	
 #else
-	#define PARAM9974966 ""
+	#define PARAM5382735 ""
 #endif
-int  var9974966 = 1;
-	#ifdef SIZE == 1
-		var9974966 =  (PARAM9974966){
+int  var5381738 = 1;
+	#ifdef VAR == 1
+		var5381738 =  (PARAM5382735){
 	
-		x++; 
+		x++;
 	
 }
 

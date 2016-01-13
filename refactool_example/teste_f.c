@@ -5,7 +5,7 @@ main()
 {
 	int x = 1;
 	int y = 2;
-	
+
 	if (x==4
 	#ifdef VAR==5
 		&& y==6
@@ -13,9 +13,9 @@ main()
 	){
 		y = y + 1;
 	}
-	
-	
-	
+
+
+
 	if (x==1
 	#ifdef VAR==2
 		&& y==3
@@ -23,6 +23,7 @@ main()
 	){
 		x = x + 1;
 	}
-	
+
+	return (0);
 }
 

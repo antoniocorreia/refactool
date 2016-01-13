@@ -1,14 +1,14 @@
 #include <stdio.h>
-#define SIZE 64
+#define VAR 64
 
-#ifdef SIZE == 64
+#ifdef VAR == 64
 	
-	#define PARAM1895285 int x
+	#define PARAM6838734 int x
 
 #else
-	#define PARAM1895285 ""
+	#define PARAM6838734 ""
 #endif
-void  function(PARAM1895285){
+void  function(PARAM6838734){
 	
 	//lines of code
 
@@ -23,16 +23,13 @@ int main()
     scanf("%c",&o);
     printf("Enter two operands: ");
     scanf("%f%f",&num1,&num2);
-    #ifdef SIZE == 64
-		#define VAR3187966 case '+':
-            printf("%.1f + %.1f = %.1f",num1, num2, num1+num2);
-            break;
-	
+    #ifdef VAR == 64
+		#define VAR6830731 case '+':             printf("%.1f + %.1f = %.1f",num1, num2, num1+num2);             break;  
 	#else
-		#define VAR3187966 ""
+		#define VAR6830731 ""
 	#endif
 	switch (o){
-		VAR3187966
+		VAR6830731
 
         case '-':
             printf("%.1f - %.1f = %.1f",num1, num2, num1-num2);
@@ -54,16 +51,16 @@ int main()
 	int y = 2;
 	
 	
-	int var1848409 =  (x==1);
-	if (var1848409){
+	int var6778696 =  (x==1);
+	if (var6778696){
 
 
 		//lines of code 1
 	
 	
 	}
-	#ifdef SIZE == 1						 
-		 if(!(var1848409) && (x == 2)){
+	#ifdef VAR == 1						 
+		 if(!(var6778696) && (x == 2)){
 
 
 			//lines of code 2
@@ -74,18 +71,18 @@ int main()
 	
 	int z = 1;
 	int w = 2;
-	#ifdef SIZE == 2
+	#ifdef VAR == 2
 		
-	#define PARAM3187966 int var3187966 = (z == 2);
+	#define PARAM6831731 int var6831731 = (z == 2);
 	#else
-		int var3187966 = (z == 4);
+		int var6831731 = (z == 4);
 	
 #else
-	#define PARAM3187966 ""
+	#define PARAM6831731 ""
 #endif
-int  var1864033 = 1;
+int  var6813722 = 1;
 	#ifdef z == 1
-		var1864033 =  (PARAM3187966){
+		var6813722 =  (PARAM6831731){
 	
 		z++;
 	

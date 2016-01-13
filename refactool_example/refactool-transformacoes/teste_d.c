@@ -1,37 +1,48 @@
 #include <stdio.h>
-#define SIZE 64
+#define VAR 64
 
-main()
-{
-	int x = 1;
-	int y = 2;
+int function1(int x){
 
-	int var8756154 = 1;
-	#ifdef SIZE == 1
-		var8756154 =  (x == 1);
+    int var3782142 = 1;
+	#ifdef VAR == 1
+		var3782142 =  (x == 1);
 	#endif
-	if (var8756154) {
+	if (var3782142) {
 		x++;
 	
 	}
 
 
-	#ifdef SIZE == 1
-		int var8756154 = (x == 1);
+    return x;
+}
+
+main()
+{
+	int x = 1;
+	int y = 2;
+    int z = 3;
+
+	x = function1(x);
+
+	#ifdef VAR == 1
+		int var3782142 = (x == 1);
 	#else
-		int var8756154 = (x == 2);
-	#endif
-	if(var8756154){
-		x++;
-	}
-	int z;
-	#ifdef SIZE == 1
-		int var8756154 = (z == 1);
+		#ifdef VAR == 1
+		
+	#define PARAM3782142 int var3782142 = (z == 1);
 	#else
-		int var8756154 = (z == 2);
-	#endif
-	if(var8756154){
+		int var3782142 = (z == 2);
+	
+#else
+	#define PARAM3782142 ""
+#endif
+int  var3782142 = (PARAM3782142){
+	
 		z++;
-	}
+	
+}
+
+
+	return (0);
 }
 

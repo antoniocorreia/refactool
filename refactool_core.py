@@ -28,11 +28,10 @@ def refactool_core(diretorio,refactorings,transforma):
     dir_transformacoes = dir_formatado + "/refactool-transformacoes"
 
     #reseta arquivo de log
+    print("Preparando o log")
     fo = open(formata_diretorio(diretorio)+"/refactool_log.txt","w")
     fo.close
         
-    
-    #ref1 = ref2 = ref3 = ref4 = ref5 = ref6 = ref7 = ref8 = ref9 = 0
     lista_refac = [0,0,0,0,0,0,0,0,0]
 
     for i in refactorings:
@@ -57,17 +56,20 @@ def refactool_core(diretorio,refactorings,transforma):
     
 
     qtd_arquivos = 0
+    print("Abrindo diretório")
     os.chdir(dir_formatado)
     for file in glob.glob("*.c"):
         qtd_arquivos = qtd_arquivos + 1
 
-    log("O projeto tem " + str(qtd_arquivos) + " arquivo(s) .c",dir_formatado)
+    msg_arquivos = "O projeto tem " + str(qtd_arquivos) + " arquivo(s) .c"
+    log(msg_arquivos,dir_formatado)
+    print(msg_arquivos)
     
     os.chdir(dir_formatado)
     for file in glob.glob("*.c"):
 
         #abre arquivo
-        
+        print("Lendo arquivo " + file)
         log(file,dir_formatado) 
         fo = open(dir_formatado + "/" + file, "r")
         codigo = fo.read()
@@ -78,17 +80,20 @@ def refactool_core(diretorio,refactorings,transforma):
         lista_qtd_ocorrencias = [0,0,0,0,0,0,0,0,0]
         count = 1
         while (count <= 9):
-            print(count)
+            
             if lista_refac[count-1]:
-        
+                print("Buscando por refactoring " + str(count))
                 lista_qtd_ocorrencias[count-1] = est_ref(codigo,count)
-        
-                log ("Refactoring "+str(count)+" - " + str(est_ref(codigo,count)) + " ocorrência(s)",dir_formatado)
+
+                msg_log = "Refactoring "+str(count)+" - " + str(lista_qtd_ocorrencias[count-1]) + " ocorrência(s)"
+                print(msg_log)
+                log (msg_log,dir_formatado)
             count = count + 1
 
         
         #aplica transformações
         if transforma:
+            print("Aplicando transformações")
             if lista_refac[0] & (lista_qtd_ocorrencias[0] > 0):
                codigo = refactoring1.refactoring_1(codigo)
             if lista_refac[1] & (lista_qtd_ocorrencias[1] > 0):
@@ -119,7 +124,9 @@ def refactool_core(diretorio,refactorings,transforma):
             log("",dir_formatado)
     
     if transforma:
-        log("Arquivos refatorados e salvos no diretório " + dir_transformacoes,dir_formatado)
+        msg_log = "Arquivos refatorados e salvos no diretório " + dir_transformacoes
+        print(msg_log)
+        log(msg_log,dir_formatado)
     
     
   

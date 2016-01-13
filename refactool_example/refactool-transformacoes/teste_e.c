@@ -1,45 +1,47 @@
 #include <stdio.h>
-#define SIZE 64
+#define VAR 64
 
 main()
 {
 	int x = 1;
 	int y = 2;
 
-	int var8865534 =  (x == 1);
-	#ifdef  SIZE == 1
-		if(var8865534){
+	int var3978953 =  (x == 1);
+	#ifdef  VAR == 1
+		if(var3978953){
 
 			//lines of code 1
 		
 		}
-		var8865534 = !(var8865534);
+		var3978953 = !(var3978953);
 	#else
-		var8865534 = 1;
+		var3978953 = 1;
 	#endif
-	if(var8865534){
+	if(var3978953){
 
 		//lines of code 2
 	
 	}
 
 
-	#ifdef SIZE == 1
-		int var8865534 = (x == 1);
+	#ifdef VAR == 1
+		int var3978953 = (x == 1);
 	#else
-		int var8865534 = (x == 2);
+		int var3978953 = (x == 2);
 	#endif
-	if(var8865534){
+	if(var3978953){
 		x++;
 	}
 	int z= 1;
-	#ifdef SIZE == 1
-		int var8865534 = (z == 1);
+	#ifdef VAR == 1
+		int var3978953 = (z == 1);
 	#else
-		int var8865534 = (z == 2);
+		int var3978953 = (z == 2);
 	#endif
-	if(var8865534){
+	if(var3978953){
 		z++;
 	}
+
+	return (0);
 }
 

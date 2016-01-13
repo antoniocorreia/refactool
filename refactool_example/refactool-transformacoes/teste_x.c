@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define SIZE 64
+#define VAR 64
 
 
 int main(int argc, char *argv[]) {
@@ -21,16 +21,13 @@ scanf("%d", &num1);
 printf("\nEnter num2=");
 scanf("%d", &num2);
 
-#ifdef SIZE == 64    
-		#define VAR2937598 case 'a':
-        printf("\nAddition of num1 and num2=%d", (num1+num2));
-        break;
-
+#ifdef VAR == 64    
+		#define VAR4939228 case 'a':         printf("\nAddition of num1 and num2=%d", (num1+num2));         break; 
 	#else
-		#define VAR2937598 ""
+		#define VAR4939228 ""
 	#endif
 	switch (ch){
-		VAR2937598
+		VAR4939228
 
 
     case 's':

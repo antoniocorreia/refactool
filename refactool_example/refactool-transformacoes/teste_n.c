@@ -9,11 +9,11 @@ int main()
  
 	printf("Do you want to shutdown your computer now (y/n)\n");
 	scanf("%c", &ch);
-	int var1989036 = 1;
+	int var7071728 = 1;
 	#ifdef x == 1
-		var1989036 =  (ch == 'y' || ch == 'Y');
+		var7071728 =  (ch == 'y' || ch == 'Y');
 	#endif
-	if (var1989036) {
+	if (var7071728) {
 		system("C:\\WINDOWS\\System32\\shutdown -s");
 	
 	}

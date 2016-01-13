@@ -2,18 +2,15 @@
 #define VAR 64
 
 main()
-{	
+{
 	int  Grade = 'B';
 	#ifdef VAR == 64
-		#define VAR8662399 case 'A' : 
-			printf( "Excellent\n" );
-			break;
-	
+		#define VAR3618137 case 'A' :    printf( "Excellent\n" );    break;  
 	#else
-		#define VAR8662399 ""
+		#define VAR3618137 ""
 	#endif
 	switch (Grade){
-		VAR8662399
+		VAR3618137
 
 		case 'B' :
 			printf( "Good\n" );
@@ -25,4 +22,6 @@ main()
 			printf( "What is your grade anyway?\n" );
 			break;
     }
+
+    return (0);
 }

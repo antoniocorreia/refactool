@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define SIZE 64
+#define VAR 64
 
 int factorial(int n);
 int prime(int n);
@@ -11,14 +11,14 @@ int main()
     printf("Factorial of %d = %ld", n, factorial(n));
     return 0;
 }
-	#ifdef SIZE == 64
+	#ifdef VAR == 64
 	
-	#define PARAM4141276 int n
+	#define PARAM8709435 int n
 	
 #else
-	#define PARAM4141276 ""
+	#define PARAM8709435 ""
 #endif
-int  factorial(PARAM4141276){
+int  factorial(PARAM8709435){
 	
     if(n!=1)
      return n*factorial(n-1);
@@ -45,14 +45,14 @@ int  factorial(PARAM4141276){
       printf("%d can't be expressed as sum of two prime numbers.",n);
     return 0;
 }
-	#ifdef SIZE == 62
+	#ifdef VAR == 62
 	
-	#define PARAM4141276 int n
+	#define PARAM8709435 int n
 	
 #else
-	#define PARAM4141276 ""
+	#define PARAM8709435 ""
 #endif
-int  prime(PARAM4141276){
+int  prime(PARAM8709435){
 	
     int i, flag=1;
     for(i=2; i<=n/2; ++i)
@@ -61,15 +61,15 @@ int  prime(PARAM4141276){
     return flag;
 	
 	
-	#ifdef  SIZE == 1
-		#define ELEMS4063147 , 3
+	#ifdef  VAR == 1
+		#define ELEMS8619374 , 3
 	#else
-		#define ELEMS4063147 ""
+		#define ELEMS8619374 ""
 	#endif
 	int  id1[] = {
 		1,
 		2
-		ELEMS4063147
+		ELEMS8619374
 	
 	
 }

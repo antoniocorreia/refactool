@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define SIZE 64
+#define VAR 64
 
 
 int main()
@@ -7,11 +7,11 @@ int main()
 	int x = 1;
 	int y = 2;
 
-	int var9740578 = 1;
-	#ifdef SIZE == 1
-		var9740578 =  (x == 1);
+	int var5082936 = 1;
+	#ifdef VAR == 1
+		var5082936 =  (x == 1);
 	#endif
-	if (var9740578) {
+	if (var5082936) {
 		x++;
 	
 	}
@@ -23,17 +23,17 @@ int main()
     printf("HCF of %d and %d is ",num1 , num2);
     while(num1!=num2)
     {
-	#ifdef  SIZE == 2        
-		if(var9740578){
+	#ifdef  VAR == 2        
+		if(var5082936){
 
 		num1-=num2;
         
 		}
-		var9740578 = !(var9740578);
+		var5082936 = !(var5082936);
 	#else
-		var9740578 = 1;
+		var5082936 = 1;
 	#endif
-	if(var9740578){
+	if(var5082936){
 
             num2-=num1;
 		
@@ -46,14 +46,14 @@ int main()
 	
 	
 	
-	#define PARAM9740578 int var9740578 = (x==4);
-	#ifdef SIZE==5
-		var9740578 = var9740578 && y==6;
+	#define PARAM5084939 int var5083938 = (x==4);
+	#ifdef VAR==5
+		var5083938 = var5083938 && y==6;
 	
 #else
-	#define PARAM9740578 ""
+	#define PARAM5084939 ""
 #endif
-int  var9740578 = (PARAM9740578){
+int  var5082936 = (PARAM5084939){
 	
 		y = y + 1;
 	

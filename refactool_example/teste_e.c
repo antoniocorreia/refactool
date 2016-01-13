@@ -30,5 +30,7 @@ main()
 	#endif
 		z++;
 	}
+
+	return (0);
 }
 

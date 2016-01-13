@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#define SIZE 64
+#define VAR 64
 	
 	//C program to delete vowels from a string
 	 
@@ -15,11 +15,11 @@
 	  gets(s);
 	 
 	for(i = 0; s[i] != '\0'; i++) {
-	int var5281959 = 1;
-	#ifdef SIZE == 1
-		var5281959 = (check_vowel(s[i]) == 0) ;
+	int var9781068 = 1;
+	#ifdef VAR == 1
+		var9781068 = (check_vowel(s[i]) == 0) ;
 	#endif
-	if (var5281959) {       //not a vowel
+	if (var9781068) {       //not a vowel
 		  t[j] = s[i];
 		  j++;
 	
@@ -37,23 +37,22 @@
 	}
 	 
 	 
-	#ifdef SIZE == 1
+	#ifdef VAR == 1
 		
-	#define PARAM5297586 char c
+	#define PARAM8978507 char c
 	
 #else
-	#define PARAM5297586 ""
+	#define PARAM8978507 ""
 #endif
-int  check_vowel(PARAM5297586){
+int  check_vowel(PARAM8978507){
 	
-	#ifdef SIZE == 2
-		#define VAR5297586 case 'a':
-	
+	#ifdef VAR == 2
+		#define VAR9781068 case 'a':  
 	#else
-		#define VAR5297586 ""
+		#define VAR9781068 ""
 	#endif
 	switch (c){
-		VAR5297586
+		VAR9781068
 
 		case 'A':
 		case 'e':

@@ -9,9 +9,9 @@ main()
 		if (x == 1)
 	#endif
 	{
-		x++; 
+		x++;
 	}
-	
-	
-	
+
+	return (0);
+
 }

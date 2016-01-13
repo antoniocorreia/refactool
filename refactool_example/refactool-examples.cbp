@@ -31,34 +31,82 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="main.c">
+		<Unit filename="teste_a.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="teste1.c">
+		<Unit filename="teste_b.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="teste2.c">
+		<Unit filename="teste_c.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="teste3.c">
+		<Unit filename="teste_d.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="teste4.c">
+		<Unit filename="teste_e.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="teste5.c">
+		<Unit filename="teste_f.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="teste6.c">
+		<Unit filename="teste_g.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="teste7.c">
+		<Unit filename="teste_h.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="teste8.c">
+		<Unit filename="teste_i.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="teste9.c">
+		<Unit filename="teste_j.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste_k.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste_l.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste_m.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste_n.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste_o.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste_p.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste_q.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste_r.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste_s.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste_t.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste_u.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste_v.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste_w.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste_x.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste_y.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste_z.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

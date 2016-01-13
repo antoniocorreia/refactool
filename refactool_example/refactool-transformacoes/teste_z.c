@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define SIZE 64
+#define VAR 64
 
 //Pascal triangle in c
  
@@ -20,14 +20,14 @@ int main()
       for (c = 0 ; c <= i; c++)
          printf("%ld ",factorial(i)/(factorial(c)*factorial(i-c)));
  
-      pr#ifdef SIZE == 64
+      pr#ifdef VAR == 64
 	
-	#define PARAM2286595 int n
+	#define PARAM6834865 int n
 
 #else
-	#define PARAM2286595 ""
+	#define PARAM6834865 ""
 #endif
-int f(PARAM2286595){
+int f(PARAM6834865){
 	
    int c;
    long result = 1;
@@ -38,3 +38,4 @@ int f(PARAM2286595){
    return result;
 
 }
+
