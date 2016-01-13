@@ -22,12 +22,12 @@ int main()
  
       pr#ifdef VAR == 64
 	
-	#define PARAM6834865 int n
+	#define PARAM2386454 int n
 
 #else
-	#define PARAM6834865 ""
+	#define PARAM2386454 ""
 #endif
-int f(PARAM6834865){
+int f(PARAM2386454){
 	
    int c;
    long result = 1;

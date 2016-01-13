@@ -13,12 +13,12 @@ int main()
 }
 	#ifdef VAR == 64
 	
-	#define PARAM8709435 int n
+	#define PARAM1247254 int n
 	
 #else
-	#define PARAM8709435 ""
+	#define PARAM1247254 ""
 #endif
-int  factorial(PARAM8709435){
+int  factorial(PARAM1247254){
 	
     if(n!=1)
      return n*factorial(n-1);
@@ -47,12 +47,12 @@ int  factorial(PARAM8709435){
 }
 	#ifdef VAR == 62
 	
-	#define PARAM8709435 int n
+	#define PARAM1247254 int n
 	
 #else
-	#define PARAM8709435 ""
+	#define PARAM1247254 ""
 #endif
-int  prime(PARAM8709435){
+int  prime(PARAM1247254){
 	
     int i, flag=1;
     for(i=2; i<=n/2; ++i)
@@ -62,14 +62,14 @@ int  prime(PARAM8709435){
 	
 	
 	#ifdef  VAR == 1
-		#define ELEMS8619374 , 3
+		#define ELEMS2351462 , 3
 	#else
-		#define ELEMS8619374 ""
+		#define ELEMS2351462 ""
 	#endif
 	int  id1[] = {
 		1,
 		2
-		ELEMS8619374
+		ELEMS2351462
 	
 	
 }

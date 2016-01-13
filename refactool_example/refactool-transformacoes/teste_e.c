@@ -6,18 +6,18 @@ main()
 	int x = 1;
 	int y = 2;
 
-	int var3978953 =  (x == 1);
+	int var5880546 =  (x == 1);
 	#ifdef  VAR == 1
-		if(var3978953){
+		if(var5880546){
 
 			//lines of code 1
 		
 		}
-		var3978953 = !(var3978953);
+		var5880546 = !(var5880546);
 	#else
-		var3978953 = 1;
+		var5880546 = 1;
 	#endif
-	if(var3978953){
+	if(var5880546){
 
 		//lines of code 2
 	
@@ -25,20 +25,20 @@ main()
 
 
 	#ifdef VAR == 1
-		int var3978953 = (x == 1);
+		int var5880546 = (x == 1);
 	#else
-		int var3978953 = (x == 2);
+		int var5880546 = (x == 2);
 	#endif
-	if(var3978953){
+	if(var5880546){
 		x++;
 	}
 	int z= 1;
 	#ifdef VAR == 1
-		int var3978953 = (z == 1);
+		int var5880546 = (z == 1);
 	#else
-		int var3978953 = (z == 2);
+		int var5880546 = (z == 2);
 	#endif
-	if(var3978953){
+	if(var5880546){
 		z++;
 	}
 

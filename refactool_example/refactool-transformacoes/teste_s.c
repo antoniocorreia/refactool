@@ -22,12 +22,12 @@ int main()
  
 #ifdef VAR == 1
 	
-	#define PARAM9295748 char *s
+	#define PARAM1314828 char *s
 
 #else
-	#define PARAM9295748 ""
+	#define PARAM1314828 ""
 #endif
-void  sort_string(PARAM9295748){
+void  sort_string(PARAM1314828){
 	
 	int c, d = 0, length;
 	char *pointer, *result, ch;
@@ -42,11 +42,11 @@ void  sort_string(PARAM9295748){
 	{
 		for ( c = 0 ; c < length ; c++ )
 		{
-		int var9291743 = 1;
+		int var3143276 = 1;
 	#ifdef VAR == 1
-		var9291743 =  ( *pointer == ch );
+		var3143276 =  ( *pointer == ch );
 	#endif
-	if (var9291743) {
+	if (var3143276) {
 				*(result+d) = *pointer;
 				d++;
 			

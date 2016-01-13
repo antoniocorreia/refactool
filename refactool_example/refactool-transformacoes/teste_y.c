@@ -42,15 +42,15 @@ void merge(int a[], int m, int b[], int n, int sorted[]) {
  
 	for (i = 0; i < m + n;) {
    	if (j < m && k < n) {
-		int var6590194 =  (a[j] < b[k]) ;
-	if (var6590194){
+		int var2104503 =  (a[j] < b[k]) ;
+	if (var2104503){
 
 			sorted[i] = a[j];
 			j++;
 		
 	}
 	#ifdef VAR == 1			
-		 if(!(var6590194) &&  (j == m) ){
+		 if(!(var2104503) &&  (j == m) ){
 
 			for (; i < m + n;) {
 				sorted[i] = b[k];

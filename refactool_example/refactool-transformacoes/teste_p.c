@@ -11,18 +11,18 @@ main()
  
 			status = remove(file_name);
  
-	int var8788105 = ( status == 0 );
+	int var1399017 = ( status == 0 );
 	#ifdef  VAR == 2
-		if(var8788105){
+		if(var1399017){
 
 			printf("%s file deleted successfully.\n",file_name);
 		
 		}
-		var8788105 = !(var8788105);
+		var1399017 = !(var1399017);
 	#else
-		var8788105 = 1;
+		var1399017 = 1;
 	#endif
-	if(var8788105){
+	if(var1399017){
 
 			printf("Unable to delete the file\n");
 			perror("Error");
@@ -38,11 +38,11 @@ main()
 		printf("Enter two integers to check\n");
 		scanf("%d %d",&numb1,&numb2); 
 	 
-		int var7852028 = (numb1==numb2);
-	if (var7852028){
+		int var1367999 = (numb1==numb2);
+	if (var1367999){
  //checking whether two integers are equal.
 			pr#ifdef VAR == 1				 			
-		 if(!(var7852028) && (numb1>numb2)){
+		 if(!(var1367999) && (numb1>numb2)){
  //checking whether numb1 is greater than numb2. 
 				printf("Result: %d > %d",numb1,numb2); 
 			
@@ -55,17 +55,17 @@ main()
 	return 0; 
 	
 	
-	#define PARAM7882048 int x = 1;
+	#define PARAM1400018 int x = 1;
 	int y = 2;
 	
-	int var7873045 = 1;
+	int var1138901 = 1;
 	#ifdef VAR == 1
-		var7873045 =  (x == 1);
+		var1138901 =  (x == 1);
 	
 #else
-	#define PARAM7882048 ""
+	#define PARAM1400018 ""
 #endif
-int f(PARAM7882048){
+int f(PARAM1400018){
 	
 		x++; 
 	

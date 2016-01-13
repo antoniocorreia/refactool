@@ -22,12 +22,12 @@ printf("\nEnter num2=");
 scanf("%d", &num2);
 
 #ifdef VAR == 64    
-		#define VAR4939228 case 'a':         printf("\nAddition of num1 and num2=%d", (num1+num2));         break; 
+		#define VAR9869459 case 'a':         printf("\nAddition of num1 and num2=%d", (num1+num2));         break; 
 	#else
-		#define VAR4939228 ""
+		#define VAR9869459 ""
 	#endif
 	switch (ch){
-		VAR4939228
+		VAR9869459
 
 
     case 's':

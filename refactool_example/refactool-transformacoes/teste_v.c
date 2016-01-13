@@ -19,18 +19,18 @@ int main()
  
 	flag = compare_strings(a, b);
 	
-int var2100615 =  (flag == 0);
+int var6577438 =  (flag == 0);
 	#ifdef  VAR ==1 
-		if(var2100615){
+		if(var6577438){
 
 		printf("Entered strings are equal.\n");
 	
 		}
-		var2100615 = !(var2100615);
+		var6577438 = !(var6577438);
 	#else
-		var2100615 = 1;
+		var6577438 = 1;
 	#endif
-	if(var2100615){
+	if(var6577438){
 
 		printf("Entered strings are not equal.\n");
 	
@@ -49,18 +49,18 @@ int compare_strings(char a[], char b[])
 		c++;
 	}
  
- int var2100615 =  (a[c] == '\0' && b[c] == '\0');
+ int var6577438 =  (a[c] == '\0' && b[c] == '\0');
 	#ifdef  VAR ==1
-		if(var2100615){
+		if(var6577438){
 
 		return 0;
 	
 		}
-		var2100615 = !(var2100615);
+		var6577438 = !(var6577438);
 	#else
-		var2100615 = 1;
+		var6577438 = 1;
 	#endif
-	if(var2100615){
+	if(var6577438){
 
 		return -1;
 	

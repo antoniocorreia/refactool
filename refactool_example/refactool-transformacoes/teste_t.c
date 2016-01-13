@@ -15,11 +15,11 @@
 	  gets(s);
 	 
 	for(i = 0; s[i] != '\0'; i++) {
-	int var9781068 = 1;
+	int var3768422 = 1;
 	#ifdef VAR == 1
-		var9781068 = (check_vowel(s[i]) == 0) ;
+		var3768422 = (check_vowel(s[i]) == 0) ;
 	#endif
-	if (var9781068) {       //not a vowel
+	if (var3768422) {       //not a vowel
 		  t[j] = s[i];
 		  j++;
 	
@@ -39,20 +39,20 @@
 	 
 	#ifdef VAR == 1
 		
-	#define PARAM8978507 char c
+	#define PARAM1377543 char c
 	
 #else
-	#define PARAM8978507 ""
+	#define PARAM1377543 ""
 #endif
-int  check_vowel(PARAM8978507){
+int  check_vowel(PARAM1377543){
 	
 	#ifdef VAR == 2
-		#define VAR9781068 case 'a':  
+		#define VAR3770427 case 'a':  
 	#else
-		#define VAR9781068 ""
+		#define VAR3770427 ""
 	#endif
 	switch (c){
-		VAR9781068
+		VAR3770427
 
 		case 'A':
 		case 'e':

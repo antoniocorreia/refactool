@@ -15,18 +15,18 @@ int main()
 	strcpy(b,a);
 	strrev(b);
 	
- int var0210355 =  (strcmp(a,b) == 0);
+ int var4272018 =  (strcmp(a,b) == 0);
 	#ifdef  VAR ==1
-		if(var0210355){
+		if(var4272018){
 
 		printf("Entered string is a palindrome.\n");
 	
 		}
-		var0210355 = !(var0210355);
+		var4272018 = !(var4272018);
 	#else
-		var0210355 = 1;
+		var4272018 = 1;
 	#endif
-	if(var0210355){
+	if(var4272018){
 
 		printf("Entered string is not a palindrome.\n");
 	

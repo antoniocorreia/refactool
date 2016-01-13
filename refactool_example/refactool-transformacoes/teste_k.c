@@ -12,11 +12,11 @@ int main()
     while(num1!=num2)
     {
 
-	int var5381738 = 1;
+	int var7396271 = 1;
 	#ifdef VAR == 2        
-		var5381738 = (num1>num2)            num1-=num2;        else;
+		var7396271 = (num1>num2)            num1-=num2;        else;
 	#endif
-	if (var5381738) {
+	if (var7396271) {
 		//lines of code
 	
 	}
@@ -24,16 +24,16 @@ int main()
 
 	#ifdef VAR == 1
 		
-	#define PARAM5382735 int var5382735 = (x == 1);
+	#define PARAM7397265 int var7397265 = (x == 1);
 	#else
-		int var5382735 = (x == 2);
+		int var7397265 = (x == 2);
 	
 #else
-	#define PARAM5382735 ""
+	#define PARAM7397265 ""
 #endif
-int  var5381738 = 1;
+int  var7396271 = 1;
 	#ifdef VAR == 1
-		var5381738 =  (PARAM5382735){
+		var7396271 =  (PARAM7397265){
 	
 		x++;
 	

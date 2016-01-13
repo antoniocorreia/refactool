@@ -7,11 +7,11 @@ int main()
 	int x = 1;
 	int y = 2;
 
-	int var5082936 = 1;
+	int var7064438 = 1;
 	#ifdef VAR == 1
-		var5082936 =  (x == 1);
+		var7064438 =  (x == 1);
 	#endif
-	if (var5082936) {
+	if (var7064438) {
 		x++;
 	
 	}
@@ -24,16 +24,16 @@ int main()
     while(num1!=num2)
     {
 	#ifdef  VAR == 2        
-		if(var5082936){
+		if(var7064438){
 
 		num1-=num2;
         
 		}
-		var5082936 = !(var5082936);
+		var7064438 = !(var7064438);
 	#else
-		var5082936 = 1;
+		var7064438 = 1;
 	#endif
-	if(var5082936){
+	if(var7064438){
 
             num2-=num1;
 		
@@ -46,14 +46,14 @@ int main()
 	
 	
 	
-	#define PARAM5084939 int var5083938 = (x==4);
+	#define PARAM0706644 int var0706644 = (x==4);
 	#ifdef VAR==5
-		var5083938 = var5083938 && y==6;
+		var0706644 = var0706644 && y==6;
 	
 #else
-	#define PARAM5084939 ""
+	#define PARAM0706644 ""
 #endif
-int  var5082936 = (PARAM5084939){
+int  var7064438 = (PARAM0706644){
 	
 		y = y + 1;
 	

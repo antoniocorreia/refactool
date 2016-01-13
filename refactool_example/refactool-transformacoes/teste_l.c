@@ -10,12 +10,12 @@ int main()
     printf("Enter two operands: ");
     scanf("%f%f",&num1,&num2);
     #ifdef VAR == 64
-		#define VAR6336691 case '+':             printf("%.1f + %.1f = %.1f",num1, num2, num1+num2);             break;  
+		#define VAR0859285 case '+':             printf("%.1f + %.1f = %.1f",num1, num2, num1+num2);             break;  
 	#else
-		#define VAR6336691 ""
+		#define VAR0859285 ""
 	#endif
 	switch (o){
-		VAR6336691
+		VAR0859285
 
         case '-':
             printf("%.1f - %.1f = %.1f",num1, num2, num1-num2);
@@ -35,11 +35,11 @@ int main()
     }
     return 0;
 	
-	int var6337696 = (num1==4);
+	int var0859285 = (num1==4);
 	#ifdef VAR==5
-		var6337696 = var6337696 && num2==6;
+		var0859285 = var0859285 && num2==6;
 	#endif
-	if(var6337696){
+	if(var0859285){
 		num2 = num2 + 1;
 	}
 }

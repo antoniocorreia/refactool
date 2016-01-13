@@ -3,11 +3,11 @@
 
 int function1(int x){
 
-    int var3782142 = 1;
+    int var5683413 = 1;
 	#ifdef VAR == 1
-		var3782142 =  (x == 1);
+		var5683413 =  (x == 1);
 	#endif
-	if (var3782142) {
+	if (var5683413) {
 		x++;
 	
 	}
@@ -25,18 +25,18 @@ main()
 	x = function1(x);
 
 	#ifdef VAR == 1
-		int var3782142 = (x == 1);
+		int var5683413 = (x == 1);
 	#else
 		#ifdef VAR == 1
 		
-	#define PARAM3782142 int var3782142 = (z == 1);
+	#define PARAM5683413 int var5683413 = (z == 1);
 	#else
-		int var3782142 = (z == 2);
+		int var5683413 = (z == 2);
 	
 #else
-	#define PARAM3782142 ""
+	#define PARAM5683413 ""
 #endif
-int  var3782142 = (PARAM3782142){
+int  var5683413 = (PARAM5683413){
 	
 		z++;
 	
