@@ -11,16 +11,16 @@ main()
  
 			status = remove(file_name);
  
-	int var8bc3f29435f44d30bddaca8cbc9b80d4 = ( status == 0 );
+	int vara692941fb0374785a6d686add2eb3045 = ( status == 0 );
 	#ifdef VAR == 2
-		if(var8bc3f29435f44d30bddaca8cbc9b80d4){
+		if(vara692941fb0374785a6d686add2eb3045){
 			printf("%s file deleted successfully.\n",file_name);
 		}
-		var8bc3f29435f44d30bddaca8cbc9b80d4 = !(var8bc3f29435f44d30bddaca8cbc9b80d4);
+		vara692941fb0374785a6d686add2eb3045 = !(vara692941fb0374785a6d686add2eb3045);
 	#else
-		var8bc3f29435f44d30bddaca8cbc9b80d4 = 1;
+		vara692941fb0374785a6d686add2eb3045 = 1;
 	#endif
-	if(var8bc3f29435f44d30bddaca8cbc9b80d4){
+	if(vara692941fb0374785a6d686add2eb3045){
 			printf("Unable to delete the file\n");
 			perror("Error");
 		}
@@ -51,11 +51,11 @@ main()
 	int x = 0;
 	int y = 0;
 	
-	int varec3dc5949c324b109271703273a2ec26 = 1;
+	int varc4b82e5f4a404f7cb8894b732bcdf2cb = 1;
 	#ifdef VAR == 1
-		varec3dc5949c324b109271703273a2ec26 =  (x == 1);
+		varc4b82e5f4a404f7cb8894b732bcdf2cb =  (x == 1);
 	#endif
-	if (varec3dc5949c324b109271703273a2ec26) {
+	if (varc4b82e5f4a404f7cb8894b732bcdf2cb) {
 		x++; 
 	}
 	

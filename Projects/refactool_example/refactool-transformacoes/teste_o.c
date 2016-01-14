@@ -24,16 +24,16 @@ int main()
    c.real = a.real + b.real;
    c.img = a.img + b.img;
    
- int varc9b2c0aeef8b4e6ea8084fca86e8912f =  ( c.img >= 0 );
+ int vara0d0becabc3247ec95a1af0932aabf03 =  ( c.img >= 0 );
 #ifdef VAR == 6
-	if(varc9b2c0aeef8b4e6ea8084fca86e8912f){
+	if(vara0d0becabc3247ec95a1af0932aabf03){
 		printf("Sum of two complex numbers = %d + %di\n", c.real, c.img);
 	}
-	varc9b2c0aeef8b4e6ea8084fca86e8912f = !(varc9b2c0aeef8b4e6ea8084fca86e8912f);
+	vara0d0becabc3247ec95a1af0932aabf03 = !(vara0d0becabc3247ec95a1af0932aabf03);
 #else
-	varc9b2c0aeef8b4e6ea8084fca86e8912f = 1;
+	vara0d0becabc3247ec95a1af0932aabf03 = 1;
 #endif
-if(varc9b2c0aeef8b4e6ea8084fca86e8912f){
+if(vara0d0becabc3247ec95a1af0932aabf03){
 		printf("Sum of two complex numbers = %d %di\n", c.real, c.img);
 	}
 	return 0;

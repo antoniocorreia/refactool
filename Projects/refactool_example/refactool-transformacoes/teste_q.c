@@ -12,11 +12,11 @@ int main()
     return 0;
 }
 #ifdef VAR == 64
-	#define PARAMc6c6037c458c425d90c6222091dfe8ce int n
+	#define PARAM768e6c9143724659a4eb2bd87e1be8ec int n
 #else
-	#define PARAMc6c6037c458c425d90c6222091dfe8ce ""
+	#define PARAM768e6c9143724659a4eb2bd87e1be8ec ""
 #endif
-int factorial(PARAMc6c6037c458c425d90c6222091dfe8ce){
+int factorial(PARAM768e6c9143724659a4eb2bd87e1be8ec){
     if(n!=1)
      return n*factorial(n-1);
  
@@ -44,9 +44,9 @@ int factorial(PARAMc6c6037c458c425d90c6222091dfe8ce){
 int prime(
 #ifdef VAR == 62
 	#ifdef  VAR == 1
-		#define ELEMSf2ba6182e7834f198fe5aedaf2f7bb7b , 3
+		#define ELEMS6bf42343b4d4413cb3dee4e50ad75ad8 , 3
 	#else
-		#define ELEMSf2ba6182e7834f198fe5aedaf2f7bb7b ""
+		#define ELEMS6bf42343b4d4413cb3dee4e50ad75ad8 ""
 	#endif
 	int n
 #endif
@@ -56,7 +56,7 @@ int prime(
     int id1[] = {
 		1,
 		2
-		ELEMSf2ba6182e7834f198fe5aedaf2f7bb7b
+		ELEMS6bf42343b4d4413cb3dee4e50ad75ad8
 	};
 	
     for(i=2; i<=n/2; ++i)

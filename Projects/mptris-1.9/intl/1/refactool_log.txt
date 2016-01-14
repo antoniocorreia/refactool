@@ -1,0 +1,46 @@
+2016-01-14 04:56:42 O projeto tem 4 arquivo(s) .c
+2016-01-14 04:56:42 localealias.c
+2016-01-14 04:56:50 Refactoring 1 - 0 ocorrência(s)
+2016-01-14 04:56:55 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 04:56:56 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 04:57:04 Refactoring 4 - 0 ocorrência(s)
+2016-01-14 04:57:26 Refactoring 5 - 0 ocorrência(s)
+2016-01-14 04:57:28 Refactoring 6 - 0 ocorrência(s)
+2016-01-14 04:57:39 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 04:57:41 Refactoring 8 - 0 ocorrência(s)
+2016-01-14 04:57:43 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 04:57:43 
+2016-01-14 04:57:43 ngettext.c
+2016-01-14 04:57:43 Refactoring 1 - 0 ocorrência(s)
+2016-01-14 04:57:43 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 04:57:43 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 04:57:43 Refactoring 4 - 0 ocorrência(s)
+2016-01-14 04:57:43 Refactoring 5 - 0 ocorrência(s)
+2016-01-14 04:57:44 Refactoring 6 - 0 ocorrência(s)
+2016-01-14 04:57:44 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 04:57:44 Refactoring 8 - 0 ocorrência(s)
+2016-01-14 04:57:44 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 04:57:44 
+2016-01-14 04:57:44 plural.c
+2016-01-14 05:01:49 Refactoring 1 - 0 ocorrência(s)
+2016-01-14 05:07:21 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 05:07:47 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 05:13:24 Refactoring 4 - 0 ocorrência(s)
+2016-01-14 05:19:04 Refactoring 5 - 0 ocorrência(s)
+2016-01-14 05:19:16 Refactoring 6 - 0 ocorrência(s)
+2016-01-14 05:34:25 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 05:35:16 Refactoring 8 - 0 ocorrência(s)
+2016-01-14 05:36:10 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 05:36:10 
+2016-01-14 05:36:10 textdomain.c
+2016-01-14 05:36:10 Refactoring 1 - 0 ocorrência(s)
+2016-01-14 05:36:11 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 05:36:11 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 05:36:12 Refactoring 4 - 0 ocorrência(s)
+2016-01-14 05:36:13 Refactoring 5 - 0 ocorrência(s)
+2016-01-14 05:36:13 Refactoring 6 - 0 ocorrência(s)
+2016-01-14 05:36:13 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 05:36:14 Refactoring 8 - 0 ocorrência(s)
+2016-01-14 05:36:14 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 05:36:14 
+2016-01-14 05:36:14 Arquivos refatorados e salvos no diretório C:/Users/Antonio/Documents/GitHub/refactool/Projects/mptris-1.9/intl/1/refactool-transformacoes

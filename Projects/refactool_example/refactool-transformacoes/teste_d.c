@@ -3,11 +3,11 @@
 
 int function1(int x){
 
-    int varf4db0536503c4e9f92ca3fa93c63cefa = 1;
+    int var15f6a80f3bd144beace581510c537f7f = 1;
 	#ifdef VAR == 1
-		varf4db0536503c4e9f92ca3fa93c63cefa =  (x == 1);
+		var15f6a80f3bd144beace581510c537f7f =  (x == 1);
 	#endif
-	if (varf4db0536503c4e9f92ca3fa93c63cefa) {
+	if (var15f6a80f3bd144beace581510c537f7f) {
 		x++;
 	}
 
@@ -23,20 +23,20 @@ main()
 	x = function1(x);
 
 	#ifdef VAR == 1
-		int varc9abdaa294f64ac4abe440caaec54412 = (x == 1);
+		int vare210a94c58874d86984a242bdc40fce3 = (x == 1);
 	#else
-		int varc9abdaa294f64ac4abe440caaec54412 = (x == 2);
+		int vare210a94c58874d86984a242bdc40fce3 = (x == 2);
 	#endif
-	if(varc9abdaa294f64ac4abe440caaec54412){
+	if(vare210a94c58874d86984a242bdc40fce3){
 		x++;
 	}
 
 	#ifdef VAR == 1
-		int varde00fc24f3a34885a807f8bdcf95c544 = (z == 1);
+		int var0c88363019a143cf871a543154bb9763 = (z == 1);
 	#else
-		int varde00fc24f3a34885a807f8bdcf95c544 = (z == 2);
+		int var0c88363019a143cf871a543154bb9763 = (z == 2);
 	#endif
-	if(varde00fc24f3a34885a807f8bdcf95c544){
+	if(var0c88363019a143cf871a543154bb9763){
 		z++;
 	}
 

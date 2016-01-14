@@ -17,11 +17,11 @@ main()
 	#endif
 
 
-	int var1272364061c144bc84dd86cac51fb957 = 1;
+	int varc92e41c68b33474b80b03fce75024646 = 1;
 	#ifdef VAR == 1
-		var1272364061c144bc84dd86cac51fb957 =  (x==1);
+		varc92e41c68b33474b80b03fce75024646 =  (x==1);
 	#endif
-	if (var1272364061c144bc84dd86cac51fb957) {
+	if (varc92e41c68b33474b80b03fce75024646) {
 		//lines of code
 	}
 

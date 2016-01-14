@@ -5,11 +5,11 @@ main()
 {
 	int x = 1;
 	int y = 2;
-	int var4c2599824d6243f98226b674fae547fd = 1;
+	int vard05895f8e338470ba8c09b29e362cb30 = 1;
 	#ifdef VAR == 1
-		var4c2599824d6243f98226b674fae547fd =  (x == 1);
+		vard05895f8e338470ba8c09b29e362cb30 =  (x == 1);
 	#endif
-	if (var4c2599824d6243f98226b674fae547fd) {
+	if (vard05895f8e338470ba8c09b29e362cb30) {
 		x++;
 	}
 

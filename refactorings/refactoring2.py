@@ -8,8 +8,7 @@ def est_ref_2(codigo):
     else:        
         return 0
 
-def refactoring_2(codigo):
-    #padrao2 = re.search('(.*)#ifdef ([^#endif]*?)if([^{]*?)#endif(.*?){(.*?)}(.*)',codigo,re.DOTALL)
+def refactoring_2(codigo):    
     padrao2 = re.search('(.*)#ifdef (.*?)(\n+\t*?)if([^{]*?)(\n+\t*?)#endif(\n+\t*?){(.*?)}(.*)',codigo,re.DOTALL)
 
     if padrao2:

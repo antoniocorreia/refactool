@@ -15,11 +15,11 @@
 	  gets(s);
 	 
 	for(i = 0; s[i] != '\0'; i++) {
-	int var0058134c6541487e906998ad79632a37 = 1;
+	int var82561192432547eca40a4c9ab299cad5 = 1;
 	#ifdef VAR == 1
-		var0058134c6541487e906998ad79632a37 = (check_vowel(s[i]) == 0) ;
+		var82561192432547eca40a4c9ab299cad5 = (check_vowel(s[i]) == 0) ;
 	#endif
-	if (var0058134c6541487e906998ad79632a37) {       //not a vowel
+	if (var82561192432547eca40a4c9ab299cad5) {       //not a vowel
 		  t[j] = s[i];
 		  j++;
 	}
@@ -35,18 +35,18 @@
 	}
 	 
 	 #ifdef VAR == 1
-		#define PARAMa9350afe9bdd46df80fc6c3f86981baa char c
+		#define PARAM5254f0f3ef1d48d688dc30a24b93c7e9 char c
 	#else
-		#define PARAMa9350afe9bdd46df80fc6c3f86981baa ""
+		#define PARAM5254f0f3ef1d48d688dc30a24b93c7e9 ""
 	#endif
-	int check_vowel(PARAMa9350afe9bdd46df80fc6c3f86981baa){
+	int check_vowel(PARAM5254f0f3ef1d48d688dc30a24b93c7e9){
 	#ifdef VAR == 2
-		#define var793b3b4f678c41d2a6b1ff4b5e5c6998 case 'a':  
+		#define var25e1c42b39e7467e8bb17b77c60794e3 case 'a':  
 	#else
-		#define var793b3b4f678c41d2a6b1ff4b5e5c6998 ""
+		#define var25e1c42b39e7467e8bb17b77c60794e3 ""
 	#endif
 	switch (c){
-		var793b3b4f678c41d2a6b1ff4b5e5c6998
+		var25e1c42b39e7467e8bb17b77c60794e3
 		case 'A':
 		case 'e':
 		case 'E':

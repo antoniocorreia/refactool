@@ -31,20 +31,20 @@ int main()
 		//lines of code
 	}
 
-	int var2e48dbc123a1427ea60b20a001d1edf7 = 1;
+	int var44f38441658340b8aad02c67ad0c3d1e = 1;
 	#ifdef VAR == 1
-		var2e48dbc123a1427ea60b20a001d1edf7 =  (x == 1);
+		var44f38441658340b8aad02c67ad0c3d1e =  (x == 1);
 	#endif
-	if (var2e48dbc123a1427ea60b20a001d1edf7) {
+	if (var44f38441658340b8aad02c67ad0c3d1e) {
 		x++;
 	}
 
 	#ifdef VAR == 1
-		int var3721f4067e8a48b6a6c06e3305843877 = (x == 1);
+		int var7b18d091c4fd4ca29267ba0affac45bf = (x == 1);
 	#else
-		int var3721f4067e8a48b6a6c06e3305843877 = (x == 2);
+		int var7b18d091c4fd4ca29267ba0affac45bf = (x == 2);
 	#endif
-	if(var3721f4067e8a48b6a6c06e3305843877){
+	if(var7b18d091c4fd4ca29267ba0affac45bf){
 		x++;
 	}
 }

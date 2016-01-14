@@ -1,0 +1,16 @@
+def refactoring_n(codigo):
+	padrao_n = re.search('PADRAO',codigo,re.DOTALL)
+	
+	if padrao_n:
+		#recolhe elementos de interesse
+
+		var_uuid = var_uuid = "var" + str(uuid.uuid4()).replace('-','')
+		
+		codigo_transformado = "CODIGO NOVO GERADO" + codigo_restante
+
+		return refactoring_n(codigo_antes_padrao_n) + codigo_transformado
+	else:        
+		return codigo
+		
+		
+	

@@ -1,52 +1,146 @@
-2016-01-12 13:35:48 O projeto tem 17 arquivo(s) .c
-2016-01-12 13:35:48 bindtextdom.c
-2016-01-12 13:35:49 Refactoring 2 - 0 ocorrência(s)
-2016-01-12 13:35:51 Refactoring 3 - 0 ocorrência(s)
-2016-01-12 13:35:51 dcgettext.c
-2016-01-12 13:35:51 Refactoring 2 - 0 ocorrência(s)
-2016-01-12 13:35:51 Refactoring 3 - 0 ocorrência(s)
-2016-01-12 13:35:51 dcigettext.c
-2016-01-12 13:36:08 Refactoring 2 - 0 ocorrência(s)
-2016-01-12 13:36:49 Refactoring 3 - 1 ocorrência(s)
-2016-01-12 13:36:49 dcngettext.c
-2016-01-12 13:36:49 Refactoring 2 - 0 ocorrência(s)
-2016-01-12 13:36:49 Refactoring 3 - 0 ocorrência(s)
-2016-01-12 13:36:49 dgettext.c
-2016-01-12 13:36:49 Refactoring 2 - 0 ocorrência(s)
-2016-01-12 13:36:50 Refactoring 3 - 0 ocorrência(s)
-2016-01-12 13:36:50 dngettext.c
-2016-01-12 13:36:50 Refactoring 2 - 0 ocorrência(s)
-2016-01-12 13:36:50 Refactoring 3 - 0 ocorrência(s)
-2016-01-12 13:36:50 explodename.c
-2016-01-12 13:36:50 Refactoring 2 - 0 ocorrência(s)
-2016-01-12 13:36:50 Refactoring 3 - 0 ocorrência(s)
-2016-01-12 13:36:50 finddomain.c
-2016-01-12 13:36:51 Refactoring 2 - 0 ocorrência(s)
-2016-01-12 13:36:51 Refactoring 3 - 0 ocorrência(s)
-2016-01-12 13:36:51 gettext.c
-2016-01-12 13:36:52 Refactoring 2 - 0 ocorrência(s)
-2016-01-12 13:36:52 Refactoring 3 - 0 ocorrência(s)
-2016-01-12 13:36:52 intl-compat.c
-2016-01-12 13:36:52 Refactoring 2 - 0 ocorrência(s)
-2016-01-12 13:36:52 Refactoring 3 - 0 ocorrência(s)
-2016-01-12 13:36:52 l10nflist.c
-2016-01-12 13:36:54 Refactoring 2 - 0 ocorrência(s)
-2016-01-12 13:36:56 Refactoring 3 - 0 ocorrência(s)
-2016-01-12 13:36:56 loadmsgcat.c
-2016-01-12 13:36:58 Refactoring 2 - 3 ocorrência(s)
-2016-01-12 13:37:09 Refactoring 3 - 0 ocorrência(s)
-2016-01-12 13:37:09 localcharset.c
-2016-01-12 13:37:09 Refactoring 2 - 0 ocorrência(s)
-2016-01-12 13:37:10 Refactoring 3 - 0 ocorrência(s)
-2016-01-12 13:37:10 localealias.c
-2016-01-12 13:37:12 Refactoring 2 - 0 ocorrência(s)
-2016-01-12 13:37:14 Refactoring 3 - 0 ocorrência(s)
-2016-01-12 13:37:14 ngettext.c
-2016-01-12 13:37:14 Refactoring 2 - 0 ocorrência(s)
-2016-01-12 13:37:14 Refactoring 3 - 0 ocorrência(s)
-2016-01-12 13:37:14 plural.c
-2016-01-12 13:37:34 Refactoring 2 - 0 ocorrência(s)
-2016-01-12 13:45:44 Refactoring 3 - 1 ocorrência(s)
-2016-01-12 13:45:44 textdomain.c
-2016-01-12 13:45:45 Refactoring 2 - 0 ocorrência(s)
-2016-01-12 13:45:45 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 03:37:13 O projeto tem 17 arquivo(s) .c
+2016-01-14 03:37:13 bindtextdom.c
+2016-01-14 03:37:31 Refactoring 1 - 0 ocorrência(s)
+2016-01-14 03:37:34 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 03:37:35 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 03:37:37 Refactoring 4 - 0 ocorrência(s)
+2016-01-14 03:37:39 Refactoring 5 - 0 ocorrência(s)
+2016-01-14 03:37:40 Refactoring 6 - 0 ocorrência(s)
+2016-01-14 03:37:43 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 03:37:46 Refactoring 8 - 0 ocorrência(s)
+2016-01-14 03:37:48 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 03:37:48 
+2016-01-14 03:37:48 dcgettext.c
+2016-01-14 03:37:48 Refactoring 1 - 0 ocorrência(s)
+2016-01-14 03:37:48 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 03:37:49 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 03:37:49 Refactoring 4 - 0 ocorrência(s)
+2016-01-14 03:37:49 Refactoring 5 - 0 ocorrência(s)
+2016-01-14 03:37:49 Refactoring 6 - 0 ocorrência(s)
+2016-01-14 03:37:49 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 03:37:49 Refactoring 8 - 0 ocorrência(s)
+2016-01-14 03:37:49 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 03:37:49 
+2016-01-14 03:37:49 dcigettext.c
+2016-01-14 03:43:46 Refactoring 1 - 0 ocorrência(s)
+2016-01-14 03:46:01 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 03:46:50 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 03:49:17 Refactoring 4 - 0 ocorrência(s)
+2016-01-14 03:53:57 Refactoring 5 - 0 ocorrência(s)
+2016-01-14 03:54:11 Refactoring 6 - 0 ocorrência(s)
+2016-01-14 04:22:52 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 04:24:06 Refactoring 8 - 0 ocorrência(s)
+2016-01-14 04:25:21 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 04:25:21 
+2016-01-14 04:25:21 dcngettext.c
+2016-01-14 04:25:21 Refactoring 1 - 0 ocorrência(s)
+2016-01-14 04:25:21 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 04:25:21 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 04:25:21 Refactoring 4 - 0 ocorrência(s)
+2016-01-14 04:25:22 Refactoring 5 - 0 ocorrência(s)
+2016-01-14 04:25:22 Refactoring 6 - 0 ocorrência(s)
+2016-01-14 04:25:22 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 04:25:22 Refactoring 8 - 0 ocorrência(s)
+2016-01-14 04:25:22 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 04:25:22 
+2016-01-14 04:25:22 dgettext.c
+2016-01-14 04:25:22 Refactoring 1 - 0 ocorrência(s)
+2016-01-14 04:25:22 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 04:25:22 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 04:25:22 Refactoring 4 - 0 ocorrência(s)
+2016-01-14 04:25:23 Refactoring 5 - 0 ocorrência(s)
+2016-01-14 04:25:23 Refactoring 6 - 0 ocorrência(s)
+2016-01-14 04:25:23 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 04:25:23 Refactoring 8 - 0 ocorrência(s)
+2016-01-14 04:25:23 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 04:25:23 
+2016-01-14 04:25:23 dngettext.c
+2016-01-14 04:25:23 Refactoring 1 - 0 ocorrência(s)
+2016-01-14 04:25:23 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 04:25:23 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 04:25:23 Refactoring 4 - 0 ocorrência(s)
+2016-01-14 04:25:24 Refactoring 5 - 0 ocorrência(s)
+2016-01-14 04:25:24 Refactoring 6 - 0 ocorrência(s)
+2016-01-14 04:25:24 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 04:25:24 Refactoring 8 - 0 ocorrência(s)
+2016-01-14 04:25:24 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 04:25:24 
+2016-01-14 04:25:24 explodename.c
+2016-01-14 04:25:25 Refactoring 1 - 0 ocorrência(s)
+2016-01-14 04:25:26 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 04:25:26 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 04:25:27 Refactoring 4 - 0 ocorrência(s)
+2016-01-14 04:25:27 Refactoring 5 - 0 ocorrência(s)
+2016-01-14 04:25:27 Refactoring 6 - 0 ocorrência(s)
+2016-01-14 04:25:28 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 04:25:28 Refactoring 8 - 0 ocorrência(s)
+2016-01-14 04:25:29 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 04:25:29 
+2016-01-14 04:25:29 finddomain.c
+2016-01-14 04:25:32 Refactoring 1 - 0 ocorrência(s)
+2016-01-14 04:25:33 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 04:25:33 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 04:25:34 Refactoring 4 - 0 ocorrência(s)
+2016-01-14 04:25:35 Refactoring 5 - 0 ocorrência(s)
+2016-01-14 04:25:36 Refactoring 6 - 0 ocorrência(s)
+2016-01-14 04:25:39 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 04:25:40 Refactoring 8 - 0 ocorrência(s)
+2016-01-14 04:25:41 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 04:25:41 
+2016-01-14 04:25:41 gettext.c
+2016-01-14 04:25:41 Refactoring 1 - 0 ocorrência(s)
+2016-01-14 04:25:41 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 04:25:41 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 04:25:41 Refactoring 4 - 0 ocorrência(s)
+2016-01-14 04:25:41 Refactoring 5 - 0 ocorrência(s)
+2016-01-14 04:25:41 Refactoring 6 - 0 ocorrência(s)
+2016-01-14 04:25:42 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 04:25:42 Refactoring 8 - 0 ocorrência(s)
+2016-01-14 04:25:42 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 04:25:42 
+2016-01-14 04:25:42 intl-compat.c
+2016-01-14 04:25:42 Refactoring 1 - 0 ocorrência(s)
+2016-01-14 04:25:42 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 04:25:43 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 04:25:43 Refactoring 4 - 0 ocorrência(s)
+2016-01-14 04:25:43 Refactoring 5 - 0 ocorrência(s)
+2016-01-14 04:25:44 Refactoring 6 - 0 ocorrência(s)
+2016-01-14 04:25:45 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 04:25:48 Refactoring 8 - 0 ocorrência(s)
+2016-01-14 04:25:51 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 04:25:51 
+2016-01-14 04:25:51 l10nflist.c
+2016-01-14 04:26:06 Refactoring 1 - 0 ocorrência(s)
+2016-01-14 04:26:08 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 04:26:09 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 04:26:12 Refactoring 4 - 0 ocorrência(s)
+2016-01-14 04:26:25 Refactoring 5 - 0 ocorrência(s)
+2016-01-14 04:26:26 Refactoring 6 - 0 ocorrência(s)
+2016-01-14 04:26:38 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 04:26:42 Refactoring 8 - 0 ocorrência(s)
+2016-01-14 04:26:45 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 04:26:45 
+2016-01-14 04:26:45 loadmsgcat.c
+2016-01-14 04:27:18 Refactoring 1 - 0 ocorrência(s)
+2016-01-14 04:27:47 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 04:27:50 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 04:28:20 Refactoring 4 - 0 ocorrência(s)
+2016-01-14 04:28:49 Refactoring 5 - 0 ocorrência(s)
+2016-01-14 04:28:54 Refactoring 6 - 0 ocorrência(s)
+2016-01-14 04:29:16 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 04:29:22 Refactoring 8 - 0 ocorrência(s)
+2016-01-14 04:29:30 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 04:29:30 
+2016-01-14 04:29:30 localcharset.c
+2016-01-14 04:29:35 Refactoring 1 - 0 ocorrência(s)
+2016-01-14 04:29:36 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 04:29:37 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 04:29:38 Refactoring 4 - 0 ocorrência(s)
+2016-01-14 04:29:41 Refactoring 5 - 0 ocorrência(s)
+2016-01-14 04:29:41 Refactoring 6 - 0 ocorrência(s)
+2016-01-14 04:29:44 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 04:29:45 Refactoring 8 - 0 ocorrência(s)
+2016-01-14 04:29:46 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 04:29:46 
+2016-01-14 04:29:46 localealias.c
+2016-01-14 04:29:57 Refactoring 1 - 0 ocorrência(s)

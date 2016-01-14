@@ -1,11 +1,11 @@
 #include <stdio.h>
 #define VAR 64
 #ifdef VAR == 64
-	#define PARAM458af8d33a1649d98db615402a724983 int x
+	#define PARAMcbae74dea158416d885a994aa58bf389 int x
 #else
-	#define PARAM458af8d33a1649d98db615402a724983 ""
+	#define PARAMcbae74dea158416d885a994aa58bf389 ""
 #endif
-void function(PARAM458af8d33a1649d98db615402a724983){
+void function(PARAMcbae74dea158416d885a994aa58bf389){
 	//lines of code
 };
 
@@ -56,20 +56,20 @@ int main()
 	
 	int z = 1;
 	int w = 2;
-	int var6fcd72fae6074b26bb23812d44a6d1c4 = 1;
+	int var93d0e5c8a7c049dcb625870124f0ae35 = 1;
 	#ifdef z == 1
-		var6fcd72fae6074b26bb23812d44a6d1c4 =  (z == 1);
+		var93d0e5c8a7c049dcb625870124f0ae35 =  (z == 1);
 	#endif
-	if (var6fcd72fae6074b26bb23812d44a6d1c4) {
+	if (var93d0e5c8a7c049dcb625870124f0ae35) {
 		z++; 
 	}
 	
 	#ifdef VAR == 2
-		int var06993223f06a48bf8ad3629c0d7a2182 = (z == 2);
+		int vara3a27a8b9e2c48aa9cc3d4b60700d0b9 = (z == 2);
 	#else
-		int var06993223f06a48bf8ad3629c0d7a2182 = (z == 4);
+		int vara3a27a8b9e2c48aa9cc3d4b60700d0b9 = (z == 4);
 	#endif
-	if(var06993223f06a48bf8ad3629c0d7a2182){
+	if(vara3a27a8b9e2c48aa9cc3d4b60700d0b9){
 		z++;
 	}
 	

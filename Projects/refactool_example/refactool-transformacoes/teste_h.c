@@ -12,32 +12,32 @@ main()
 		//lines of code
 	}
 	
-	int vardf1749bbc4a145a5a132ba2090488893 = 1;
+	int var40a219badde94669be7d5ca850881aeb = 1;
 	#ifdef VAR == 1
-		vardf1749bbc4a145a5a132ba2090488893 =  (x == 1);
+		var40a219badde94669be7d5ca850881aeb =  (x == 1);
 	#endif
-	if (vardf1749bbc4a145a5a132ba2090488893) {
+	if (var40a219badde94669be7d5ca850881aeb) {
 		x++; 
 	}
 	
 	#ifdef VAR == 1
-		int var2f39bb4a7b3443a39407bac29d5b7641 = (x == 1);
+		int varcd176ca21f1249a59c5556e0bc33880a = (x == 1);
 	#else
-		int var2f39bb4a7b3443a39407bac29d5b7641 = (x == 2);
+		int varcd176ca21f1249a59c5556e0bc33880a = (x == 2);
 	#endif
-	if(var2f39bb4a7b3443a39407bac29d5b7641){
+	if(varcd176ca21f1249a59c5556e0bc33880a){
 		x++; 
 	}
 	
 	#ifdef  VAR == 1
-		#define ELEMSf5e21a02b9734dbe9dc8ae4b965a89de , 3
+		#define ELEMSad888c934493482c8f812359e4e19792 , 3
 	#else
-		#define ELEMSf5e21a02b9734dbe9dc8ae4b965a89de ""
+		#define ELEMSad888c934493482c8f812359e4e19792 ""
 	#endif
 	int id1[] = {
 		1,
 		2
-		ELEMSf5e21a02b9734dbe9dc8ae4b965a89de
+		ELEMSad888c934493482c8f812359e4e19792
 	};
 	
 	#ifdef VAR ==1
@@ -47,14 +47,14 @@ main()
 	#endif
 	
 	#ifdef  VAR == 1
-		#define ELEMS5087e2d9386d42d994a78622e79c445b , 3
+		#define ELEMS8cfc098b40574da2b7207e7c34e1b4f7 , 3
 	#else
-		#define ELEMS5087e2d9386d42d994a78622e79c445b ""
+		#define ELEMS8cfc098b40574da2b7207e7c34e1b4f7 ""
 	#endif
 	int id[] = {
 		1,
 		2
-		ELEMS5087e2d9386d42d994a78622e79c445b
+		ELEMS8cfc098b40574da2b7207e7c34e1b4f7
 	};
 }
 

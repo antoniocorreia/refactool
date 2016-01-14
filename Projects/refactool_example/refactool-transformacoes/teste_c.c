@@ -5,12 +5,12 @@ main()
 {
 	int  Grade = 'B';
 	#ifdef VAR == 64
-		#define var065783223c894097829c8d30aeb9262a case 'A' :    printf( "Excellent\n" );    break;  
+		#define var1f2522e315eb49f2a785a26718a858d4 case 'A' :    printf( "Excellent\n" );    break;  
 	#else
-		#define var065783223c894097829c8d30aeb9262a ""
+		#define var1f2522e315eb49f2a785a26718a858d4 ""
 	#endif
 	switch (Grade){
-		var065783223c894097829c8d30aeb9262a
+		var1f2522e315eb49f2a785a26718a858d4
 		case 'B' :
 			printf( "Good\n" );
 			break;

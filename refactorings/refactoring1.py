@@ -2,15 +2,20 @@ import re
 import uuid
 
 def est_ref_1(codigo):
-    padrao1 = re.search('(.*)if \((.*?)\){(.*?)}(\n+\t*?)#ifdef (.*?)(\n+\t*?)else if(.*?){(.*?)}(\n+\t*?)#endif(.*)',codigo,re.DOTALL)
+    padrao1 = re.search("(.*)if \((.*?)\){(.*?)}(\n+\t*?)"+\
+						"#ifdef (.*?)(\n+\t*?)"+\
+						"else if(.*?){(.*?)}(\n+\t*?)"+\
+						"#endif(.*)",codigo,re.DOTALL)
     if padrao1:        
         return 1 + est_ref_1(padrao1.group(1))
     else:        
         return 0
 
 def refactoring_1(codigo):
-    #padrao1 = re.search('(.*)if(.*?){(.*?)}(.*?)#ifdef (.*?)else if(.*?){(.*?)}(.*?)#endif(.*)',codigo,re.DOTALL)
-    padrao1 = re.search('(.*)if \((.*?)\){(.*?)}(\n+\t*?)#ifdef (.*?)(\n+\t*?)else if(.*?){(.*?)}(\n+\t*?)#endif(.*)',codigo,re.DOTALL)
+    padrao1 = re.search("(.*)if \((.*?)\){(.*?)}(\n+\t*?)"+\
+						"#ifdef (.*?)(\n+\t*?)"+\
+						"else if(.*?){(.*?)}(\n+\t*?)"+\
+						"#endif(.*)",codigo,re.DOTALL)
 
     if padrao1:
         condition_1 = "("+padrao1.group(2)+")"
@@ -26,7 +31,12 @@ def refactoring_1(codigo):
         
         var_uuid = "var" + str(uuid.uuid4()).replace('-','')
 
-        codigo_transformado = "int "+ var_uuid +" = " + condition_1 + ";" + idnt_dir + "if ("+ var_uuid +"){" + loc_1 + "}"+idnt_dir+"#ifdef " + expression_1 + idnt +"if(!("+var_uuid+") && " + condition_2 + "){" + loc_2 + "}"+idnt_dir+"#endif" + codigo_restante
+        codigo_transformado = "int "+ var_uuid +" = " + condition_1 + ";" + idnt_dir + \
+								"if ("+ var_uuid +"){" + loc_1 + "}"+idnt_dir+\
+								"#ifdef " + expression_1 + idnt +\
+								"if(!("+var_uuid+") && " + condition_2 + "){" +\
+								loc_2 + "}"+idnt_dir+\
+								"#endif" + codigo_restante
 
         return refactoring_1(codigo_anterior) + codigo_transformado
     else:        

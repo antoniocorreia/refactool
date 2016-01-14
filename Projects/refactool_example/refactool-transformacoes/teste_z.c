@@ -5,9 +5,9 @@
  
 long factorial(int);
  #ifdef VAR == 64
-	#define PARAMe40c787aa5d543fb8d5a7bbad3b1bbba int n
+	#define PARAM9455e4e36904461fa1f668e333c8462c int n
 #else
-	#define PARAMe40c787aa5d543fb8d5a7bbad3b1bbba ""
+	#define PARAM9455e4e36904461fa1f668e333c8462c ""
 #endif
 int main()
 {
@@ -30,7 +30,7 @@ int main()
    return 0;
 }
  
-long factorial(PARAMe40c787aa5d543fb8d5a7bbad3b1bbba){
+long factorial(PARAM9455e4e36904461fa1f668e333c8462c){
    int c;
    long result = 1;
  

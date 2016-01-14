@@ -1,31 +1,35 @@
-2016-01-12 12:08:06 O projeto tem 3 arquivo(s) .c
-2016-01-12 12:08:06 cmdline.c
-2016-01-12 12:08:32 Refactoring 1 - 0 ocorrência(s)
-2016-01-12 12:08:33 Refactoring 2 - 0 ocorrência(s)
-2016-01-12 12:08:33 Refactoring 3 - 0 ocorrência(s)
-2016-01-12 12:08:33 Refactoring 4 - 0 ocorrência(s)
-2016-01-12 12:08:34 Refactoring 5 - 0 ocorrência(s)
-2016-01-12 12:08:34 Refactoring 6 - 0 ocorrência(s)
-2016-01-12 12:08:34 Refactoring 7 - 0 ocorrência(s)
-2016-01-12 12:11:58 Refactoring 8 - 0 ocorrência(s)
-2016-01-12 12:12:44 Refactoring 9 - 0 ocorrência(s)
-2016-01-12 12:12:44 tris.c
-2016-01-12 12:15:40 Refactoring 1 - 0 ocorrência(s)
-2016-01-12 12:15:41 Refactoring 2 - 0 ocorrência(s)
-2016-01-12 12:15:42 Refactoring 3 - 0 ocorrência(s)
-2016-01-12 12:15:42 Refactoring 4 - 0 ocorrência(s)
-2016-01-12 12:15:43 Refactoring 5 - 0 ocorrência(s)
-2016-01-12 12:15:43 Refactoring 6 - 0 ocorrência(s)
-2016-01-12 12:15:43 Refactoring 7 - 0 ocorrência(s)
-2016-01-12 12:16:02 Refactoring 8 - 0 ocorrência(s)
-2016-01-12 12:21:03 Refactoring 9 - 0 ocorrência(s)
-2016-01-12 12:21:03 ui-textmode.c
-2016-01-12 12:29:01 Refactoring 1 - 0 ocorrência(s)
-2016-01-12 12:29:02 Refactoring 2 - 0 ocorrência(s)
-2016-01-12 12:29:09 Refactoring 3 - 0 ocorrência(s)
-2016-01-12 12:29:09 Refactoring 4 - 0 ocorrência(s)
-2016-01-12 12:29:10 Refactoring 5 - 0 ocorrência(s)
-2016-01-12 12:29:10 Refactoring 6 - 0 ocorrência(s)
-2016-01-12 12:29:10 Refactoring 7 - 0 ocorrência(s)
-2016-01-12 12:30:51 Refactoring 8 - 0 ocorrência(s)
-2016-01-12 13:27:10 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 03:36:04 O projeto tem 3 arquivo(s) .c
+2016-01-14 03:36:04 cmdline.c
+2016-01-14 03:36:04 Refactoring 1 - 0 ocorrência(s)
+2016-01-14 03:36:04 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 03:36:04 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 03:36:05 Refactoring 4 - 0 ocorrência(s)
+2016-01-14 03:36:05 Refactoring 5 - 0 ocorrência(s)
+2016-01-14 03:36:05 Refactoring 6 - 0 ocorrência(s)
+2016-01-14 03:36:05 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 03:36:05 Refactoring 8 - 0 ocorrência(s)
+2016-01-14 03:36:05 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 03:36:05 
+2016-01-14 03:36:05 tris.c
+2016-01-14 03:36:06 Refactoring 1 - 0 ocorrência(s)
+2016-01-14 03:36:07 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 03:36:07 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 03:36:08 Refactoring 4 - 0 ocorrência(s)
+2016-01-14 03:36:08 Refactoring 5 - 0 ocorrência(s)
+2016-01-14 03:36:09 Refactoring 6 - 0 ocorrência(s)
+2016-01-14 03:36:39 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 03:36:40 Refactoring 8 - 0 ocorrência(s)
+2016-01-14 03:36:41 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 03:36:41 
+2016-01-14 03:36:41 ui-textmode.c
+2016-01-14 03:36:44 Refactoring 1 - 0 ocorrência(s)
+2016-01-14 03:36:45 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 03:36:46 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 03:36:47 Refactoring 4 - 0 ocorrência(s)
+2016-01-14 03:36:48 Refactoring 5 - 0 ocorrência(s)
+2016-01-14 03:36:49 Refactoring 6 - 0 ocorrência(s)
+2016-01-14 03:36:51 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 03:36:53 Refactoring 8 - 0 ocorrência(s)
+2016-01-14 03:36:54 Refactoring 9 - 0 ocorrência(s)
+2016-01-14 03:36:54 
+2016-01-14 03:36:54 Arquivos refatorados e salvos no diretório C:/Users/Antonio/Documents/GitHub/refactool/Projects/mptris-1.9/src/refactool-transformacoes
