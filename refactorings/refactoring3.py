@@ -14,10 +14,10 @@ def refactoring_3(codigo):
     if padrao3:
         var = padrao3.group(2).replace('\n','').replace('\t','').replace(' ','')
         expression_1 = padrao3.group(4).replace('\n','').replace('\t','')
-        VALUE = padrao3.group(5).replace('\n','').replace('\t','')
-        commands = padrao3.group(6).replace('\n',' ').replace('\t',' ')
+        VALUE = padrao3.group(6).replace('\n','').replace('\t','')
+        commands = padrao3.group(7).replace('\n',' ').replace('\t',' ')
         codigo_anterior =  padrao3.group(1)
-        codigo_restante = padrao3.group(7)
+        codigo_restante = padrao3.group(8)
 
         idnt = padrao3.group(5)
         idnt_dir = padrao3.group(3)
