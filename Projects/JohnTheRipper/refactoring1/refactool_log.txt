@@ -1,0 +1,5 @@
+2016-01-14 09:53:08 O projeto tem 1 arquivo(s) .c
+2016-01-14 09:53:08 opencl-autotune-1.h
+2016-01-14 09:53:11 Refactoring 1 - 1 ocorrência(s)
+2016-01-14 09:53:13 
+2016-01-14 09:53:13 Arquivos refatorados e salvos no diretório C:/Users/Antonio/Documents/GitHub/refactool/Projects/JohnTheRipper/refactoring1/refactool-transformacoes

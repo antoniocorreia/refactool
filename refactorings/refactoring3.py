@@ -22,7 +22,7 @@ def refactoring_3(codigo):
         idnt = padrao3.group(5)
         idnt_dir = padrao3.group(3)
         
-        var_uuid = "var" + str(uuid.uuid4()).replace('-','')
+        var_uuid = "CASE" + str(uuid.uuid4()).replace('-','')
         
         codigo_transformado = "#ifdef " + expression_1 + idnt + "#define " + var_uuid + " case " + VALUE + ":" + commands + idnt_dir +"#else" + idnt + "#define " + var_uuid + " \"\"" + idnt_dir + "#endif"+ idnt_dir +"switch " + var + "{" + idnt + var_uuid + codigo_restante
 

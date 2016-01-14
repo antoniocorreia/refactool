@@ -1,0 +1,2 @@
+2016-01-14 14:24:39 O projeto tem 26 arquivo(s) .c
+2016-01-14 14:24:39 dynamic_fmt-11.c

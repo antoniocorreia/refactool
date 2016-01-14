@@ -31,20 +31,18 @@ int main()
 		//lines of code
 	}
 
-	int var44f38441658340b8aad02c67ad0c3d1e = 1;
 	#ifdef VAR == 1
-		var44f38441658340b8aad02c67ad0c3d1e =  (x == 1);
+		if (x == 1)
 	#endif
-	if (var44f38441658340b8aad02c67ad0c3d1e) {
+	{
 		x++;
 	}
 
 	#ifdef VAR == 1
-		int var7b18d091c4fd4ca29267ba0affac45bf = (x == 1);
+		if (x == 1){
 	#else
-		int var7b18d091c4fd4ca29267ba0affac45bf = (x == 2);
+		if (x == 2){
 	#endif
-	if(var7b18d091c4fd4ca29267ba0affac45bf){
 		x++;
 	}
 }

@@ -1,0 +1,5 @@
+Para o refactoring 1 modificamos o padrão para conter chaves e obtivemos o match e a transformação correta.
+
+Para o refactoring 2 nosso padrão deveria casar com o arquivo 13, ele casou, mas transformou errado, foi feita
+uma correção no padrão e então o mesmo reconheceu corretamente o caso. O resto os padrões aparecem sem chaves
+podemos testar modificar um. Também deveria casar com o 12, aconteceu a mesma coisa, ele pega a expression_1 errada.

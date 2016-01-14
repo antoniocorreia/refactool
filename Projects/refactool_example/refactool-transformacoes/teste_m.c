@@ -1,11 +1,11 @@
 #include <stdio.h>
 #define VAR 64
+
+void function(
 #ifdef VAR == 64
-	#define PARAMcbae74dea158416d885a994aa58bf389 int x
-#else
-	#define PARAMcbae74dea158416d885a994aa58bf389 ""
+	int x
 #endif
-void function(PARAMcbae74dea158416d885a994aa58bf389){
+){
 	//lines of code
 };
 
@@ -56,20 +56,18 @@ int main()
 	
 	int z = 1;
 	int w = 2;
-	int var93d0e5c8a7c049dcb625870124f0ae35 = 1;
 	#ifdef z == 1
-		var93d0e5c8a7c049dcb625870124f0ae35 =  (z == 1);
+		if (z == 1)
 	#endif
-	if (var93d0e5c8a7c049dcb625870124f0ae35) {
+	{
 		z++; 
 	}
 	
 	#ifdef VAR == 2
-		int vara3a27a8b9e2c48aa9cc3d4b60700d0b9 = (z == 2);
+		if (z == 2){
 	#else
-		int vara3a27a8b9e2c48aa9cc3d4b60700d0b9 = (z == 4);
+		if (z == 4){
 	#endif
-	if(vara3a27a8b9e2c48aa9cc3d4b60700d0b9){
 		z++;
 	}
 	

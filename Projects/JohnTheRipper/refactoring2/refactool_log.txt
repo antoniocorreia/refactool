@@ -1,0 +1,80 @@
+2016-01-14 10:46:16 O projeto tem 26 arquivo(s) .c
+2016-01-14 10:46:16 bench-1.c
+2016-01-14 10:49:30 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 10:49:30 
+2016-01-14 10:49:30 bench-2.c
+2016-01-14 10:52:49 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 10:52:49 
+2016-01-14 10:52:49 bench-3.c
+2016-01-14 10:56:09 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 10:56:09 
+2016-01-14 10:56:09 bench-4.c
+2016-01-14 10:59:29 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 10:59:29 
+2016-01-14 10:59:29 example1.c
+2016-01-14 10:59:29 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 10:59:29 
+2016-01-14 10:59:29 example10.c
+2016-01-14 10:59:29 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 10:59:29 
+2016-01-14 10:59:29 example11.c
+2016-01-14 10:59:29 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 10:59:29 
+2016-01-14 10:59:29 example12.c
+2016-01-14 10:59:29 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 10:59:29 
+2016-01-14 10:59:29 example13.c
+2016-01-14 10:59:29 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 10:59:29 
+2016-01-14 10:59:29 example2.c
+2016-01-14 10:59:29 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 10:59:29 
+2016-01-14 10:59:29 example3.c
+2016-01-14 10:59:29 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 10:59:29 
+2016-01-14 10:59:29 example4.c
+2016-01-14 10:59:29 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 10:59:29 
+2016-01-14 10:59:29 example5.c
+2016-01-14 10:59:30 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 10:59:30 
+2016-01-14 10:59:30 example6.c
+2016-01-14 10:59:30 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 10:59:30 
+2016-01-14 10:59:30 example7.c
+2016-01-14 10:59:30 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 10:59:30 
+2016-01-14 10:59:30 example8.c
+2016-01-14 10:59:30 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 10:59:30 
+2016-01-14 10:59:30 example9.c
+2016-01-14 10:59:30 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 10:59:30 
+2016-01-14 10:59:30 formats-5.c
+2016-01-14 11:04:12 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 11:04:12 
+2016-01-14 11:04:12 formats-6.c
+2016-01-14 11:08:55 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 11:08:55 
+2016-01-14 11:08:55 john-10.c
+2016-01-14 11:31:54 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 11:31:54 
+2016-01-14 11:31:54 john-11.c
+2016-01-14 11:54:47 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 11:54:47 
+2016-01-14 11:54:47 john-9.c
+2016-01-14 12:18:16 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 12:18:16 
+2016-01-14 12:18:16 pp-8.c
+2016-01-14 12:28:57 Refactoring 2 - 0 ocorrência(s)
+2016-01-14 12:28:57 
+2016-01-14 12:28:57 signals-12.c
+2016-01-14 12:28:58 Refactoring 2 - 2 ocorrência(s)
+2016-01-14 12:28:58 
+2016-01-14 12:28:58 truecrypt_fmt_plug-13.c
+2016-01-14 12:29:31 Refactoring 2 - 1 ocorrência(s)
+2016-01-14 12:30:04 
+2016-01-14 12:30:04 wordlist-7.c
+2016-01-14 12:30:34 Refactoring 2 - 1 ocorrência(s)
+2016-01-14 12:31:05 
+2016-01-14 12:31:05 Arquivos refatorados e salvos no diretório C:/Users/Antonio/Documents/GitHub/refactool/Projects/JohnTheRipper/refactoring2/refactool-transformacoes

@@ -13,12 +13,12 @@ int main ()
  
 	while (s[c] != '\0') {
 		ch = s[c];
-		int varc52aac2c871d42dd8e4c98cc76bc1443 = (ch >= 'A' && ch <= 'Z');
-		if (varc52aac2c871d42dd8e4c98cc76bc1443){
+		int varff2f119576a64fb9a0abf0367d88e0b6 = (ch >= 'A' && ch <= 'Z');
+		if (varff2f119576a64fb9a0abf0367d88e0b6){
 			s[c] = s[c] + 32;
 		}
 		#ifdef VAR == 1
-		if(!(varc52aac2c871d42dd8e4c98cc76bc1443) &&  (ch >= 'a' && ch <= 'z')){
+		if(!(varff2f119576a64fb9a0abf0367d88e0b6) &&  (ch >= 'a' && ch <= 'z')){
 			s[c] = s[c] - 32;   
 		c++;   
 		}

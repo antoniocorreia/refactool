@@ -1,0 +1,14 @@
+2016-01-14 15:12:11 O projeto tem 4 arquivo(s) .c
+2016-01-14 15:12:11 teste_a.c
+2016-01-14 15:12:11 Refactoring 1 - 1 ocorrência(s)
+2016-01-14 15:12:11 
+2016-01-14 15:12:11 teste_r.c
+2016-01-14 15:12:11 Refactoring 1 - 1 ocorrência(s)
+2016-01-14 15:12:11 
+2016-01-14 15:12:11 teste_w.c
+2016-01-14 15:12:11 Refactoring 1 - 1 ocorrência(s)
+2016-01-14 15:12:11 
+2016-01-14 15:12:11 teste_y.c
+2016-01-14 15:12:11 Refactoring 1 - 1 ocorrência(s)
+2016-01-14 15:12:11 
+2016-01-14 15:12:11 Arquivos refatorados e salvos no diretório C:/Users/Antonio/Documents/GitHub/refactool/Projects/improvements_ref1/refactool-transformacoes

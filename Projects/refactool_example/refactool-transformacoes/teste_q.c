@@ -11,12 +11,12 @@ int main()
     printf("Factorial of %d = %ld", n, factorial(n));
     return 0;
 }
+
+int factorial(
 #ifdef VAR == 64
-	#define PARAM768e6c9143724659a4eb2bd87e1be8ec int n
-#else
-	#define PARAM768e6c9143724659a4eb2bd87e1be8ec ""
+	int n
 #endif
-int factorial(PARAM768e6c9143724659a4eb2bd87e1be8ec){
+){
     if(n!=1)
      return n*factorial(n-1);
  
@@ -43,20 +43,16 @@ int factorial(PARAM768e6c9143724659a4eb2bd87e1be8ec){
 
 int prime(
 #ifdef VAR == 62
-	#ifdef  VAR == 1
-		#define ELEMS6bf42343b4d4413cb3dee4e50ad75ad8 , 3
-	#else
-		#define ELEMS6bf42343b4d4413cb3dee4e50ad75ad8 ""
-	#endif
 	int n
 #endif
 )      /* Function to check prime number */
 {
     int i, flag=1;
-    int id1[] = {
-		1,
+    int id1[] = {1,
 		2
-		ELEMS6bf42343b4d4413cb3dee4e50ad75ad8
+	#ifdef VAR == 1
+		,3
+	#endif
 	};
 	
     for(i=2; i<=n/2; ++i)

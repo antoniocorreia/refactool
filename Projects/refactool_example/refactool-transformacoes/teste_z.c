@@ -4,11 +4,7 @@
 //Pascal triangle in c
  
 long factorial(int);
- #ifdef VAR == 64
-	#define PARAM9455e4e36904461fa1f668e333c8462c int n
-#else
-	#define PARAM9455e4e36904461fa1f668e333c8462c ""
-#endif
+ 
 int main()
 {
    int i, n, c;
@@ -30,7 +26,11 @@ int main()
    return 0;
 }
  
-long factorial(PARAM9455e4e36904461fa1f668e333c8462c){
+long factorial(
+#ifdef VAR == 64
+	int n
+#endif
+){
    int c;
    long result = 1;
  

@@ -1,0 +1,20 @@
+2016-01-14 13:20:47 O projeto tem 6 arquivo(s) .c
+2016-01-14 13:20:47 example1.c
+2016-01-14 13:20:47 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 13:20:47 
+2016-01-14 13:20:47 example2.c
+2016-01-14 13:20:47 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 13:20:47 
+2016-01-14 13:20:47 example3.c
+2016-01-14 13:20:47 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 13:20:47 
+2016-01-14 13:20:47 SIPdump-1.c
+2016-01-14 13:21:02 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 13:21:02 
+2016-01-14 13:21:02 SIPdump-2.c
+2016-01-14 13:21:18 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 13:21:18 
+2016-01-14 13:21:18 SIPdump-3.c
+2016-01-14 13:21:33 Refactoring 3 - 0 ocorrência(s)
+2016-01-14 13:21:33 
+2016-01-14 13:21:33 Arquivos refatorados e salvos no diretório C:/Users/Antonio/Documents/GitHub/refactool/Projects/JohnTheRipper/refactoring3/refactool-transformacoes

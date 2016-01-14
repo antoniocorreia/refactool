@@ -9,13 +9,12 @@ int main()
     scanf("%c",&o);
     printf("Enter two operands: ");
     scanf("%f%f",&num1,&num2);
-    #ifdef VAR == 64
-		#define varb2cc1ea7702844fbabfaf7dff340bada case '+':             printf("%.1f + %.1f = %.1f",num1, num2, num1+num2);             break;  
-	#else
-		#define varb2cc1ea7702844fbabfaf7dff340bada ""
+    switch(o) {
+	#ifdef VAR == 64
+		case '+':
+            printf("%.1f + %.1f = %.1f",num1, num2, num1+num2);
+            break;
 	#endif
-	switch (o){
-		varb2cc1ea7702844fbabfaf7dff340bada
         case '-':
             printf("%.1f - %.1f = %.1f",num1, num2, num1-num2);
             break;
@@ -34,11 +33,11 @@ int main()
     }
     return 0;
 	
-	int var14ad5110e63043918d47ed41a9289871 = (num1==4);
+	if (num1==4
 	#ifdef VAR==5
-		var14ad5110e63043918d47ed41a9289871 = var14ad5110e63043918d47ed41a9289871 && num2==6;
+		&& num2==6
 	#endif
-	if(var14ad5110e63043918d47ed41a9289871){
+	){
 		num2 = num2 + 1;
 	}
 }

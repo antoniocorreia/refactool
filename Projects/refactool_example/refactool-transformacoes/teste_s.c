@@ -19,12 +19,12 @@ int main()
  
 	return 0;
 }
- #ifdef VAR == 1
-	#define PARAM0fc17933d97f411caf6c11153f421162 char *s
-#else
-	#define PARAM0fc17933d97f411caf6c11153f421162 ""
+ 
+void sort_string(
+#ifdef VAR == 1
+	char *s
 #endif
-void sort_string(PARAM0fc17933d97f411caf6c11153f421162){
+){
 	int c, d = 0, length;
 	char *pointer, *result, ch;
  
@@ -38,11 +38,10 @@ void sort_string(PARAM0fc17933d97f411caf6c11153f421162){
 	{
 		for ( c = 0 ; c < length ; c++ )
 		{
-		int vara20bbc02066049c39b5f2ace3054580c = 1;
 		#ifdef VAR == 1
-			vara20bbc02066049c39b5f2ace3054580c =  ( *pointer == ch );
+			if ( *pointer == ch )
 		#endif
-		if (vara20bbc02066049c39b5f2ace3054580c) {
+			{
 				*(result+d) = *pointer;
 				d++;
 			}

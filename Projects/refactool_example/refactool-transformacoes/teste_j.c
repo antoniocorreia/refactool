@@ -7,10 +7,10 @@ int main()
 	int x = 1;
 	int y = 2;
 
-	int var0bc29b64875848b3a06bd79ecc4efde5 = 1;
-	int var6d0a366599cc4a7c9f5395358af1f061 =  (var0bc29b64875848b3a06bd79ecc4efde5) ;
-	#ifdef VAR == 1var0bc29b64875848b3a06bd79ecc4efde5 =  (x == 1);#endif
-	if(var6d0a366599cc4a7c9f5395358af1f061){
+	#ifdef VAR == 1
+		if (x == 1)
+	#endif
+	{
 		x++;
 	}
 	
@@ -23,12 +23,9 @@ int main()
 	#ifdef VAR == 2
         if(num1>num2){
 		num1-=num2;
-        }
-	var6d0a366599cc4a7c9f5395358af1f061 = !(var6d0a366599cc4a7c9f5395358af1f061);
-	#else
-	var6d0a366599cc4a7c9f5395358af1f061 = 1;
+        } else
 	#endif
-	if(var6d0a366599cc4a7c9f5395358af1f061){
+		{
             num2-=num1;
 		}
     }
@@ -37,11 +34,11 @@ int main()
 	
 	
 	
-	int var78b33f691ad14e4c8efd5dee827cf32b = (x==4);
+	if (x==4
 	#ifdef VAR==5
-		var78b33f691ad14e4c8efd5dee827cf32b = var78b33f691ad14e4c8efd5dee827cf32b && y==6;
+		&& y==6
 	#endif
-	if(var78b33f691ad14e4c8efd5dee827cf32b){
+	){
 		y = y + 1;
 	}
 }

@@ -11,16 +11,12 @@ main()
  
 			status = remove(file_name);
  
-	int vara692941fb0374785a6d686add2eb3045 = ( status == 0 );
 	#ifdef VAR == 2
-		if(vara692941fb0374785a6d686add2eb3045){
+		if( status == 0 ){
 			printf("%s file deleted successfully.\n",file_name);
-		}
-		vara692941fb0374785a6d686add2eb3045 = !(vara692941fb0374785a6d686add2eb3045);
-	#else
-		vara692941fb0374785a6d686add2eb3045 = 1;
+		}else
 	#endif
-	if(vara692941fb0374785a6d686add2eb3045){
+		{
 			printf("Unable to delete the file\n");
 			perror("Error");
 		}
@@ -51,19 +47,20 @@ main()
 	int x = 0;
 	int y = 0;
 	
-	int varc4b82e5f4a404f7cb8894b732bcdf2cb = 1;
 	#ifdef VAR == 1
-		varc4b82e5f4a404f7cb8894b732bcdf2cb =  (x == 1);
+		if (x == 1)
 	#endif
-	if (varc4b82e5f4a404f7cb8894b732bcdf2cb) {
+	{
 		x++; 
 	}
 	
+	return x
 	#ifdef VAR == 1
-		return x && y;
+		&& y
 	#else
-		return x && z;
+		&& z
 	#endif
+	;
 	
 	
 }

@@ -11,7 +11,7 @@ main()
 		//lines of code 1
 	}
 	#ifdef VAR == 1
-		 else if(x == 2){
+		else if(x == 2){
 			//lines of code 2
 		}
 	#endif
