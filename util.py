@@ -11,19 +11,19 @@ padrao_tipos_c = "(int|void|char|unsigned char|signed char|unsigned int|signed i
 def est_ref(codigo,ref):
     
     if ref == 1:
-        padrao = re.search('(.*)if(.*?){(.*?)}(.*?)#ifdef (.*?)else if(.*?){(.*?)}(.*?)#endif(.*)',codigo,re.DOTALL)
+        padrao = re.search('(.*)if \((.*?)\){(.*?)}(\n+\t*?)#ifdef (.*?)(\n+\t*?)else if(.*?){(.*?)}(\n+\t*?)#endif(.*)',codigo,re.DOTALL)
     elif ref == 2:
-        padrao = re.search('(.*)#ifdef ([^#endif]*?)if([^{]*?)#endif(.*?){(.*?)}(.*)',codigo,re.DOTALL)
+        padrao = re.search('(.*)#ifdef (.*?)(\n+\t*?)if([^{]*?)(\n+\t*?)#endif(\n+\t*?){(.*?)}(.*)',codigo,re.DOTALL)
     elif ref == 3:
-        padrao = re.search('(.*)switch(.*?){(.*?)#ifdef (.*?)case (.*?):(.*?)#endif(.*)',codigo,re.DOTALL)
+        padrao = re.search('(.*)switch(.*?){(\n+\t*?)#ifdef (.*?)(\n+\t*?)case (.*?):(.*?)#endif(.*)',codigo,re.DOTALL)
     elif ref == 4:
-        padrao = re.match('(.*)#ifdef (.*?)if (.*?){(.*?)#else(.*?)if (.*?){(.*?)#endif(.*)',codigo,re.DOTALL)
+        padrao = re.search('(.*)#ifdef (.*?)(\n+\t*?)if (.*?){(\n+\t*?)#else(\n+\t*)if (.*?){(\n+\t*?)#endif(.*)',codigo,re.DOTALL)
     elif ref == 5:
-        padrao = re.search('(.*)#ifdef([^else]*?)if(.*?){(.*?)}([^#]*?)else(.*?)#endif(.*?){(.*?)}(.*)',codigo,re.DOTALL)
+        padrao = re.search('(.*)#ifdef (.*?)(\n+\t*?)if(.*?){(.*?)}([^#]*?)else(\n+\t*?)#endif(\n+\t*?){(.*?)}(.*)',codigo,re.DOTALL)
     elif ref == 6:
-        padrao = re.match('(.*)if(.*?)\(([^)]*?)#ifdef (.*?)&& (.*?)#endif(.*?){(.*)',codigo,re.DOTALL)
+        padrao = re.search('(.*)if \(([^)]*?)(\n+\t*?)#ifdef (.*?)(\n+\t*?)&& (.*?)(\n+\t*?)#endif(\n+\t*?)\){(.*)',codigo,re.DOTALL)
     elif ref == 7:
-        padrao = re.match('(.*)return (.*?)#ifdef (.*?)&&(.*?)#else(.*?)&&(.*?)#endif(.*?);(.*)',codigo,re.DOTALL)
+        padrao = re.search('(.*)return (.*?)(\n+\t*?)#ifdef (.*?)(\n+\t*?)&& (.*?)(\n+\t*?)#else(\n+\t*?)&& (.*?)(\n+\t*?)#endif(\n+\t*?);(.*)',codigo,re.DOTALL)
     elif ref == 8:
         padrao = re.search('(.*)' + padrao_tipos_c + '(.*?)\[\](.*?)=(.*?){(.*?),(.*?)#ifdef(.*?),(.*?)#endif(.*)',codigo,re.DOTALL)
     elif ref == 9:

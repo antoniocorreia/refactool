@@ -31,3 +31,6 @@ def refactoring_1(codigo):
         return refactoring_1(codigo_anterior) + codigo_transformado
     else:        
         return codigo
+
+
+

@@ -1,0 +1,5 @@
+2016-01-13 21:13:51 O projeto tem 2 arquivo(s) .c
+2016-01-13 21:13:51 getopt.c
+2016-01-13 21:13:51 Refactoring 4 - 2 ocorrência(s)
+2016-01-13 21:13:51 teste_g.c
+2016-01-13 21:13:51 Refactoring 4 - 1 ocorrência(s)

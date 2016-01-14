@@ -1,0 +1,90 @@
+# depslib dependency file v1.0
+1385316878 source:c:\users\antonio\documents\github\refactool\refactool-examples\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1452579907 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_a.c
+	<stdio.h>
+
+1452579907 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_b.c
+	<stdio.h>
+
+1452719626 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_c.c
+	<stdio.h>
+
+1452704747 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_d.c
+	<stdio.h>
+
+1452584510 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_e.c
+	<stdio.h>
+
+1452584510 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_f.c
+	<stdio.h>
+
+1452584510 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_g.c
+	<stdio.h>
+
+1452584510 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_h.c
+	<stdio.h>
+
+1452584510 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_i.c
+	<stdio.h>
+
+1452584510 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_j.c
+	<stdio.h>
+
+1452704053 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_k.c
+	<stdio.h>
+
+1452584510 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_l.c
+	<stdio.h>
+
+1452584510 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_m.c
+	<stdio.h>
+
+1452579907 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_n.c
+	<stdio.h>
+	<stdlib.h>
+
+1452584510 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_o.c
+	<stdio.h>
+
+1452584510 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_p.c
+	<stdio.h>
+
+1452584510 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_q.c
+	<stdio.h>
+
+1452584510 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_r.c
+	<stdio.h>
+
+1452584510 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_s.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1452584510 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_t.c
+	<stdio.h>
+	<string.h>
+
+1452584510 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_u.c
+	<stdio.h>
+	<string.h>
+
+1452584510 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_v.c
+	<stdio.h>
+	<string.h>
+
+1452584510 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_w.c
+	<stdio.h>
+	<string.h>
+
+1452584510 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_x.c
+	<stdio.h>
+
+1452584510 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_y.c
+	<stdio.h>
+
+1452584510 source:c:\users\antonio\documents\github\refactool\refactool_example\teste_z.c
+	<stdio.h>
+

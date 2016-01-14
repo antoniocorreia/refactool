@@ -1,0 +1,80 @@
+2016-01-14 02:19:47 O projeto tem 26 arquivo(s) .c
+2016-01-14 02:19:47 teste_a.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_b.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_c.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_d.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_e.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_f.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_g.c
+2016-01-14 02:19:47 Refactoring 7 - 1 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_h.c
+2016-01-14 02:19:47 Refactoring 7 - 1 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_i.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_j.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_k.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_l.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_m.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_n.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_o.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_p.c
+2016-01-14 02:19:47 Refactoring 7 - 1 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_q.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_r.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_s.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_t.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_u.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_v.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_w.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_x.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_y.c
+2016-01-14 02:19:47 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:47 
+2016-01-14 02:19:47 teste_z.c
+2016-01-14 02:19:48 Refactoring 7 - 0 ocorrência(s)
+2016-01-14 02:19:48 
+2016-01-14 02:19:48 Arquivos refatorados e salvos no diretório C:/Users/Antonio/Documents/GitHub/refactool/Projects/refactool_example/refactool-transformacoes
