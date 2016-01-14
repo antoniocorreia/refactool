@@ -11,11 +11,12 @@ scanf("%d", &var1);
 printf("Input the value of var2:");
 scanf("%d",&var2);
 
-	if (var1 !=var2){
+	int vara82566cba37a4bfdb5c33f29844b11d0 = (var1 !=var2);
+	if (vara82566cba37a4bfdb5c33f29844b11d0){
 		printf("var1 is not equal to var2");
 	}
 	#ifdef VAR == 1
-		else if (var1 >var2){
+		if(!(vara82566cba37a4bfdb5c33f29844b11d0) &&  (var1 >var2)){
 			printf("var1 is greater than var2");
 		}
 	#endif

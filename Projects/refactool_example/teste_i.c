@@ -5,7 +5,8 @@ void function(
 #ifdef VAR == 64
 	int x
 #endif
-){
+)
+{
 	//lines of code
 };
 

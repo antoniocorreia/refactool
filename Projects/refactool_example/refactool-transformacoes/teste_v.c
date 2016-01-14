@@ -19,12 +19,16 @@ int main()
  
 	flag = compare_strings(a, b);
 	
+int var40609b693ee043d8974a464336abecd5 =  (flag == 0);
 #ifdef VAR ==1 
-	if (flag == 0){
+	if(var40609b693ee043d8974a464336abecd5){
 		printf("Entered strings are equal.\n");
-	} else
+	}
+	var40609b693ee043d8974a464336abecd5 = !(var40609b693ee043d8974a464336abecd5);
+#else
+	var40609b693ee043d8974a464336abecd5 = 1;
 #endif
-	{
+if(var40609b693ee043d8974a464336abecd5){
 		printf("Entered strings are not equal.\n");
 	}
 	return 0;
@@ -40,12 +44,16 @@ int compare_strings(char a[], char b[])
 		c++;
 	}
  
- #ifdef VAR ==1
-	if (a[c] == '\0' && b[c] == '\0'){
+ int varfb0e73d574854f8ea21416bd9bc5723c =  (a[c] == '\0' && b[c] == '\0');
+#ifdef VAR ==1
+	if(varfb0e73d574854f8ea21416bd9bc5723c){
 		return 0;
-	} else
+	}
+	varfb0e73d574854f8ea21416bd9bc5723c = !(varfb0e73d574854f8ea21416bd9bc5723c);
+#else
+	varfb0e73d574854f8ea21416bd9bc5723c = 1;
 #endif
-	{
+if(varfb0e73d574854f8ea21416bd9bc5723c){
 		return -1;
 	}
 }

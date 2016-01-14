@@ -15,12 +15,16 @@ int main()
 	strcpy(b,a);
 	strrev(b);
 	
- #ifdef VAR ==1
-	if (strcmp(a,b) == 0){
+ int var3571677b211a4012bf9a405efb65f829 =  (strcmp(a,b) == 0);
+#ifdef VAR ==1
+	if(var3571677b211a4012bf9a405efb65f829){
 		printf("Entered string is a palindrome.\n");
-	} else
+	}
+	var3571677b211a4012bf9a405efb65f829 = !(var3571677b211a4012bf9a405efb65f829);
+#else
+	var3571677b211a4012bf9a405efb65f829 = 1;
 #endif
-	{
+if(var3571677b211a4012bf9a405efb65f829){
 		printf("Entered string is not a palindrome.\n");
 	}
 	return 0;

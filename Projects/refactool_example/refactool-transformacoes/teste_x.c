@@ -21,12 +21,13 @@ scanf("%d", &num1);
 printf("\nEnter num2=");
 scanf("%d", &num2);
 
-switch (ch) {
 #ifdef VAR == 64
-	case 'a':
-        printf("\nAddition of num1 and num2=%d", (num1+num2));
-        break;
+	#define var25acd46d061841e5bd9b655585e265c5 case 'a':         printf("\nAddition of num1 and num2=%d", (num1+num2));         break; 
+#else
+	#define var25acd46d061841e5bd9b655585e265c5 ""
 #endif
+switch (ch){
+	var25acd46d061841e5bd9b655585e265c5
 
     case 's':
         printf("\nSubtraction of num1 and num2=%d", (num1-num2));

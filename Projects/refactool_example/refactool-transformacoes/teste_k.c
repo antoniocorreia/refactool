@@ -31,18 +31,20 @@ int main()
 		//lines of code
 	}
 
+	int var2e48dbc123a1427ea60b20a001d1edf7 = 1;
 	#ifdef VAR == 1
-		if (x == 1)
+		var2e48dbc123a1427ea60b20a001d1edf7 =  (x == 1);
 	#endif
-	{
+	if (var2e48dbc123a1427ea60b20a001d1edf7) {
 		x++;
 	}
 
 	#ifdef VAR == 1
-		if (x == 1){
+		int var3721f4067e8a48b6a6c06e3305843877 = (x == 1);
 	#else
-		if (x == 2){
+		int var3721f4067e8a48b6a6c06e3305843877 = (x == 2);
 	#endif
+	if(var3721f4067e8a48b6a6c06e3305843877){
 		x++;
 	}
 }

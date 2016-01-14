@@ -11,12 +11,12 @@ int main()
     printf("Factorial of %d = %ld", n, factorial(n));
     return 0;
 }
+
 int factorial(
-	#ifdef VAR == 64
+#ifdef VAR == 64
 	int n
-	#endif
-)
-{
+#endif
+){
     if(n!=1)
      return n*factorial(n-1);
  
@@ -40,10 +40,11 @@ int factorial(
       printf("%d can't be expressed as sum of two prime numbers.",n);
     return 0;
 }
-	int prime(
-	#ifdef VAR == 62
+
+int prime(
+#ifdef VAR == 62
 	int n
-	#endif 	
+#endif
 )      /* Function to check prime number */
 {
     int i, flag=1;

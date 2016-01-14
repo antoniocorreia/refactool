@@ -25,9 +25,10 @@ def est_ref(codigo,ref):
     elif ref == 7:
         padrao = re.search('(.*)return (.*?)(\n+\t*?)#ifdef (.*?)(\n+\t*?)&& (.*?)(\n+\t*?)#else(\n+\t*?)&& (.*?)(\n+\t*?)#endif(\n+\t*?);(.*)',codigo,re.DOTALL)
     elif ref == 8:
-        padrao = re.search('(.*)' + padrao_tipos_c + '(.*?)\[\](.*?)=(.*?){(.*?),(.*?)#ifdef(.*?),(.*?)#endif(.*)',codigo,re.DOTALL)
+        padrao = re.search('(.*)(\n+\t*?)' + padrao_tipos_c + ' (.*?)\[\] = {(.*?),(.*?)(\n+\t*?)#ifdef(.*?)(\n+\t*?),(.*?)(\n+\t*?)#endif(.*)',codigo,re.DOTALL)
     elif ref == 9:
-        padrao = re.search('(.*)' + padrao_tipos_c + '(.*?)\((.*?)#ifdef (.*?)' + padrao_tipos_c +' (.*?)#endif(.*?)\)(.*?){(.*?)}(.*)',codigo,re.DOTALL)
+        padrao = re.search('(.*)(\n+\t*?)' + padrao_tipos_c + ' (.*?)\((\n+\t*?)#ifdef (.*?)(\n+\t*?)' + padrao_tipos_c + \
+                        ' (.*?)(\n+\t*?)#endif(\n+\t*?)\){(.*?)}(.*)',codigo,re.DOTALL)
 
     if padrao:        
         return 1 + est_ref(padrao.group(1),ref)

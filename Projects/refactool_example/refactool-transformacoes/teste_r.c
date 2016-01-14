@@ -13,11 +13,12 @@ int main ()
  
 	while (s[c] != '\0') {
 		ch = s[c];
-		if (ch >= 'A' && ch <= 'Z'){
+		int var4954b7615456465ca728dbdcfd53f44e = (ch >= 'A' && ch <= 'Z');
+		if (var4954b7615456465ca728dbdcfd53f44e){
 			s[c] = s[c] + 32;
 		}
 		#ifdef VAR == 1
-		else if (ch >= 'a' && ch <= 'z'){
+		if(!(var4954b7615456465ca728dbdcfd53f44e) &&  (ch >= 'a' && ch <= 'z')){
 			s[c] = s[c] - 32;   
 		c++;   
 		}

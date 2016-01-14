@@ -4,13 +4,13 @@
 main()
 {
 	int  Grade = 'B';
-	switch( Grade )
-	{
 	#ifdef VAR == 64
-		case 'A' :
-			printf( "Excellent\n" );
-			break;
+		#define var065783223c894097829c8d30aeb9262a case 'A' :    printf( "Excellent\n" );    break;  
+	#else
+		#define var065783223c894097829c8d30aeb9262a ""
 	#endif
+	switch (Grade){
+		var065783223c894097829c8d30aeb9262a
 		case 'B' :
 			printf( "Good\n" );
 			break;
